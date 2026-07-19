@@ -1,0 +1,11 @@
+{
+  "name": "productfeeling",
+  "description": "ProductFeeling skill for AI agents — emotion-aware product design with /productfeeling commands.",
+  "version": "0.1.0",
+  "author": {
+    "name": "David Spencer"
+  },
+  "homepage": "https://github.com/DecisionNerd/ProductFeeling",
+  "repository": "https://github.com/DecisionNerd/ProductFeeling",
+  "skills": "./plugin/skills/"
+}

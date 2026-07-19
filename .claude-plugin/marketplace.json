@@ -1,0 +1,31 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "productfeeling",
+  "metadata": {
+    "description": "Emotion-aware product design for AI harnesses. One skill and 21 commands for feeling audits, journey maps, and Impeccable handoffs."
+  },
+  "owner": {
+    "name": "David Spencer"
+  },
+  "plugins": [
+    {
+      "name": "productfeeling",
+      "description": "Emotion-aware product design. Audit how products feel, map emotional journeys, write Impeccable briefs via /productfeeling commands.",
+      "version": "0.1.0",
+      "author": {
+        "name": "David Spencer"
+      },
+      "source": "./plugin",
+      "category": "productivity",
+      "homepage": "https://github.com/DecisionNerd/ProductFeeling",
+      "tags": [
+        "product-design",
+        "emotion",
+        "ux",
+        "impeccable",
+        "skills",
+        "commands"
+      ]
+    }
+  ]
+}

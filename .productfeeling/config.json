@@ -1,0 +1,18 @@
+{
+  "version": "0.1.0",
+  "skill": "productfeeling",
+  "description": "ProductFeeling skill — emotion-aware product design for AI agents",
+  "defaults": {
+    "persistReviews": true,
+    "reviewsDir": ".productfeeling/reviews",
+    "sessionsDir": ".productfeeling/sessions"
+  },
+  "context": {
+    "primaryFile": "FEELING.md",
+    "fallbackDirs": [".productfeeling", ".agents/context", "docs"]
+  },
+  "companions": {
+    "impeccable": "Frontend craft and visual execution",
+    "docslime": "Documentation scaffolding and fill"
+  }
+}

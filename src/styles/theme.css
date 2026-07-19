@@ -1,0 +1,15 @@
+:root,
+::backdrop {
+  --pf-accent: #0f766e;
+
+  --sl-color-accent-low: #134e4a;
+  --sl-color-accent: #14b8a6;
+  --sl-color-accent-high: #99f6e4;
+}
+
+:root[data-theme='light'],
+[data-theme='light'] ::backdrop {
+  --sl-color-accent-high: #0f766e;
+  --sl-color-accent: var(--pf-accent);
+  --sl-color-accent-low: #ccfbf1;
+}
