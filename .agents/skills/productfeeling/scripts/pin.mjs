@@ -25,7 +25,9 @@ const VALID_COMMANDS = [
   'brief',
   'handoff',
   'sequence',
-  'tools',
+  'next',
+  'random',
+  'library',
 ];
 
 const HARNESS_DIRS = [

@@ -4,7 +4,7 @@ General emotion review when the user wants "how does this feel?" without naming 
 
 ## Steps
 
-1. **Restate the target** and intended primary feeling (from FEELING.md or inferred — label which).
+1. **Restate the target** and intended primary feeling (from `docs/` strategy/experience/PRODUCT, legacy FEELING.md, or inferred — label which).
 2. **Immediate impression** — one-sentence felt experience as a first-time user.
 3. **Fit check** — does the surface reinforce, dilute, or contradict the north star?
 4. **Hotspots** — top 3 moments that strengthen or weaken the feeling.

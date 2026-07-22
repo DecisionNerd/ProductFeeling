@@ -1,9 +1,11 @@
 ---
 title: "Installation"
-description: "Ways to install the ProductFeeling skill across agent harnesses."
+description: "Install ProductFeeling across agent harnesses — same spirit as Impeccable’s host matrix."
 sidebar:
   order: 2
 ---
+
+Host coverage aims for **parity with Impeccable** (Cursor, Claude Code, Codex/agents, and related skill paths).
 
 ## skills CLI (recommended)
 
@@ -24,7 +26,7 @@ npx --yes github:DecisionNerd/ProductFeeling install
 
 Options: `--providers=cursor,claude,agents,github,gemini` · `--scope=project|global`
 
-Creates `.productfeeling/` when missing.
+Creates `.productfeeling/` when missing (reviews/briefs scaffold). Feeling narrative still prefers your project `docs/` when you have DocSlime or similar.
 
 ## Claude Code plugin
 
@@ -41,5 +43,5 @@ See [chatgpt/README.md](https://github.com/DecisionNerd/ProductFeeling/blob/main
 ```bash
 npm install
 npm run build
-# then copy .cursor/skills/productfeeling (or .claude / .agents)
+# then copy .cursor/skills/productfeeling (or .claude / .agents / .gemini)
 ```

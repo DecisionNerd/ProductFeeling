@@ -44,7 +44,7 @@ Empty / loading / error / success
 
 ## Steps
 
-1. Pull FEELING.md + any prior reviews.
+1. Pull feeling context from `docs/` (strategy/experience/PRODUCT) or legacy FEELING.md, plus any prior reviews.
 2. Fill every section; mark unknowns explicitly.
 3. Write to `.productfeeling/briefs/<slug>-brief.md` when possible.
 4. Offer `/productfeeling handoff` to route to Impeccable.

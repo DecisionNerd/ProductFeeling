@@ -1,0 +1,77 @@
+# Premium Positioning
+
+
+Earn a premium reputation—and pricing power—through craft signals users can feel, not claims they must take on faith.
+
+**Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
+
+- [Perceived Effort Delay](../ttps/perceived-effort-delay.md): When work takes time, show the real work; when it does not, respect the user’s time.
+- [Small Quirk](../ttps/small-quirk.md): A small, repeatable flourish that makes a clear product interaction feel recognisably yours.
+- [Micro Interactions](../ttps/micro-interactions.md): Small responses that make an action feel acknowledged, understandable, and complete.
+- [Intentional Friction](../ttps/intentional-friction.md): Add a small, purposeful pause when moving quickly could create harm, regret, or an avoidable mistake.
+- [Loading Feedback](../ttps/loading-feedback.md): Make unavoidable waits legible, calm, and proportionate.
+
+## Supporting Tools, Techniques, and Practices (TTPs)
+
+- [Success Moments](../ttps/success-moments.md): Mark meaningful progress with feedback that feels earned, then let users decide what comes next.
+- [JTBD Copywriting](../ttps/jtbd-copywriting.md): Write from the progress the user is trying to make, not the feature your product wants to describe.
+- [Pattern Alignment](../ttps/pattern-alignment.md): Use familiar mental models where they help people act with confidence.
+- [Progressive Disclosure](../ttps/progressive-disclosure.md): Reveal the next useful layer of complexity when the user needs it, while keeping deeper capability easy to find.
+
+## Insights & Metrics
+
+Measure whether craft and clarity translate into willingness to pay—and whether “premium” users stay satisfied.
+
+1. Average Revenue Per User (ARPU)
+   - Formula: Total revenue in period ÷ Average active users in the same period
+   - What it measures: Revenue intensity across the base (segment by free vs paid when you can)
+   - Why it matters: Rising ARPU with stable satisfaction usually signals earned pricing power, not just a price hike
+2. Conversion by Price Tier (Price Sensitivity)
+   - Formula: (Users who convert at tier T ÷ Users exposed to tier T) × 100 — compare across tested prices/packages
+   - What it measures: How demand holds as price or package complexity rises
+   - Why it matters: Shows whether perceived value still clears the ask at premium points
+3. Premium Cohort Satisfaction & Retention
+   - Formula: Customer satisfaction (CSAT) or Net Promoter Score (NPS) for paid or advanced-feature users; plus retention (or logo churn) for that cohort vs the rest
+   - What it measures: Whether the premium experience delivers after the purchase
+   - Why it matters: Premium that looks refined but disappoints in use erodes reputation faster than a plain product
+
+## Behind the Data
+
+Find where polish, restraint, or purposeful pause elevates quality—and where decoration, delay, or inconsistency cheapens it.
+
+### Craft & consistency
+
+- Where do users describe the product as “cheap,” “busy,” or “inconsistent” versus “considered” or “trustworthy”?
+- Which surfaces break the visual or interaction system (spacing, motion, copy tone, empty states)?
+- Do Micro Interactions and Small Quirks feel earned on core jobs—or ornamental noise?
+
+### Value perception & pricing
+
+- At which moment does willingness to pay rise or collapse (first value, advanced feature, invoice, renewal)?
+- Which benefits justify a higher tier in users’ own words—not yours?
+- Does longer Time to Value or unclear JTBD Copywriting make premium pricing feel arbitrary?
+
+### Friction that elevates vs erodes
+
+- Where does Intentional Friction increase confidence (confirmations, reviews) versus where it feels like a status gate?
+- Are waits explained with Loading Feedback and real Perceived Effort Delay—or do they feel like theatre?
+- Which Progressive Disclosure paths keep power-users deep without overwhelming everyone else?
+
+## Further reading
+
+- [Consumer Perceptions of Price, Quality, and Value (Zeithaml, 1988)](https://doi.org/10.1177/002224298805200302) — Canonical model linking price, perceived quality, and perceived value.
+- [The Aesthetic-Usability Effect (Nielsen Norman Group)](https://www.nngroup.com/articles/aesthetic-usability-effect/) — Why craft raises perceived quality—and can mask real usability debt in research.
+- [Emotional Design: People and Things (Don Norman)](https://jnd.org/emotional-design-people-and-things/) — Visceral, behavioural, and reflective levels that shape “this feels premium.”
+- [Good Visual Design, Explained (NN/g)](https://www.nngroup.com/articles/good-visual-design/) — Hierarchy, consistency, and restraint as practical quality signals.
+- [Trustworthiness in Web Design: 4 Credibility Factors (NN/g)](https://www.nngroup.com/articles/trustworthy-design/) — How visual quality and clarity feed credibility judgments.
+
+## Agent skill
+
+- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence premium-positioning` — not final)
+- **Core TTPs to load:** `TODO` (Perceived Effort Delay, Small Quirk, Micro Interactions, Intentional Friction, Loading Feedback)
+- **Supporting TTPs:** `TODO` (Success Moments, JTBD Copywriting, Pattern Alignment, Progressive Disclosure)
+- **When the agent should use this strategy:** `TODO` (“feels cheap”, “pricing power”, “premium tier”, “polish vs substance”, “brand quality”)
+- **Companion handoff:** `TODO` (Impeccable for visual/system craft; DocSlime if positioning becomes PRODUCT.md requirements)
+- **Feeling north star this strategy serves:** `TODO` (considered quality, calm confidence, earned worth)
+- **Anti-goals:** `TODO` (fake loading theatre, manufactured exclusivity, free-tier shame, decoration that hides broken jobs)
+- **Reference stub path:** `skill/reference/TODO.md`

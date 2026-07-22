@@ -1,22 +1,23 @@
-# ProductFeeling
+# 😊 ProductFeeling
 
-Emotion-aware product design skills for AI agents. **ProductFeeling** skill · **21 commands** · companions to [Impeccable](https://github.com/pbakaus/impeccable) and [DocSlime](https://github.com/DecisionNerd/DocSlime).
+Emotion-aware product design for AI agents. **23 commands** · companions to [Impeccable](https://github.com/pbakaus/impeccable) and [DocSlime](https://github.com/DecisionNerd/DocSlime).
 
 **Current project version: v0.1.0.**
 
-> **Quick start:** Run `npx skills add DecisionNerd/ProductFeeling`, reload your harness, then `/productfeeling feel <your surface>` in chat. For a full playbook: `/productfeeling sequence onboarding`.
+> **Quick start:** `npx skills add DecisionNerd/ProductFeeling` → reload your harness → `/productfeeling feel <your surface>`. Playbook: `/productfeeling sequence onboarding`.
 
 ## What is this?
 
-ProductFeeling teaches AI agents to:
+ProductFeeling helps agents and product teams decide how a product should *feel* — then stress-test surfaces, flows, and copy against that north star.
 
-- Name a product's emotional north star and anti-goals
-- Audit flows, copy, and UI states for emotional fit
-- Map journeys, peaks/ends, trust, friction, and delight policy
-- Produce emotion briefs Impeccable can execute
-- Hand off durable narrative to DocSlime
+- Name a primary feeling and anti-goals
+- Audit journeys, tone, trust, friction, peaks/ends, and UI states
+- Write emotion briefs Impeccable can execute
+- Hand off durable narrative to DocSlime / project `docs/`
 
-Works in **pure chat** (paste a flow, get a feel review) or with a **`.productfeeling/`** directory for persistent context and artifacts.
+**Primary feeling (this product):** grounded clarity — name how your product feels and why, on real evidence; confidence to act is the residue. Participants should never feel **blocked** or **overwhelmed**.
+
+Works **chat-only** (paste a flow) or **project-anchored** (`docs/` for lasting context; `.productfeeling/` for reviews and briefs).
 
 ## Commands
 
@@ -24,7 +25,7 @@ All commands run through `/productfeeling`:
 
 | Command | What it does |
 |---------|--------------|
-| `/productfeeling init` | Capture feeling context in FEELING.md |
+| `/productfeeling init` | Capture feeling context into project docs (or legacy FEELING.md) |
 | `/productfeeling feel` | General how-does-this-feel review |
 | `/productfeeling audit` | Structured emotion audit |
 | `/productfeeling critique` | Scored emotional design critique |
@@ -44,7 +45,9 @@ All commands run through `/productfeeling`:
 | `/productfeeling brief` | Write an emotion brief |
 | `/productfeeling handoff` | Route to Impeccable / DocSlime |
 | `/productfeeling sequence` | Tool-chain playbooks |
-| `/productfeeling tools` | Browse the technique catalog |
+| `/productfeeling next` | Do the next best-practice piece and keep going |
+| `/productfeeling random` | Roll a random technique |
+| `/productfeeling library` | List everything you could do here |
 
 ### Examples
 
@@ -67,7 +70,7 @@ Pin shortcuts: `/productfeeling pin audit` creates `/audit`.
 npx skills add DecisionNerd/ProductFeeling
 ```
 
-Uses the [open agent skills CLI](https://github.com/vercel-labs/skills) — detects your agents (Cursor, Claude Code, Codex, and more), installs the skill, and supports `npx skills update` later. Add `-g` for a user-level install or `-y` for non-interactive use.
+Uses the [open agent skills CLI](https://github.com/vercel-labs/skills) — detects Cursor, Claude Code, Codex, and more. Update later with `npx skills update`. Add `-g` for user-level or `-y` for non-interactive.
 
 ### Option 2: Project CLI
 
@@ -75,7 +78,7 @@ Uses the [open agent skills CLI](https://github.com/vercel-labs/skills) — dete
 npx --yes github:DecisionNerd/ProductFeeling install
 ```
 
-Detects harness folders (`.cursor`, `.claude`, `.agents`) and installs the skill. Use `--providers=cursor,claude,agents` and `--scope=project|global` to customize. Also creates the `.productfeeling/` scaffold.
+Detects harness folders and installs the skill. Use `--providers=cursor,claude,agents` and `--scope=project|global`. Also scaffolds `.productfeeling/` for reviews.
 
 ### Option 3: Claude Code plugin
 
@@ -83,30 +86,24 @@ Detects harness folders (`.cursor`, `.claude`, `.agents`) and installs the skill
 /plugin marketplace add DecisionNerd/ProductFeeling
 ```
 
-Then install from the plugin list.
-
 ### Option 4: ChatGPT Custom GPT
 
-1. Create a Custom GPT
-2. Paste `chatgpt/INSTRUCTIONS.md` into Instructions
-3. Optionally upload `skill/reference/catalog.md` as knowledge
-
-See [chatgpt/README.md](chatgpt/README.md).
+Paste [`chatgpt/INSTRUCTIONS.md`](chatgpt/INSTRUCTIONS.md) into Instructions; optionally upload `skill/reference/catalog.md` as knowledge. See [chatgpt/README.md](chatgpt/README.md).
 
 ### Option 5: Copy from repo
 
 ```bash
-# Cursor
-cp -r .cursor/skills/productfeeling your-project/.cursor/skills/
-
-# Claude Code
-cp -r .claude/skills/productfeeling your-project/.claude/skills/
-
-# Codex / Agents
-cp -r .agents/skills/productfeeling your-project/.agents/skills/
+npm run build
+cp -r .cursor/skills/productfeeling your-project/.cursor/skills/   # or .claude / .agents
 ```
 
-Run `npm run build` first if installing from source.
+## Project context
+
+| Location | Role |
+|----------|------|
+| **`docs/`** (DocSlime) | Preferred feeling/product source of truth — especially `strategy/` and `experience/` |
+| **`.productfeeling/`** | Reviews, briefs, sessions — not a second product narrative |
+| **Legacy `FEELING.md`** | Optional; never required for a scoped chat review |
 
 ## Companions
 
@@ -117,7 +114,10 @@ Run `npm run build` first if installing from source.
 
 ProductFeeling decides *how it should feel*. Impeccable makes it *look and behave*. DocSlime keeps the *why* in docs.
 
-## Docs site
+## Docs & handbook
+
+- **User guide + handbook:** [decisionnerd.github.io/ProductFeeling](https://decisionnerd.github.io/ProductFeeling/)
+- **Contributor docs:** [`docs/`](docs/) (product, strategy, experience, requirements, engineering)
 
 ```bash
 npm install

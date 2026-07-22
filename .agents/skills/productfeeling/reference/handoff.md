@@ -14,10 +14,15 @@ When craft/execution is next. Provide:
 Suggest the user invoke Impeccable with a concrete command (`craft`, `shape`, `polish`, etc.) and point at the brief.
 
 ### DocSlime
-When the feeling north star should live in durable docs (PRODUCT.md, requirements, ADRs). Provide:
-- Sections to add/update
-- Exact FEELING.md excerpts to fold in
-- What remains ephemeral (session reviews)
+When the feeling north star should live in durable docs. Prefer:
+- `docs/strategy/` for positioning, users, competitive, roadmap bets
+- `docs/experience/` for journeys, opportunities, behavior
+- `docs/PRODUCT.md` / `DESIGN.md` / ADRs for compact product rules and decisions
+
+Provide:
+- Exact sections/files to add/update
+- Excerpts from legacy FEELING.md (if any) to fold in — then stop growing FEELING.md
+- What remains ephemeral (`.productfeeling/reviews/`)
 
 ## Rules
 

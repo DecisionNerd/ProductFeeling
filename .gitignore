@@ -148,6 +148,7 @@ vite.config.ts.timestamp-*
 .productfeeling/*.tmp
 # productfeeling-ignore-end
 
-# Starlight documentation build artifacts and staged developer docs
+# Starlight documentation build artifacts and staged docs
 .astro/
 src/content/docs/developers/
+src/content/docs/handbook/

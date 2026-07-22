@@ -4,7 +4,7 @@ Techniques available via `/productfeeling <command>`.
 
 | Command | When to use |
 |---------|-------------|
-| init | No FEELING.md yet; need a durable emotion north star |
+| init | No project docs / feeling north star yet; need durable emotion context in docs |
 | feel | Quick general "how does this feel?" pushback |
 | audit | Structured inventory of emotional fit across a surface/flow |
 | critique | Scored document or design critique with priority fixes |
@@ -24,7 +24,9 @@ Techniques available via `/productfeeling <command>`.
 | brief | Produce a handoff-ready emotion brief |
 | handoff | Route work to Impeccable and/or DocSlime |
 | sequence | Playbooks for onboarding, checkout, dashboard, etc. |
-| tools | Show this catalog |
+| next | Do the next best-practice improvement and keep going, without re-asking |
+| random | Roll a random technique to break tunnel vision |
+| library | Full index: every command + handbook depth + companions (the "what can I do?" command) |
 
 ## Companion skills
 

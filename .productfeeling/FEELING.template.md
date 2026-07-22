@@ -1,6 +1,8 @@
 # Feeling Context
 
-<!-- Template for /productfeeling init. Replace placeholders with confirmed answers. -->
+<!-- Legacy template for /productfeeling init when the project has no docs/ tree.
+     Prefer weaving this content into docs/PRODUCT.md, docs/strategy/, and docs/experience/.
+     Replace placeholders with confirmed answers. -->
 
 ## Product
 

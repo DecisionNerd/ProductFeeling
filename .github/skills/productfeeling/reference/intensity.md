@@ -13,7 +13,7 @@ Calibrate emotional volume: too flat vs too theatrical.
 ## Steps
 
 1. Score current intensity.
-2. Score intended intensity from FEELING.md.
+2. Score intended intensity from docs feeling context (or legacy FEELING.md).
 3. List amplifiers (motion, copy flourish, color saturation, sound) and reducers.
 4. Propose a target band and 3 concrete levers.
 

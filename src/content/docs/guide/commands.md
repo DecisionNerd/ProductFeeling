@@ -9,7 +9,7 @@ Invoke as `/productfeeling <command> [target]`.
 
 | Command | Purpose | Example |
 |---------|---------|---------|
-| `init` | Feeling context | `/productfeeling init` |
+| `init` | Capture feeling context into docs | `/productfeeling init` |
 | `feel` | General review | `/productfeeling feel onboarding` |
 | `audit` | Structured audit | `/productfeeling audit checkout` |
 | `critique` | Scored critique | `/productfeeling critique this PRD` |
@@ -29,6 +29,10 @@ Invoke as `/productfeeling <command> [target]`.
 | `brief` | Emotion brief | `/productfeeling brief dashboard` |
 | `handoff` | Companion route | `/productfeeling handoff` |
 | `sequence` | Playbooks | `/productfeeling sequence onboarding` |
-| `tools` | Catalog | `/productfeeling tools` |
+| `next` | Auto-improve, no re-asking | `/productfeeling next` |
+| `random` | Roll a technique | `/productfeeling random` |
+| `library` | Everything you could do | `/productfeeling library` |
 
 Pin: `/productfeeling pin audit` → `/audit`.
+
+For depth, the skill loads **handbook chunks selectively** — it should not dump the whole handbook into context by default.

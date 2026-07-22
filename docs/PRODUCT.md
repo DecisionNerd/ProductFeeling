@@ -14,6 +14,12 @@
 
 Agents are strong at layout and weak at intentional affect. ProductFeeling makes feeling a first-class, reviewable artifact — then hands off to Impeccable for execution and DocSlime for durable docs.
 
+## Feeling
+
+**Primary:** grounded clarity — participants can name how their product feels and why, on real evidence not vibes. Confidence to act is the earned residue.
+
+**Never feel:** blocked or overwhelmed.
+
 ## Non-goals
 
 - Replacing Impeccable polish workflows

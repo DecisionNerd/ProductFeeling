@@ -1,0 +1,173 @@
+# Section review prompt
+
+Canonical instructions for upgrading one handbook section at a time.
+
+**Preferred:** invoke the project skill `handbook-section-review` (`.cursor/skills/handbook-section-review/`) and name the section. The skill follows this file.
+
+**Manual:** copy everything below the line into a new chat. Fill in the placeholders. Paste the full section file (e.g. `handbook/ttps/<slug>.md` or `handbook/strategies/NN-<slug>.md`). Review **one section at a time**.
+
+---
+
+## Prompt
+
+You are reviewing and upgrading a single section of **The Product Feelings Handbook** (one file under `handbook/` in the ProductFeeling repo — each strategy, TTP, and concept is its own markdown file).
+
+ProductFeeling is an emotion-aware product design skill for AI agents. It sits upstream of **Impeccable** (craft/execution) and beside **DocSlime** (docs). The handbook is the educational anchor: product strategies and TTPs (tools, techniques, and practices) that teach how products should *feel*.
+
+### Section under review
+
+- **Type:** `[Product Strategy | TTP | Concept | Welcome & Setup]`
+- **Title:** `[e.g. Onboarding | Micro Interactions]`
+- **Source path:** `[e.g. handbook/ttps/micro-interactions.md | handbook/strategies/01-onboarding.md | handbook/concepts/04-peak-end-rule.md]`
+
+Paste the full current section file below:
+
+```markdown
+[PASTE SECTION HERE]
+```
+
+### Your job
+
+For this section only:
+
+1. **Research the method**
+   - Identify the underlying product, UX, behavioural-science, or growth concepts (e.g. peak-end rule, JTBD, habit loops, progressive disclosure).
+   - Note where the draft is strong, thin, outdated, or wrong.
+   - Prefer established, citable ideas over blog-hype or unverified “growth hacks.”
+   - Flag ethical risks (coercion, dark patterns, manufactured urgency, addiction loops). ProductFeeling must not prescribe manipulative patterns.
+
+2. **Add high-quality additional resources**
+   - Add a `## Further reading` (or `## Resources`) subsection with **3–6** links.
+   - Prefer primary or durable sources: books, peer-reviewed or widely cited papers, official docs, canonical essays (e.g. Nielsen Norman, Interaction Design Foundation, well-known practitioner books), or high-signal company design blogs with lasting value.
+   - Avoid thin listicles, SEO content farms, and paywalled-only stubs when a free durable source exists.
+   - Format each item as: `[Title](URL) — one-line why it belongs here.`
+   - If a claim in the section depends on a specific source, cite it inline lightly or in Further reading.
+
+3. **Rewrite for quality**
+   - Preserve the section’s role in the handbook (strategy vs TTP) and its cross-links to other TTPs/strategies/concepts/discovery pages via relative `.md` links where useful.
+   - For TTPs: include a `## Related concepts` block (1–3 links into `handbook/concepts/`) before Further reading; prefer linking a concept over re-explaining Peak–End, Friction, Agency, Trust, JTBD, Habit, Surfaces, Investment/Continuity, or Social Transmission in Why it works.
+   - For strategies: keep a **Prerequisite** line pointing at Customer Discovery and the most relevant concept pages; link every Core/Supporting TTP as `[Name](../ttps/slug.md)`.
+   - Improve clarity, rhythm, and scannability. Prefer concrete verbs and product moments over vague inspiration.
+   - Keep British spelling consistent with the handbook (e.g. *optimisation*, *personalisation*, *behaviour*) unless the section already uses a fixed term.
+   - Tighten Do / Don’t so they are actionable and non-overlapping.
+   - Keep Founder Tip short and sharp (one idea).
+   - Make It Yours prompts should be specific enough to answer about *this* product, not generic brainstorm filler.
+   - For strategies: keep Insights & Metrics accurate; fix formulas if wrong; keep Behind the Data questions diagnostic.
+   - For TTPs: keep the structure below unless a clear improvement requires a small addition (e.g. Further reading).
+
+4. **Agent skill (template only — leave placeholders)**
+   - Add a final subsection `## Agent skill` with the template below filled only with section-specific *labels*, not full flows.
+   - Do **not** invent a finished `/productfeeling` command implementation. Mark unknowns as `TODO`.
+   - This is a stub for later wiring into `skill/reference/*.md`.
+
+### Output format
+
+Return:
+
+1. **Findings** (short): research notes, gaps, ethical flags, what you changed and why.
+2. **Rewritten section** — complete markdown ready to replace the section file's contents. Use the appropriate skeleton:
+
+**If TTP** (Tools, Techniques, and Practices entry), use:
+
+```markdown
+# [Title]
+
+[One-line tagline.]
+
+## What it is
+
+...
+
+## Why it works
+
+...
+
+## When to use it
+
+- ...
+
+## Do
+
+- ...
+
+## Don't
+
+- ...
+
+## Founder Tip
+
+...
+
+## Make It Yours
+
+...
+
+## Related concepts
+
+- [Concept Title](../concepts/NN-slug.md)
+
+## Further reading
+
+- [Title](URL) — ...
+
+## Agent skill
+
+- **Primary command:** `TODO` (e.g. candidate `/productfeeling <command>` — not final)
+- **Related commands:** `TODO`
+- **When the agent should load this TTP:** `TODO` (1–2 trigger phrases)
+- **Companion handoff:** `TODO` (Impeccable / DocSlime / none)
+- **Feeling north star this TTP serves:** `TODO`
+- **Anti-goals:** `TODO` (what this must never encourage)
+- **Reference stub path:** `skill/reference/TODO.md`
+```
+
+**If Product Strategy**, use:
+
+```markdown
+# [Title]
+
+[One-line definition.]
+
+**Prerequisite:** [Customer Discovery](../discovery/index.md). Related concepts: …
+
+- [TTP Name](../ttps/slug.md): [short blurb matching the TTP’s tagline]
+- ...
+
+## Supporting Tools, Techniques, and Practices (TTPs)
+
+- ...
+
+## Insights & Metrics
+
+...
+
+## Behind the Data
+
+...
+
+## Further reading
+
+- Prefer handbook concept links where the strategy rests on shared science, then 2–4 external sources.
+- [Title](URL) — ...
+
+## Agent skill
+
+- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence [slug]` — not final)
+- **Core TTPs to load:** `TODO`
+- **Supporting TTPs:** `TODO`
+- **When the agent should use this strategy:** `TODO`
+- **Companion handoff:** `TODO`
+- **Feeling north star this strategy serves:** `TODO`
+- **Anti-goals:** `TODO`
+- **Reference stub path:** `skill/reference/TODO.md`
+```
+
+3. **Diff notes** (bullet list): TTP blurbs you aligned, metrics fixed, resources added, anything left for a human editor.
+
+### Constraints
+
+- Do not rewrite other sections.
+- Do not invent case studies or statistics you cannot support; if uncertain, soften language (“often”, “typically”) or omit the number.
+- Do not expand into a full essay; keep the handbook card length — denser and clearer, not much longer.
+- Do not prescribe dark patterns. If the draft edges that way, rewrite toward agency-preserving alternatives and note it in Findings.
+- Voice: practical, founder-friendly, emotionally precise. Not corporate fluff. Not academic jargon without payoff.

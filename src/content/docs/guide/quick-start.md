@@ -13,27 +13,37 @@ npx skills add DecisionNerd/ProductFeeling
 
 Reload your AI harness (Cursor, Claude Code, Codex, etc.).
 
-## 2. Capture feeling context (optional but recommended)
+## 2. Review something (no setup required)
 
-```
-/productfeeling init
-```
-
-## 3. Review a surface
+Paste a flow, screen, or copy — or point at files in the repo:
 
 ```
 /productfeeling feel our onboarding
 ```
 
-Or jump a playbook:
+Or a playbook:
 
 ```
 /productfeeling sequence checkout
 ```
 
-## 4. Hand off to craft
+Missing project docs must never block this step.
+
+## 3. Persist context when you're ready
+
+If you want lasting feeling/product narrative:
+
+```
+/productfeeling init
+```
+
+Prefer weaving the north star into project **`docs/`** (DocSlime: product, strategy, experience). `.productfeeling/` is for reviews and briefs.
+
+## 4. Hand off to craft or docs
 
 ```
 /productfeeling brief dashboard
-/productfeeling handoff impeccable
+/productfeeling handoff
 ```
+
+Impeccable executes craft. DocSlime owns durable documentation.

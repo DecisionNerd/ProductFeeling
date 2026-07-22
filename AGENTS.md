@@ -6,12 +6,13 @@ This repository is **ProductFeeling** — emotion-aware product design skills fo
 
 - `skill/` — source skill (SKILL.md + reference/ + scripts/)
 - `scripts/build.mjs` — copies skill to provider directories
-- `.productfeeling/` — project emotion context and review artifacts (analogous to `.impeccable/` and `.redteam/`)
+- `.productfeeling/` — skill-local persistence (reviews, sessions, briefs) — not a second product SoT
 - `plugin/` — Claude Code plugin bundle
 - `chatgpt/` — Custom GPT instructions
 - `cli/` — GitHub-backed `npx` installer
 - `src/content/docs/` — Starlight user guide
-- `docs/` — developer docs (staged into the site by `docs:prepare`)
+- `docs/` — durable product/strategy/experience/engineering docs (DocSlime); staged into the site by `docs:prepare`
+- `handbook/` — canonical handbook markdown (selective load; not full-book by default)
 
 ## Build
 
@@ -27,12 +28,13 @@ npm run build:dist   # dist/ only
 | `skill/SKILL.md` | Main skill router (`/productfeeling`) |
 | `skill/reference/*.md` | Per-command flows |
 | `skill/reference/catalog.md` | Technique catalog |
-| `skill/scripts/context.mjs` | Loads FEELING.md |
+| `skill/scripts/context.mjs` | Discovers `docs/` + optional legacy FEELING.md |
+| `docs/strategy/` | Primary strategic workspace for this product |
 | `.productfeeling/config.json` | Project config |
 
 ## Conventions
 
-- Emotion context lives in `FEELING.md` (root or `.productfeeling/`)
+- Feeling/product context lives in `docs/` (especially `strategy/` and `experience/`); legacy `FEELING.md` is optional
 - Reviews persist to `.productfeeling/reviews/<slug>-<command>.md`
 - Commands are invoked as `/productfeeling <command> [target]`
 - Complements **Impeccable** (craft/execution) and **DocSlime** (docs) — does not replace them
@@ -41,4 +43,5 @@ npm run build:dist   # dist/ only
 
 - Turn this into a general UI polish skill (that is Impeccable)
 - Prescribe manipulative dark patterns or emotional coercion
-- Block scoped reviews when FEELING.md is missing
+- Block scoped reviews when docs or FEELING.md are missing
+- Duplicate product/strategy truth into `.productfeeling/` when `docs/` exists

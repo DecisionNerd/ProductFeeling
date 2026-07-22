@@ -1,25 +1,29 @@
 ---
 title: "ProductFeeling"
-description: "Emotion-aware product design skills for AI agents."
+description: "Emotion-aware product design for AI agents — grounded clarity, not vibes."
 template: splash
 hero:
-  title: ProductFeeling
-  tagline: Emotion-aware product design for AI agents — companions to Impeccable and DocSlime.
+  title: 😊 ProductFeeling
+  tagline: Decide how a product should feel — then review flows, copy, and states with AI agents. Companions to Impeccable and DocSlime.
   actions:
     - text: Quick start
       link: /ProductFeeling/guide/quick-start/
       icon: right-arrow
       variant: primary
-    - text: Commands
-      link: /ProductFeeling/guide/commands/
-      icon: document
+    - text: Handbook
+      link: /ProductFeeling/handbook/
+      icon: open-book
       variant: minimal
 ---
 
-Install with:
+Install, reload your harness, then ask how something feels:
 
 ```bash
 npx skills add DecisionNerd/ProductFeeling
 ```
 
-Then run `/productfeeling feel <your surface>` in chat.
+```
+/productfeeling feel <your surface>
+```
+
+Chat-only works immediately. With project `docs/`, the skill loads strategy and experience context selectively — never blocks a scoped review for missing setup.

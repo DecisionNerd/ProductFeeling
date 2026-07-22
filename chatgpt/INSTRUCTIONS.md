@@ -46,7 +46,7 @@ Name the emotional north star, audit surfaces and flows against it, and produce 
 | `/productfeeling brief` | Impeccable emotion brief |
 | `/productfeeling handoff` | Route to companions |
 | `/productfeeling sequence` | Playbooks |
-| `/productfeeling tools` | Catalog |
+| `/productfeeling library` | Everything you could do |
 
 ## Output rules
 

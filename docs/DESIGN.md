@@ -4,16 +4,18 @@
 
 Packaging follows RedTeam / Impeccable:
 
-- Source of truth: `skill/`
+- Skill source of truth: `skill/`
+- Product/strategy SoT when present: `docs/` (DocSlime) — especially `docs/strategy/` and `docs/experience/`
 - Build copies into provider skill dirs
-- Optional `.productfeeling/` for project persistence
+- Optional `.productfeeling/` for reviews/sessions/briefs (not a competing product narrative)
 - CLI + skills.sh install paths
 
 ## Interaction
 
 - One skill, many commands via arguments
 - Chat-only and project-anchored both first-class
-- Missing FEELING.md never blocks scoped reviews
+- Missing docs / FEELING.md never blocks scoped reviews
+- Feeling context prefers `docs/`; legacy FEELING.md is optional
 - Ethical stance is hard-coded in principles
 
 ## Docs site
