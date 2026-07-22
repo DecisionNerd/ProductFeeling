@@ -1,6 +1,6 @@
 # 😊 ProductFeeling
 
-Emotion-aware product design for AI agents. **23 commands** · companions to [Impeccable](https://github.com/pbakaus/impeccable) and [DocSlime](https://github.com/DecisionNerd/DocSlime).
+Emotion-aware product design for AI agents. **23 commands** · companions to [Impeccable](https://github.com/pbakaus/impeccable), [DocSlime](https://github.com/DecisionNerd/DocSlime), and [RedTeam](https://github.com/CurateLabs/RedTeam).
 
 **Current project version: v0.1.0.**
 
@@ -107,12 +107,13 @@ cp -r .cursor/skills/productfeeling your-project/.cursor/skills/   # or .claude 
 
 ## Companions
 
-| Skill | Role |
-|-------|------|
-| **Impeccable** | Frontend craft and visual/interaction execution |
-| **DocSlime** | Documentation scaffolding and fill |
+| Skill | What it is | Role in the chain |
+|-------|-----------|-------------------|
+| [**Impeccable**](https://github.com/pbakaus/impeccable) · [impeccable.style](https://impeccable.style) | Design guidance for AI coding agents — frontend craft, live browser iteration, and deterministic detector rules | Makes it *look and behave* |
+| [**DocSlime**](https://github.com/DecisionNerd/DocSlime) · [docslime.dev](https://www.docslime.dev) | A CLI plus skill pack for creating, filling, reviewing, and publishing an opinionated `docs/` tree | Keeps the *why* in `docs/` |
+| [**RedTeam**](https://github.com/CurateLabs/RedTeam) · [curatelabs.github.io/RedTeam](https://curatelabs.github.io/RedTeam/) | Applied critical thinking for AI agents — premortems, assumptions checks, devil's advocacy, decision reviews (not security testing) | Stress-tests the *decision* before commitment |
 
-ProductFeeling decides *how it should feel*. Impeccable makes it *look and behave*. DocSlime keeps the *why* in docs.
+ProductFeeling decides *how it should feel*, then hands off: Impeccable executes the craft, DocSlime holds the durable narrative, and RedTeam challenges the decision before you commit.
 
 ## Docs & handbook
 

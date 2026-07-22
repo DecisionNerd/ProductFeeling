@@ -19,7 +19,7 @@ license: AGPL-3.0-or-later
 
 Emotion-aware product design: decide what a product should *feel* like, then stress-test surfaces, flows, and copy against that north star.
 
-**ProductFeeling** is the skill. It sits upstream of **Impeccable** (visual/interaction craft) and beside **DocSlime** (product docs). Feeling brief → craft → ship.
+**ProductFeeling** is the skill. It sits upstream of **[Impeccable](https://github.com/pbakaus/impeccable)** (visual/interaction craft) and beside **[DocSlime](https://www.docslime.dev/)** (product docs). Feeling brief → craft → ship.
 
 Catalog: [reference/catalog.md](reference/catalog.md)
 
@@ -114,12 +114,13 @@ Always tell the user what was written and where. In chat-only mode (no `.product
 
 ## Companions
 
-| Skill | Role | Handoff cue |
-|-------|------|-------------|
-| **Impeccable** | Visual/interaction craft and production UI | After `brief` or `handoff` |
-| **DocSlime** | Product/docs scaffolding and fill | After `handoff` when narrative must live in docs |
+| Skill | What it is | Handoff cue |
+|-------|-----------|-------------|
+| **[Impeccable](https://github.com/pbakaus/impeccable)** ([impeccable.style](https://impeccable.style)) | Design guidance for AI coding agents — frontend craft, live browser iteration, deterministic detector rules | After `brief` or `handoff` |
+| **[DocSlime](https://www.docslime.dev/)** ([`DecisionNerd/DocSlime`](https://github.com/DecisionNerd/DocSlime)) | CLI + skill pack to create, fill, review, and publish an opinionated `docs/` tree | After `handoff` when narrative must live in docs |
+| **[RedTeam](https://curatelabs.github.io/RedTeam/)** ([`CurateLabs/RedTeam`](https://github.com/CurateLabs/RedTeam)) | Applied critical thinking — premortems, assumptions checks, devil's advocacy, decision reviews (not security testing) | When a feeling decision or north star needs adversarial stress-testing before commitment |
 
-Do not re-implement Impeccable polish or DocSlime document fill inside this skill. Produce feeling decisions; hand off execution.
+Do not re-implement Impeccable polish, DocSlime document fill, or RedTeam critical-thinking facilitation inside this skill. Produce feeling decisions; hand off execution.
 
 ## What this is NOT
 
