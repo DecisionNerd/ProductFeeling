@@ -73,10 +73,10 @@ For every risky action, ask first: “Can we make this reversible?” A good und
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling states` — design risky actions with undo, previews, and proportionate confirmation
+- **Related commands:** `/productfeeling trust`, `/productfeeling friction`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "destructive action", "confirmation dialog", "undo", "prevent mistake", "irreversible action"
+- **Companion handoff:** Impeccable — confirmation, preview, undo, and validation recovery UI; RedTeam — when safeguards may block legitimate exit or privacy choices
+- **Feeling north star this TTP serves:** confident exploration without costly slips
+- **Anti-goals:** confirmation fatigue, vague warnings, blocking ordinary work, mistaking prevention for outage recovery
+- **Reference path:** `skill/reference/states.md`

@@ -60,10 +60,10 @@ Earn permission through relevance and clarity; a deliberate “not now” is bet
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling trust` — design permission requests that follow user intent with clear benefit and decline paths
+- **Related commands:** `/productfeeling anti-patterns`, `/productfeeling states`, `/productfeeling friction`
+- **When the agent should load this TTP:** "permission prompt", "notification opt-in", "camera access", "pre-prompt screen", "declined permission"
+- **Companion handoff:** Impeccable — pre-prompt UI and graceful degradation; DocSlime — privacy and consent requirements in docs
+- **Feeling north star this TTP serves:** informed consent through relevance and clarity
+- **Anti-goals:** launch permission stacking, guilt or degraded wording, gating unrelated features, false necessity claims
+- **Reference path:** `skill/reference/trust.md`

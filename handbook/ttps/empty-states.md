@@ -72,10 +72,10 @@ Before writing empty-state copy, classify the absence: new, no-result, cleared, 
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling states` — classify absence and offer the smallest useful next step
+- **Related commands:** `/productfeeling jobs`, `/productfeeling friction`, `/productfeeling map`, `/productfeeling delight`
+- **When the agent should load this TTP:** "empty state", "no results", "first use", "blank screen", "nothing here yet"
+- **Companion handoff:** Impeccable — empty-state layout, examples, and primary action craft; none — unless the absence type needs product-policy capture
+- **Feeling north star this TTP serves:** clarity in absence, orientation without overwhelm
+- **Anti-goals:** generic no-items copy, fake loading or personalisation, promotional quiet states, decorative noise
+- **Reference path:** `skill/reference/states.md`

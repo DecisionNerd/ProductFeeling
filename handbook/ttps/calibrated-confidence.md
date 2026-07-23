@@ -63,10 +63,10 @@ Users calibrate on your worst confident error, not your average accuracy. One as
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling calibrate` or fold into `trust` — not final)
-- **Related commands:** `TODO` (`feel`, `trust`, `anti-patterns`, `states`)
-- **When the agent should load this TTP:** `TODO` ("AI feature", "model confidence", "hallucination", "AI trust", "automation review")
-- **Companion handoff:** `TODO` (Impeccable for AI-output UI states; DocSlime if AI reliability claims become PRODUCT.md requirements)
-- **Feeling north star this TTP serves:** `TODO` (informed reliance, collaborative control, honesty about limits)
-- **Anti-goals:** `TODO` (false certainty, silent automation errors, precision theatre, burying disclaimers)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling trust` — match AI certainty to real capability and keep humans in charge of consequential actions
+- **Related commands:** `/productfeeling feel`, `/productfeeling anti-patterns`, `/productfeeling states`
+- **When the agent should load this TTP:** "AI feature", "model confidence", "hallucination", "AI trust", "automation review"
+- **Companion handoff:** Impeccable — AI output UI, review gates, and low-confidence states; DocSlime — when reliability or limitation claims become durable product requirements
+- **Feeling north star this TTP serves:** informed reliance, collaborative control, honesty about limits
+- **Anti-goals:** false certainty, silent automation errors, precision theatre, burying disclaimers
+- **Reference path:** `skill/reference/trust.md`

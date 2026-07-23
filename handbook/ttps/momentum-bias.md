@@ -60,10 +60,10 @@ A good head start says “here is useful work already prepared for you”, not �
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling friction` — audit truthful progress and head starts that reduce starting effort without removing agency
+- **Related commands:** `/productfeeling peaks-ends`, `/productfeeling states`, `/productfeeling delight`
+- **When the agent should load this TTP:** "head start", "progress checklist", "onboarding momentum", "blank page problem", "starter template"
+- **Companion handoff:** Impeccable — progress UI, checklists, and editable default craft
+- **Feeling north star this TTP serves:** genuine momentum with user control
+- **Anti-goals:** fake progress, preselected paid or sharing choices, vanity steps, guilt streaks
+- **Reference path:** `skill/reference/friction.md`

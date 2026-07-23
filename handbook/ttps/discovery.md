@@ -72,10 +72,10 @@ Discovery earns trust when the first suggestion is useful. One perfect next step
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. `/productfeeling states` or `spark`-adjacent — not final)
-- **Related commands:** `TODO` (`map`, `feel`, `brief`, `anti-patterns`)
-- **When the agent should load this TTP:** `TODO` ("what’s possible", "suggestions", "explore before search")
-- **Companion handoff:** `TODO` (Impeccable for suggestion UI; DocSlime if discovery rules become requirements)
-- **Feeling north star this TTP serves:** `TODO` (curiosity with direction, reduced blank-canvas anxiety)
-- **Anti-goals:** `TODO` (suggestion spam, fake personalisation, discovery-as-upsell)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling jobs` — surface high-scent next steps tied to the progress users are trying to make
+- **Related commands:** `/productfeeling states`, `/productfeeling map`, `/productfeeling persona`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "what's possible", "suggestions", "explore before search", "blank canvas", "information scent"
+- **Companion handoff:** Impeccable — suggestion cards, categories, and calm first-screen layout; DocSlime — when discovery rules or eligibility become durable requirements
+- **Feeling north star this TTP serves:** curiosity with direction, reduced blank-canvas anxiety
+- **Anti-goals:** suggestion spam, fake personalisation, discovery-as-upsell
+- **Reference path:** `skill/reference/jobs.md`

@@ -72,11 +72,11 @@ Why people return, when they stop, and what still earns another visit.
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence retention` — not final)
-- **Core TTPs to load:** `TODO` (Gamified Progress, System Widget, Value Replay, Effort Moat, Personalisation, Variable Reward, Commitment)
-- **Supporting TTPs:** `TODO` (Success Moments, Micro Interactions, Intent Mirroring, Pattern Alignment, Deep-link)
-- **When the agent should use this strategy:** `TODO` (e.g. “users churn after week one”, “D7 falling”, “need return without spam”)
-- **Companion handoff:** `TODO` (Impeccable for return-surface craft; DocSlime if retention docs/metrics need clarifying)
-- **Feeling north star this strategy serves:** `TODO` (e.g. trusted familiarity; progress still waiting for me)
-- **Anti-goals:** `TODO` (streak punishment, addictive variable-reward loops, unsolicited resurfacing, retention at the cost of agency)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `map → peaks-ends → states → trust → review`
+- **Core TTPs to load:** Gamified Progress, System Widget, Value Replay, Effort Moat, Personalisation, Variable Reward, Commitment
+- **Supporting TTPs:** Success Moments, Micro Interactions, Intent Mirroring, Pattern Alignment, Deep-link, Graceful Exit
+- **When the agent should use this strategy:** "users churn after week one", "D7 falling", "need return without spam", "resume value", "win-back flow"
+- **Companion handoff:** Impeccable — return surfaces, widgets, progress UI, and re-entry states; DocSlime — when retention definitions, cohort metrics, or return policies belong in `docs/strategy/`; RedTeam — before streak mechanics, notification cadence changes, or variable-reward programmes ship (`/redteam premortem` on the proposed return loop)
+- **Feeling north star this strategy serves:** trusted familiarity — progress still waiting for me
+- **Anti-goals:** streak punishment, addictive variable-reward loops, unsolicited resurfacing, retention at the cost of agency
+- **Reference path:** `skill/reference/sequence.md`

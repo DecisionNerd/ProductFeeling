@@ -56,10 +56,10 @@ A replay should help the user pick up their story—not make them feel monitored
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling peaks-ends` — design consented progress summaries that restore continuity without pressure
+- **Related commands:** `/productfeeling feel`, `/productfeeling states`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "progress email", "re-engagement summary", "unfinished work reminder", "cross-channel replay", "resume notification"
+- **Companion handoff:** Impeccable — summary content, channel controls, and deep links; DocSlime — contact and frequency policy
+- **Feeling north star this TTP serves:** resumable story the user chose to receive
+- **Anti-goals:** generic "we miss you" messages, streak-loss pressure, unchosen channels, sensitive comparison tactics
+- **Reference path:** `skill/reference/peaks-ends.md`

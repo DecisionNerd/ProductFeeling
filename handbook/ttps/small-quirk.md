@@ -55,10 +55,10 @@ Make the task work beautifully without the flourish first. Then add the smallest
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling delight` — add a brief repeatable flourish to clear, low-stakes interactions
+- **Related commands:** `/productfeeling tone`, `/productfeeling intensity`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "micro animation", "signature interaction", "brand flourish", "playful feedback", "recognisable detail"
+- **Companion handoff:** Impeccable — motion, sound, and reduced-motion-safe flourish execution
+- **Feeling north star this TTP serves:** memorable character that reinforces useful feedback
+- **Anti-goals:** quirks in high-stakes flows, required gestures to proceed, overwhelming motion or surprise
+- **Reference path:** `skill/reference/delight.md`

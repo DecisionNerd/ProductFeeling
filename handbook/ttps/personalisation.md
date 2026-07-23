@@ -67,10 +67,10 @@ Earn the right to personalise. A small, visible preference that saves someone ti
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling persona` — shape adaptations from stated needs with legible control and bounded signals
+- **Related commands:** `/productfeeling jobs`, `/productfeeling friction`, `/productfeeling states`
+- **When the agent should load this TTP:** "personalised defaults", "recommended for you", "preference settings", "adaptive onboarding", "reset personalisation"
+- **Companion handoff:** DocSlime — preference and data-use policy in product docs; Impeccable — preference controls and explainability UI
+- **Feeling north star this TTP serves:** relevant fit the user can inspect and change
+- **Anti-goals:** unexpected sensitive inferences, personalised-only routes, surveillance disguised as relevance
+- **Reference path:** `skill/reference/persona.md`

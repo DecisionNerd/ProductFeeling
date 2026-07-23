@@ -79,10 +79,10 @@ Ask for the smallest contribution that makes the next experience noticeably bett
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling jobs` — elicit the smallest contribution that improves the user's next session
+- **Related commands:** `/productfeeling trust`, `/productfeeling friction`, `/productfeeling anti-patterns`, `/productfeeling delight`
+- **When the agent should load this TTP:** "user contribution", "setup payoff", "saved preferences", "build your library", "meaningful setup"
+- **Companion handoff:** Impeccable — setup, autosave, and ownership UI; DocSlime — export, deletion, and data-rights requirements; RedTeam — when contribution mainly raises switching costs
+- **Feeling north star this TTP serves:** my workspace through earned value, not lock-in
+- **Anti-goals:** busywork for retention, sunk-cost pressure, paywalled user data, lost work without recovery
+- **Reference path:** `skill/reference/jobs.md`

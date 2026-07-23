@@ -76,11 +76,11 @@ Diagnose whether people *want* to invite or share—and what blocks a respectful
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence growth-viral` — not final)
-- **Core TTPs to load:** `TODO` (Referral, Shareability, Contact Bridge, Deep-link, Success Moments)
-- **Supporting TTPs:** `TODO` (Gamified Progress, Effort Moat, Variable Reward, System Widget, Spark Curiosity)
-- **When the agent should use this strategy:** `TODO` ("referral", "invite flow", "share sheet", "viral loop", "organic growth", "network invite")
-- **Companion handoff:** `TODO` (Impeccable for share/invite UI craft; DocSlime if growth loops become PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (pride worth sharing, helpful invitation, mutual benefit)
-- **Anti-goals:** `TODO` (address-book spam, forced invites before value, dark-pattern share walls, incentive bait that harms invitees, manufactured FOMO)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `jobs → peaks-ends → trust → anti-patterns → review`
+- **Core TTPs to load:** Referral, Shareability, Contact Bridge, Deep-link, Success Moments
+- **Supporting TTPs:** Gamified Progress, Effort Moat, Variable Reward, System Widget, Spark Curiosity
+- **When the agent should use this strategy:** "referral programme", "invite flow", "share sheet", "viral loop", "organic growth", "network invite"
+- **Companion handoff:** Impeccable — share sheets, invite flows, deep-link landing states, and referral UI; DocSlime — when growth-loop definitions or referral economics belong in `docs/strategy/`; RedTeam — before contact-import prompts, incentive structures, or pre-value invite walls (`/redteam assumptions` on who benefits and who bears cost)
+- **Feeling north star this strategy serves:** pride worth sharing through helpful invitation
+- **Anti-goals:** address-book spam, forced invites before value, dark-pattern share walls, incentive bait that harms invitees, manufactured FOMO
+- **Reference path:** `skill/reference/sequence.md`

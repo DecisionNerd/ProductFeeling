@@ -75,11 +75,11 @@ Find where the product feels clunky, inconsistent, or unintentionally loud.
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence experience-refinement` — not final)
-- **Core TTPs to load:** `TODO` (Micro Interactions, Small Quirk, Loading Feedback, Success Moments, Perceived Effort Delay)
-- **Supporting TTPs:** `TODO` (Pattern Alignment, JTBD Copywriting, Variable Reward, Progressive Disclosure)
-- **When the agent should use this strategy:** `TODO` ("feels cheap", "polish pass", "microinteraction audit", "loading states", "delight without clutter")
-- **Companion handoff:** `TODO` (Impeccable for motion/craft execution; DocSlime if refinement standards land in PRODUCT.md)
-- **Feeling north star this strategy serves:** `TODO` (calm competence, earned character, legible waits and finishes)
-- **Anti-goals:** `TODO` (fake delays, animation that blocks the job, novelty loops that demand chase, delight that masks failed tasks)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling audit` — then `states → delight → tone → critique` when polish must follow diagnosis
+- **Core TTPs to load:** Micro Interactions, Small Quirk, Loading Feedback, Success Moments, Perceived Effort Delay
+- **Supporting TTPs:** Pattern Alignment, JTBD Copywriting, Variable Reward, Progressive Disclosure, Product Voice
+- **When the agent should use this strategy:** "feels cheap", "polish pass", "microinteraction audit", "loading states", "delight without clutter", "wait feels broken"
+- **Companion handoff:** Impeccable — primary execution partner for motion, feedback, loading, and finish craft (`polish` / `shape` with intensity constraints from the brief); DocSlime — when refinement standards or quality bars belong in `docs/DESIGN.md` or `docs/experience/`
+- **Feeling north star this strategy serves:** calm competence with earned character and legible waits
+- **Anti-goals:** fake delays, animation that blocks the job, novelty loops that demand chase, delight that masks failed tasks
+- **Reference path:** `skill/reference/audit.md`

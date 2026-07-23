@@ -83,11 +83,11 @@ Find where value is unclear, the ask feels unfair, or packaging does not match t
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence monetisation` — not final)
-- **Core TTPs to load:** `TODO` (The Paywall, Limited Offer, Time to Value, Success Moments, Spark Curiosity, Intentional Friction, Perceived Effort Delay)
-- **Supporting TTPs:** `TODO` (Gamified Progress, Effort Moat, Investment, Personalisation, JTBD Copywriting)
-- **When the agent should use this strategy:** `TODO` ("paywall", "upgrade flow", "pricing page", "trial conversion", "free to paid")
-- **Companion handoff:** `TODO` (Impeccable for paywall UI/states; DocSlime if pricing/packaging becomes PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (earned desire, clarity, fair choice, post-payment confidence)
-- **Anti-goals:** `TODO` (fake urgency, bait-and-switch free tiers, dark-pattern cancel paths, manufactured delays to inflate value, coercive “last chance” churn traps)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `map → trust → friction → tone → review` (checkout / money-flow playbook)
+- **Core TTPs to load:** The Paywall, Intentional Friction, Limited Offer, Perceived Effort Delay, Success Moments, Time to Value, Spark Curiosity
+- **Supporting TTPs:** Gamified Progress, Effort Moat, Investment, Personalisation, JTBD Copywriting, Graceful Exit
+- **When the agent should use this strategy:** "paywall timing", "upgrade flow", "pricing page", "trial conversion", "free to paid", "subscription packaging"
+- **Companion handoff:** Impeccable — paywall, trial-limit, and post-upgrade UI states; DocSlime — when pricing tiers, free/paid boundaries, or cancellation policy belong in `docs/strategy/` or `docs/PRODUCT.md`; RedTeam — before fake urgency, bait-and-switch limits, or dark-pattern cancel paths (`/redteam review` on the proposed paywall moment)
+- **Feeling north star this strategy serves:** earned desire with fair choice and post-payment confidence
+- **Anti-goals:** fake urgency, bait-and-switch free tiers, dark-pattern cancel paths, manufactured delays to inflate value, coercive “last chance” churn traps
+- **Reference path:** `skill/reference/sequence.md`

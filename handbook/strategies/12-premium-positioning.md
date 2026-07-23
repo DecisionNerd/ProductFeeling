@@ -67,11 +67,11 @@ Find where polish, restraint, or purposeful pause elevates quality—and where d
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence premium-positioning` — not final)
-- **Core TTPs to load:** `TODO` (Perceived Effort Delay, Small Quirk, Micro Interactions, Intentional Friction, Loading Feedback)
-- **Supporting TTPs:** `TODO` (Success Moments, JTBD Copywriting, Pattern Alignment, Progressive Disclosure)
-- **When the agent should use this strategy:** `TODO` (“feels cheap”, “pricing power”, “premium tier”, “polish vs substance”, “brand quality”)
-- **Companion handoff:** `TODO` (Impeccable for visual/system craft; DocSlime if positioning becomes PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (considered quality, calm confidence, earned worth)
-- **Anti-goals:** `TODO` (fake loading theatre, manufactured exclusivity, free-tier shame, decoration that hides broken jobs)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `audit → tone → delight → intensity → critique`
+- **Core TTPs to load:** Perceived Effort Delay, Small Quirk, Micro Interactions, Intentional Friction, Loading Feedback
+- **Supporting TTPs:** Success Moments, JTBD Copywriting, Pattern Alignment, Progressive Disclosure
+- **When the agent should use this strategy:** "feels cheap", "pricing power", "premium tier", "polish vs substance", "brand quality", "considered craft"
+- **Companion handoff:** Impeccable — primary partner for visual system, motion restraint, and finish quality (`polish` with register and intensity constraints); DocSlime — when premium positioning, tier differentiation, or quality bars belong in `docs/strategy/`; RedTeam — before price increases or exclusivity framing that outruns substance (`/redteam assumptions` on whether craft signals match delivered value)
+- **Feeling north star this strategy serves:** considered quality with calm confidence and earned worth
+- **Anti-goals:** fake loading theatre, manufactured exclusivity, free-tier shame, decoration that hides broken jobs
+- **Reference path:** `skill/reference/sequence.md`

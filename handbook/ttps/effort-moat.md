@@ -72,10 +72,10 @@ The strongest moat is not “you cannot leave”; it is “leaving means giving 
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling friction` — honour saved work and context so return paths stay low-effort without lock-in
+- **Related commands:** `/productfeeling trust`, `/productfeeling anti-patterns`, `/productfeeling states`, `/productfeeling delight`
+- **When the agent should load this TTP:** "saved work", "return visit", "progress recap", "personal setup", "export and portability"
+- **Companion handoff:** Impeccable — recaps, saved views, and recovery UI; DocSlime — data portability, export, and account-control requirements
+- **Feeling north star this TTP serves:** continuity through earned value, not hostage data
+- **Anti-goals:** tedious setup for commitment, streak punishment, hidden or held user work, sunk-cost retention
+- **Reference path:** `skill/reference/friction.md`

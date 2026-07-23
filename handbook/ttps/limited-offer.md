@@ -79,10 +79,10 @@ If you would not show the offer’s terms in a support reply or investor deck, i
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling anti-patterns` — audit urgency, scarcity, and decline paths for deceptive or coercive mechanics
+- **Related commands:** `/productfeeling friction`, `/productfeeling review`, `/productfeeling trust`, `/productfeeling jobs`
+- **When the agent should load this TTP:** "limited time offer", "countdown timer", "intro pricing", "trial expiry", "promotional deadline"
+- **Companion handoff:** Impeccable — offer modal, decline path, and renewal-term UI; DocSlime — pricing, eligibility, and cancellation policy requirements; RedTeam — when urgency is proposed without a genuine operational limit
+- **Feeling north star this TTP serves:** fair choice with legible terms, not manufactured pressure
+- **Anti-goals:** fake scarcity, reset timers, obstructive cancel discounts, hidden auto-renewal, repeated decline nagging
+- **Reference path:** `skill/reference/anti-patterns.md`

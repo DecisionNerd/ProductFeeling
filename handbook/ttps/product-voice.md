@@ -63,10 +63,10 @@ Write your error messages and your celebration copy on the same day. If they cou
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling voice` or fold into `brief` — not final)
-- **Related commands:** `TODO` (`feel`, `jobs`, `anti-patterns`)
-- **When the agent should load this TTP:** `TODO` ("voice and tone", "copy guide", "microcopy", "product personality", "sounds robotic")
-- **Companion handoff:** `TODO` (Impeccable for copy execution across surfaces; DocSlime if the voice guide becomes a repo document)
-- **Feeling north star this TTP serves:** `TODO` (recognisable warmth, calm at high stakes, coherent character)
-- **Anti-goals:** `TODO` (jokes at the user’s expense, charm masking unfairness, personality over clarity, tonal whiplash)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling tone` — define one recognisable voice with situational tone across surfaces
+- **Related commands:** `/productfeeling feel`, `/productfeeling jobs`, `/productfeeling anti-patterns`, `/productfeeling brief`
+- **When the agent should load this TTP:** "voice and tone", "copy guide", "microcopy", "product personality", "sounds robotic"
+- **Companion handoff:** Impeccable — copy execution across surfaces; DocSlime — voice guide as a repo document
+- **Feeling north star this TTP serves:** recognisable warmth, calm at high stakes, coherent character
+- **Anti-goals:** jokes at the user's expense, charm masking unfairness, personality over clarity, tonal whiplash
+- **Reference path:** `skill/reference/tone.md`

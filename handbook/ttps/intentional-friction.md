@@ -80,10 +80,10 @@ Before adding a step, name the regret it prevents. If you cannot name one, remov
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling friction` — add purposeful pause only where speed risks harm, regret, or irreversible loss
+- **Related commands:** `/productfeeling trust`, `/productfeeling states`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "confirmation step", "cooling off", "preview before publish", "protective pause", "consequential action"
+- **Companion handoff:** Impeccable — preview, confirmation, and undo UI; RedTeam — when friction protects company metrics on cancel, refund, or privacy flows
+- **Feeling north star this TTP serves:** informed, reversible decisions at real risk
+- **Anti-goals:** cancellation hurdles, needless setup gates, commitment pressure, repeated work from product failure
+- **Reference path:** `skill/reference/friction.md`

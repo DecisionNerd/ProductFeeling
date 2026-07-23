@@ -67,10 +67,10 @@ A default should answer “where do I begin?”—not quietly answer “what sho
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling friction` — provide credible editable starters that reduce blank-page effort
+- **Related commands:** `/productfeeling states`, `/productfeeling persona`, `/productfeeling jobs`
+- **When the agent should load this TTP:** "default template", "starter configuration", "pre-filled workspace", "example content", "sensible defaults"
+- **Companion handoff:** Impeccable — template selection, editable pre-fills, and consequential-default disclosure
+- **Feeling north star this TTP serves:** a credible beginning users can change or skip
+- **Anti-goals:** business-preferred defaults as neutral, mistaken example data, decision-heavy template sprawl
+- **Reference path:** `skill/reference/friction.md`

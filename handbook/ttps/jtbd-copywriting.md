@@ -79,10 +79,10 @@ Write the button after you can finish this sentence: “The user is here because
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling jobs` — write from the progress users are trying to make, not internal feature names
+- **Related commands:** `/productfeeling tone`, `/productfeeling trust`, `/productfeeling states`, `/productfeeling friction`
+- **When the agent should load this TTP:** "button copy", "CTA wording", "onboarding copy", "empty state copy", "outcome-led messaging"
+- **Companion handoff:** Impeccable — microcopy, labels, and scannable control text; none — unless copy changes need durable voice or policy docs
+- **Feeling north star this TTP serves:** clear progress, honest promises, lower cognitive effort
+- **Anti-goals:** jargon-led copy, undeliverable outcomes, fear or false urgency, vague Continue buttons
+- **Reference path:** `skill/reference/jobs.md`

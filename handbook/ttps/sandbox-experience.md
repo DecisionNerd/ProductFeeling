@@ -67,10 +67,10 @@ A good sandbox answers “will this help me?” before it asks “will you give 
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling jobs` — centre a truthful try-before-commit slice on one core outcome
+- **Related commands:** `/productfeeling states`, `/productfeeling friction`, `/productfeeling trust`
+- **When the agent should load this TTP:** "try before signup", "demo mode", "guest experience", "sample data trial", "no-account preview"
+- **Companion handoff:** Impeccable — sandbox UI, sample-data labelling, and sign-up hand-off; DocSlime — what persists versus simulated
+- **Feeling north star this TTP serves:** evidence of value before commitment
+- **Anti-goals:** fictional results as real, misrepresenting limits, surprise gates after invested work
+- **Reference path:** `skill/reference/jobs.md`

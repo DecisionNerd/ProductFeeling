@@ -65,10 +65,10 @@ Users forgive failure; they do not forgive being lied to or losing their work. B
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling states` or `recovery` — not final)
-- **Related commands:** `TODO` (`feel`, `trust`, `anti-patterns`)
-- **When the agent should load this TTP:** `TODO` ("error message", "error state", "outage comms", "lost work", "retry flow")
-- **Companion handoff:** `TODO` (Impeccable for error-state UI craft; DocSlime for incident comms templates)
-- **Feeling north star this TTP serves:** `TODO` (safety after failure, kept trust, protected effort)
-- **Anti-goals:** `TODO` (blame-the-user copy, data loss on failure, hidden outages, apology without repair)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling states` — design error and outage surfaces that preserve work and offer a real next step
+- **Related commands:** `/productfeeling trust`, `/productfeeling friction`, `/productfeeling anti-patterns`, `/productfeeling peaks-ends`
+- **When the agent should load this TTP:** "error message", "error state", "outage comms", "lost work", "retry flow"
+- **Companion handoff:** Impeccable — error-state UI, retry, and preserved-input craft; DocSlime — incident comms templates and status-page requirements
+- **Feeling north star this TTP serves:** safety after failure, kept trust, protected effort
+- **Anti-goals:** blame-the-user copy, data loss on failure, hidden outages, apology without repair
+- **Reference path:** `skill/reference/states.md`

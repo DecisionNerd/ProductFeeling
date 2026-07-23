@@ -71,11 +71,11 @@ Diagnose whether you are inviting intent—or cornering people into commitments 
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence intent-shaping` — not final)
-- **Core TTPs to load:** `TODO` (Commitment, Investment, Personalisation, Setup Defaults, Progressive Disclosure)
-- **Supporting TTPs:** `TODO` (Effort Moat, Intent Mirroring, Success Moments, Sandbox Experience)
-- **When the agent should use this strategy:** `TODO` ("goal selection", "preference onboarding", "progressive profiling", "declare intent", "product fit quiz")
-- **Companion handoff:** `TODO` (Impeccable for preference/setup UI; DocSlime if intent model becomes PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (agency, clarity of purpose, earned fit)
-- **Anti-goals:** `TODO` (forced Commitment, coercive foot-in-the-door, opaque personalisation, data walls before value, shame for skipping)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `jobs → persona → states → friction → brief`
+- **Core TTPs to load:** Investment, Personalisation, Setup Defaults, Progressive Disclosure, Commitment
+- **Supporting TTPs:** Effort Moat, Intent Mirroring, Success Moments, Sandbox Experience
+- **When the agent should use this strategy:** "goal selection", "preference onboarding", "progressive profiling", "declare intent", "product fit quiz", "setup wizard"
+- **Companion handoff:** Impeccable — preference, goal-selection, and default-edit UI; DocSlime — when the intent model, persona segments, or personalisation rules belong in `docs/strategy/` or `docs/experience/`; RedTeam — before mandatory profiling walls or opaque inference (`/redteam review` on whether skip and edit paths are real)
+- **Feeling north star this strategy serves:** agency with clarity of purpose and earned fit
+- **Anti-goals:** forced Commitment, coercive foot-in-the-door, opaque personalisation, data walls before value, shame for skipping
+- **Reference path:** `skill/reference/sequence.md`

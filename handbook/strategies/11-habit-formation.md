@@ -75,11 +75,11 @@ Find the cue, the friction, and whether reinforcement feels helpful or coercive.
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence habit-formation` — not final)
-- **Core TTPs to load:** `TODO` (Commitment, Gamified Progress, System Widget, Variable Reward, Value Replay, Investment, Personalisation)
-- **Supporting TTPs:** `TODO` (Success Moments, Micro Interactions, Effort Moat, Deep-link)
-- **When the agent should use this strategy:** `TODO` ("daily ritual", "habit loop", "return cadence", "streak design", "notification fatigue")
-- **Companion handoff:** `TODO` (Impeccable for ritual UI/motion; DocSlime if habit definition becomes PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (reliable progress, calm return, earned momentum)
-- **Anti-goals:** `TODO` (addiction loops, streak shame, variable reward that makes users chase uncertainty, notification coercion, manufactured FOMO)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `intensity → map → friction → states → review` (dashboard / daily-tool playbook)
+- **Core TTPs to load:** Commitment, Gamified Progress, System Widget, Variable Reward, Value Replay, Investment, Personalisation
+- **Supporting TTPs:** Success Moments, Micro Interactions, Effort Moat, Deep-link
+- **When the agent should use this strategy:** "daily ritual", "habit loop", "return cadence", "streak design", "notification fatigue", "core action rate"
+- **Companion handoff:** Impeccable — ritual UI, widgets, streak/progress surfaces, and notification touchpoints; DocSlime — when the habit action definition or natural usage cadence belongs in `docs/experience/`; RedTeam — before streak punishment, compulsive variable rewards, or notification escalation (`/redteam premortem` on the proposed cue → reward loop)
+- **Feeling north star this strategy serves:** reliable progress through calm return
+- **Anti-goals:** addiction loops, streak shame, variable reward that makes users chase uncertainty, notification coercion, manufactured FOMO
+- **Reference path:** `skill/reference/sequence.md`

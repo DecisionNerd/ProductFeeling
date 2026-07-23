@@ -82,11 +82,11 @@ Diagnose whether the path is unclear, too long, or aimed at the wrong first win.
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence onboarding` — not final)
-- **Core TTPs to load:** `TODO` (Time to Value, Empty States, Setup Defaults, Progressive Disclosure, Success Moments, Sandbox Experience)
-- **Supporting TTPs:** `TODO` (Permission Serve, Loading Feedback, Personalisation, Deep-link, Contact Bridge)
-- **When the agent should use this strategy:** `TODO` ("first run", "signup flow", "time to value", "new user drop-off")
-- **Companion handoff:** `TODO` (Impeccable for first-run UI states; DocSlime if onboarding becomes PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (clarity, early competence, earned momentum)
-- **Anti-goals:** `TODO` (forced tours, value-gated account walls without need, permission spam, dark-pattern “skip” shame)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `jobs → peaks-ends → states → delight → brief` (onboarding playbook)
+- **Core TTPs to load:** Empty States, Setup Defaults, Progressive Disclosure, Time to Value, Success Moments, Jobs-to-be-Done (JTBD) Copywriting, Pattern Alignment, Sandbox Experience, Personalisation, Momentum Bias, Micro Interactions
+- **Supporting TTPs:** Permission Serve, Loading Feedback, Gamified Progress, Contact Bridge, Deep-link
+- **When the agent should use this strategy:** "first run", "signup flow", "time to value", "new user drop-off", "onboarding tour", "activation before account"
+- **Companion handoff:** Impeccable — first-run UI, empty states, defaults, and success feedback (`craft` / `shape` on named surfaces); DocSlime — when activation criteria or onboarding rules belong in `docs/strategy/` or `docs/experience/`; RedTeam — before locking a mandatory account wall, permission batch, or tour-heavy path (`/redteam assumptions` on the proposed first-run gate)
+- **Feeling north star this strategy serves:** early competence with earned momentum
+- **Anti-goals:** forced tours, value-gated account walls without need, permission spam, dark-pattern “skip” shame
+- **Reference path:** `skill/reference/sequence.md`

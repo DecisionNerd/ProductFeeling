@@ -78,10 +78,10 @@ A deep link is a promise with a URL. If you cannot keep it after install, auth, 
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling map` or `states` for entry paths — not final)
-- **Related commands:** `TODO` (`feel`, `trust`, `anti-patterns`, `brief`)
-- **When the agent should load this TTP:** `TODO` ("deep link", "open to screen", "deferred link", "email to app")
-- **Companion handoff:** `TODO` (Impeccable for destination UI / auth gate; DocSlime for link/routing requirements)
-- **Feeling north star this TTP serves:** `TODO` (respected intent, continuity, low effort)
-- **Anti-goals:** `TODO` (bait-and-switch landings, auth dead-ends, endless deferred spinners)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling map` — route taps to the promised screen and preserve context across channels
+- **Related commands:** `/productfeeling states`, `/productfeeling trust`, `/productfeeling anti-patterns`, `/productfeeling brief`
+- **When the agent should load this TTP:** "deep link", "open to screen", "deferred link", "email to app", "notification landing"
+- **Companion handoff:** Impeccable — destination UI, auth gates, and fallback states; DocSlime — link routing, deferred matching, and cross-channel requirements
+- **Feeling north star this TTP serves:** respected intent, continuity, low effort
+- **Anti-goals:** bait-and-switch landings, auth dead-ends, endless deferred spinners
+- **Reference path:** `skill/reference/map.md`

@@ -80,10 +80,10 @@ Contact sync is a trust event, not a growth lever. If the best growth tactic is 
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling trust` + permission flow, or fold into Permission Serve — not final)
-- **Related commands:** `TODO` (`anti-patterns`, `states`, `handoff`, `brief`)
-- **When the agent should load this TTP:** `TODO` ("find friends", "sync contacts", "address book invite")
-- **Companion handoff:** `TODO` (Impeccable for permission/pre-prompt UI; DocSlime for privacy/consent requirements)
-- **Feeling north star this TTP serves:** `TODO` (belonging, familiar connection, earned trust)
-- **Anti-goals:** `TODO` (friend spam, forced sync, vague purpose, third-party PII as growth fuel)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling trust` — contact access is a consent and privacy moment, not a growth hack
+- **Related commands:** `/productfeeling anti-patterns`, `/productfeeling states`, `/productfeeling handoff`, `/productfeeling brief`
+- **When the agent should load this TTP:** "find friends", "sync contacts", "address book invite", "contact permission", "invite from contacts"
+- **Companion handoff:** Impeccable — permission pre-prompt, match list, and skip-equal UI; DocSlime — privacy, consent, and data-retention requirements
+- **Feeling north star this TTP serves:** belonging, familiar connection, earned trust
+- **Anti-goals:** friend spam, forced sync, vague purpose, third-party PII as growth fuel
+- **Reference path:** `skill/reference/trust.md`

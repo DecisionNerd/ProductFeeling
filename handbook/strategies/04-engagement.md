@@ -73,11 +73,11 @@ Diagnose whether people are exploring with purpose—or stuck, bored, or nudged 
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence engagement` — not final)
-- **Core TTPs to load:** `TODO` (Micro Interactions, Discovery, Personalisation, Intent Mirroring, Gamified Progress, Variable Reward)
-- **Supporting TTPs:** `TODO` (Success Moments, Progressive Disclosure, Loading Feedback, System Widget, Small Quirk)
-- **When the agent should use this strategy:** `TODO` ("feature adoption", "session depth", "discovery", "users bounce after one action")
-- **Companion handoff:** `TODO` (Impeccable for interaction polish; Habit Formation / Retention sequences for return loops)
-- **Feeling north star this strategy serves:** `TODO` (competence, curiosity, earned momentum, user control)
-- **Anti-goals:** `TODO` (time-maximising dark patterns, addiction loops, compulsive variable rewards, engagement theatre without value)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `map → intensity → friction → delight → review`
+- **Core TTPs to load:** Micro Interactions, Gamified Progress, Variable Reward, Discovery, Personalisation, Intent Mirroring
+- **Supporting TTPs:** Success Moments, System Widget, Loading Feedback, Progressive Disclosure, Small Quirk
+- **When the agent should use this strategy:** "feature adoption", "session depth", "discovery path", "users bounce after one action", "shallow use", "explore without purpose"
+- **Companion handoff:** Impeccable — interaction polish, discovery affordances, and progress feedback on named surfaces; DocSlime — when engagement metrics or feature-adoption goals belong in `docs/experience/`; pair with Retention or Habit Formation sequences when depth must become return — not more time-on-page
+- **Feeling north star this strategy serves:** competence and curiosity with user control
+- **Anti-goals:** time-maximising dark patterns, addiction loops, compulsive variable rewards, engagement theatre without value
+- **Reference path:** `skill/reference/sequence.md`

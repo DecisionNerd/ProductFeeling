@@ -16,4 +16,4 @@ Cross-link between pages with relative `.md` links (e.g. `../ttps/fail-safe.md`)
 
 ## Section reviews
 
-Use the `handbook-section-review` skill (or [SECTION_REVIEW_PROMPT.md](SECTION_REVIEW_PROMPT.md)) to research, resource, and rewrite **one** strategy or TTP file at a time. Agent skill stubs stay as `TODO` until wired into `skill/reference/`.
+Use the `handbook-section-review` skill (or [SECTION_REVIEW_PROMPT.md](SECTION_REVIEW_PROMPT.md)) to research, resource, and rewrite **one** strategy or TTP file at a time. Every strategy and TTP ends with a filled `## Agent skill` section that maps to existing `/productfeeling` commands (see [SECTION_REVIEW_PROMPT.md](SECTION_REVIEW_PROMPT.md)).

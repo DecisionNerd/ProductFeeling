@@ -67,10 +67,10 @@ The strongest share card makes someone look good because it reflects something r
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling feel` — design voluntary sharing where the user's story leads and the product stays modest
+- **Related commands:** `/productfeeling peaks-ends`, `/productfeeling delight`, `/productfeeling map`
+- **When the agent should load this TTP:** "share card", "export achievement", "social sharing", "shareable outcome", "celebration post"
+- **Companion handoff:** Impeccable — share preview, edit controls, and accessible export formats
+- **Feeling north star this TTP serves:** user-owned expression of real accomplishment
+- **Anti-goals:** pre-value share prompts, manufactured comparison pressure, automatic publishing, sharing as condition of outcome
+- **Reference path:** `skill/reference/feel.md`

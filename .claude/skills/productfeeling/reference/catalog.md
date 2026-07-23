@@ -32,5 +32,6 @@ Techniques available via `/productfeeling <command>`.
 
 | Skill | Use after |
 |-------|-----------|
-| Impeccable | `brief`, `handoff` — execute craft |
-| DocSlime | `handoff` — persist narrative in docs |
+| [Impeccable](https://github.com/pbakaus/impeccable) | `brief`, `handoff` — execute craft |
+| [DocSlime](https://www.docslime.dev/) | `handoff` — persist narrative in docs |
+| [RedTeam](https://github.com/CurateLabs/RedTeam) | When a feeling decision or strategy needs adversarial stress-testing before commitment |

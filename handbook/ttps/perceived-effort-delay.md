@@ -60,10 +60,10 @@ If a result needs to feel more considered, improve the explanation and the resul
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling friction` — review waiting states so real work is shown honestly, never theatrically extended
+- **Related commands:** `/productfeeling trust`, `/productfeeling states`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "loading theatre", "thinking animation", "processing delay", "AI wait state", "minimum display time"
+- **Companion handoff:** Impeccable — loading states, progress stages, and result provenance UI
+- **Feeling north star this TTP serves:** credible transparency about process and limits
+- **Anti-goals:** artificial pauses, fake analysis copy, authority theatre, hostage results to animation
+- **Reference path:** `skill/reference/friction.md`

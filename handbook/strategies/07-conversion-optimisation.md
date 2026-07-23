@@ -76,11 +76,11 @@ Find where users lose clarity, confidence, or momentum—and whether “urgency�
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence conversion-optimisation` — not final)
-- **Core TTPs to load:** `TODO` (The Paywall, Limited Offer, Intentional Friction, Success Moments, Spark Curiosity, Momentum Bias)
-- **Supporting TTPs:** `TODO` (Time to Value, JTBD Copywriting, Perceived Effort Delay, Personalisation)
-- **When the agent should use this strategy:** `TODO` ("checkout drop-off", "signup conversion", "paywall conversion", "funnel friction", "CTA not converting")
-- **Companion handoff:** `TODO` (Impeccable for form/checkout UI craft; DocSlime if conversion criteria become PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (clarity, confidence, fair choice, earned completion)
-- **Anti-goals:** `TODO` (fake scarcity/urgency, confirmshaming, hidden costs, forced continuity, A/B tests that only maximise click-through at the user’s expense)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `map → friction → trust → tone → anti-patterns → review`
+- **Core TTPs to load:** The Paywall, Limited Offer, Intentional Friction, Success Moments, Spark Curiosity, Momentum Bias
+- **Supporting TTPs:** Time to Value, JTBD Copywriting, Perceived Effort Delay, Personalisation
+- **When the agent should use this strategy:** "checkout drop-off", "signup conversion", "paywall conversion", "funnel friction", "CTA not converting", "step drop-off"
+- **Companion handoff:** Impeccable — form, checkout, and CTA craft on named funnel steps; DocSlime — when conversion definitions or funnel success criteria belong in `docs/experience/`; RedTeam — before A/B variants that add urgency, hidden costs, or confirmshaming (`/redteam assumptions` on whether the lift trades away post-conversion quality)
+- **Feeling north star this strategy serves:** clarity and confidence through fair, earned completion
+- **Anti-goals:** fake scarcity/urgency, confirmshaming, hidden costs, forced continuity, A/B tests that only maximise click-through at the user’s expense
+- **Reference path:** `skill/reference/sequence.md`

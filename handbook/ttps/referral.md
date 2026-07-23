@@ -67,10 +67,10 @@ Design the invitation so a user would be comfortable sending it to one person th
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling map` — place invitation loops where advocacy is earned and recipient value is clear
+- **Related commands:** `/productfeeling feel`, `/productfeeling peaks-ends`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "referral programme", "invite a friend", "referral reward", "collaboration invite", "advocacy loop"
+- **Companion handoff:** RedTeam — audit referral incentives for social pressure; Impeccable — invite flow and reward disclosure UI
+- **Feeling north star this TTP serves:** credible recommendations that respect both parties
+- **Anti-goals:** preselected contacts, hidden reward thresholds, referral gated core use, premature advocacy asks
+- **Reference path:** `skill/reference/map.md`

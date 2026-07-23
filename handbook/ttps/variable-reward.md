@@ -55,10 +55,10 @@ Make the useful thing dependable. Let surprise live at the edge, where users can
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling anti-patterns` — guard optional novelty so it never drives compulsive checking or chance-gated outcomes
+- **Related commands:** `/productfeeling intensity`, `/productfeeling delight`, `/productfeeling persona`
+- **When the agent should load this TTP:** "variable reward", "surprise discovery", "random suggestion", "slot machine pattern", "optional novelty"
+- **Companion handoff:** RedTeam — challenge reward loops for compulsive or exploitative mechanics; Impeccable — skip controls and predictable core flows
+- **Feeling north star this TTP serves:** dependable value with optional freshness at the edge
+- **Anti-goals:** compulsive checking loops, chance-gated critical outcomes, randomness as fake personalisation
+- **Reference path:** `skill/reference/anti-patterns.md`

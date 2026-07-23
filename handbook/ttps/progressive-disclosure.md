@@ -66,10 +66,10 @@ Simpler is not the same as smaller. Keep the first decision clear, then leave a 
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling friction` — layer complexity so first decisions stay clear while depth stays discoverable
+- **Related commands:** `/productfeeling intensity`, `/productfeeling states`, `/productfeeling map`
+- **When the agent should load this TTP:** "advanced settings hidden", "show more options", "simplify first screen", "layered interface", "expert mode"
+- **Companion handoff:** Impeccable — disclosure patterns, labels, and advanced-control placement
+- **Feeling north star this TTP serves:** clarity now with depth on demand
+- **Anti-goals:** hiding frequent settings, concealing costs or consequences, mandatory sequences for simple tasks
+- **Reference path:** `skill/reference/friction.md`

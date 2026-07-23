@@ -79,10 +79,10 @@ Design the assist before the nudge: if the suggestion does not save a real next 
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling jobs` — reflect recent behaviour with one optional assist tied to likely progress
+- **Related commands:** `/productfeeling persona`, `/productfeeling tone`, `/productfeeling friction`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "behavioural suggestion", "adaptive UI", "resume draft", "repeated search", "mixed initiative"
+- **Companion handoff:** Impeccable — dismissible assist UI and transparent personalisation copy; RedTeam — when inferred intent drives paywall pressure or sensitive profiling
+- **Feeling north star this TTP serves:** helpful orientation without taking control
+- **Anti-goals:** hover-as-intent, paywall pressure from hesitation, sensitive inferences, vague magic personalisation
+- **Reference path:** `skill/reference/jobs.md`

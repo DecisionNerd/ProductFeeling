@@ -75,11 +75,11 @@ What’s blocking first value—and whether the milestone you track is the right
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence activation` — not final)
-- **Core TTPs to load:** `TODO` (Time to Value, Success Moments, Setup Defaults, Empty States, Discovery, Momentum Bias)
-- **Supporting TTPs:** `TODO` (Progressive Disclosure, JTBD Copywriting, Loading Feedback, Sandbox Experience, Personalisation, Contact Bridge)
-- **When the agent should use this strategy:** `TODO` ("activation rate", "aha moment", "time to value", "signed up but inactive", "first value")
-- **Companion handoff:** `TODO` (Impeccable for empty/default/first-value UI; DocSlime if activation criteria become PRODUCT.md requirements)
-- **Feeling north star this strategy serves:** `TODO` (early competence, earned momentum, clarity that the product works)
-- **Anti-goals:** `TODO` (fake social proof, contact-book spam, sunk-cost traps, forcing tours before value, counting vanity events as “activated”)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` — `jobs → map → friction → states → delight → brief`
+- **Core TTPs to load:** Time to Value, Success Moments, Setup Defaults, Empty States, Discovery, Personalisation, Micro Interactions, Momentum Bias
+- **Supporting TTPs:** Progressive Disclosure, JTBD Copywriting, Loading Feedback, Sandbox Experience, Contact Bridge
+- **When the agent should use this strategy:** "activation rate", "aha moment", "time to value", "signed up but inactive", "first value", "define activation event"
+- **Companion handoff:** Impeccable — empty states, defaults, sandbox paths, and first-value feedback on named surfaces; DocSlime — when the activation definition or retention-linked milestone belongs in `docs/strategy/` or `docs/experience/`; RedTeam — before committing to a vanity activation metric or contact-import gate (`/redteam review` on the proposed activation event)
+- **Feeling north star this strategy serves:** clarity that the product works, with early competence
+- **Anti-goals:** fake social proof, contact-book spam, sunk-cost traps, forcing tours before value, counting vanity events as “activated”
+- **Reference path:** `skill/reference/sequence.md`

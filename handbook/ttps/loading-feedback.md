@@ -60,10 +60,10 @@ Treat loading as a service moment: tell people what is happening, protect their 
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling states` — make waits legible with honest status, structure, and recovery paths
+- **Related commands:** `/productfeeling trust`, `/productfeeling friction`, `/productfeeling delight`
+- **When the agent should load this TTP:** "loading state", "skeleton screen", "upload progress", "spinner", "waiting feedback"
+- **Companion handoff:** Impeccable — skeletons, progress indicators, cancel/retry UI, and reduced-motion variants; none — unless wait thresholds become SLA requirements
+- **Feeling north star this TTP serves:** dependable waits, protected context, calm control
+- **Anti-goals:** artificial delays, endless spinners on failure, brand filler instead of status, unreliable time remaining
+- **Reference path:** `skill/reference/states.md`

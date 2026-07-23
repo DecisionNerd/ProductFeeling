@@ -55,10 +55,10 @@ A widget is a promise: every glance should save time or provide reassurance.
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling feel` — design glanceable surfaces that answer one user-chosen question between sessions
+- **Related commands:** `/productfeeling states`, `/productfeeling jobs`, `/productfeeling friction`
+- **When the agent should load this TTP:** "home screen widget", "lock screen glance", "desktop widget", "live activity", "glanceable status"
+- **Companion handoff:** Impeccable — widget layout, privacy controls, and deep-link destinations
+- **Feeling north star this TTP serves:** timely reassurance or saved time at a glance
+- **Anti-goals:** advertising slots, stale or dense dashboards, private data by default, manufactured urgency badges
+- **Reference path:** `skill/reference/feel.md`

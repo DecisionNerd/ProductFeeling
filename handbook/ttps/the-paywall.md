@@ -56,10 +56,10 @@ The best paywall makes the right customer say “yes” and lets everyone else s
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling anti-patterns` — audit upgrade moments for pressure, obscured terms, and cancellation sludge
+- **Related commands:** `/productfeeling trust`, `/productfeeling friction`, `/productfeeling jobs`
+- **When the agent should load this TTP:** "paywall design", "upgrade screen", "subscription pricing", "trial expiry", "plan comparison"
+- **Companion handoff:** RedTeam — stress-test pricing pressure and decline-path fairness; Impeccable — paywall layout and terms visibility
+- **Feeling north star this TTP serves:** confident fair upgrade decisions with visible free path
+- **Anti-goals:** guilt and false scarcity, removing access without notice, cancellation harder than subscribing
+- **Reference path:** `skill/reference/anti-patterns.md`

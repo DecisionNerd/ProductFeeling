@@ -55,10 +55,11 @@ For this section only:
    - For strategies: keep Insights & Metrics accurate; fix formulas if wrong; keep Behind the Data questions diagnostic.
    - For TTPs: keep the structure below unless a clear improvement requires a small addition (e.g. Further reading).
 
-4. **Agent skill (template only — leave placeholders)**
-   - Add a final subsection `## Agent skill` with the template below filled only with section-specific *labels*, not full flows.
-   - Do **not** invent a finished `/productfeeling` command implementation. Mark unknowns as `TODO`.
-   - This is a stub for later wiring into `skill/reference/*.md`.
+4. **Agent skill (required — map to existing commands)**
+   - Add or rewrite a final subsection `## Agent skill` using the skeleton below.
+   - Map to **existing** `/productfeeling` commands only (`init`, `feel`, `audit`, `critique`, `review`, `map`, `jobs`, `tone`, `peaks-ends`, `friction`, `delight`, `trust`, `states`, `persona`, `intensity`, `anti-patterns`, `metaphors`, `brief`, `handoff`, `sequence`, `next`, `random`, `library`). Do **not** invent new commands.
+   - **Reference path** must point at an existing file under `skill/reference/` (primary command).
+   - Companions: Impeccable (craft), DocSlime (durable docs), RedTeam (decision stress-test) — name which apply and when.
 
 ### Output format
 
@@ -112,13 +113,13 @@ Return:
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling <command>` — not final)
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO` (1–2 trigger phrases)
-- **Companion handoff:** `TODO` (Impeccable / DocSlime / none)
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO` (what this must never encourage)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling <command>` — short why
+- **Related commands:** related `/productfeeling …` commands
+- **When the agent should load this TTP:** 3–6 short trigger phrases in quotes
+- **Companion handoff:** Impeccable / DocSlime / RedTeam / none — concrete cue
+- **Feeling north star this TTP serves:** short phrase from the TTP's intent
+- **Anti-goals:** what this must never encourage
+- **Reference path:** `skill/reference/<command>.md`
 ```
 
 **If Product Strategy**, use:
@@ -152,14 +153,14 @@ Return:
 
 ## Agent skill
 
-- **Primary command / sequence:** `TODO` (e.g. `/productfeeling sequence [slug]` — not final)
-- **Core TTPs to load:** `TODO`
-- **Supporting TTPs:** `TODO`
-- **When the agent should use this strategy:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this strategy serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command / sequence:** `/productfeeling sequence` with a playbook chain of existing commands — or another primary command when more accurate
+- **Core TTPs to load:** names from this strategy's Core TTPs section
+- **Supporting TTPs:** names from Supporting TTPs
+- **When the agent should use this strategy:** 3–6 short trigger phrases in quotes
+- **Companion handoff:** Impeccable / DocSlime / RedTeam — concrete cues
+- **Feeling north star this strategy serves:** short phrase grounded in the strategy
+- **Anti-goals:** what this must never encourage
+- **Reference path:** `skill/reference/sequence.md` (or the primary command's reference)
 ```
 
 3. **Diff notes** (bullet list): TTP blurbs you aligned, metrics fixed, resources added, anything left for a human editor.

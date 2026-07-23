@@ -63,10 +63,10 @@ Count the clicks to subscribe and the clicks to cancel. If the second number is 
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling exit` or fold into `trust` / `anti-patterns` — not final)
-- **Related commands:** `TODO` (`feel`, `trust`, `anti-patterns`)
-- **When the agent should load this TTP:** `TODO` ("cancellation flow", "account deletion", "offboarding", "churn flow", "data export")
-- **Companion handoff:** `TODO` (Impeccable for cancel/delete flow craft; DocSlime if retention-offer policy becomes PRODUCT.md requirements)
-- **Feeling north star this TTP serves:** `TODO` (respect, dignity in leaving, door left open)
-- **Anti-goals:** `TODO` (roach motel, confirmshaming, cancellation sludge, data hostage-taking, guilt loops)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling anti-patterns` — audit exit flows for roach-motel and cancellation sludge before polishing retention
+- **Related commands:** `/productfeeling trust`, `/productfeeling peaks-ends`, `/productfeeling feel`
+- **When the agent should load this TTP:** "cancellation flow", "account deletion", "offboarding", "churn flow", "data export"
+- **Companion handoff:** Impeccable — cancel, pause, delete, and export flow craft; DocSlime — retention-offer policy and data-rights requirements; RedTeam — when exit friction is defended as "good for business"
+- **Feeling north star this TTP serves:** respect, dignity in leaving, door left open
+- **Anti-goals:** roach motel, confirmshaming, cancellation sludge, data hostage-taking, guilt loops
+- **Reference path:** `skill/reference/anti-patterns.md`

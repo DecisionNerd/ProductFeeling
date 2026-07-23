@@ -56,10 +56,10 @@ Celebrate the outcome the user came for—not the action your dashboard wants th
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling peaks-ends` — mark earned progress with feedback that shapes remembered journey peaks
+- **Related commands:** `/productfeeling delight`, `/productfeeling tone`, `/productfeeling map`
+- **When the agent should load this TTP:** "completion celebration", "milestone feedback", "onboarding checkpoint", "success state", "progress acknowledgement"
+- **Companion handoff:** Impeccable — confirmation UI, restrained animation, and next-step affordances
+- **Feeling north star this TTP serves:** earned recognition of meaningful progress
+- **Anti-goals:** celebrating trivial taps, blocking animation, leveraging wins for referrals or upgrades
+- **Reference path:** `skill/reference/peaks-ends.md`

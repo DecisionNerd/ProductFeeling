@@ -60,10 +60,10 @@ Start with the moments users tap twice or hesitate; the best micro interaction o
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling delight` — brief feedback that confirms cause, effect, and completion without spectacle
+- **Related commands:** `/productfeeling intensity`, `/productfeeling states`, `/productfeeling friction`
+- **When the agent should load this TTP:** "button feedback", "saved state", "toggle response", "haptic cue", "action confirmation"
+- **Companion handoff:** Impeccable — motion, haptics, and state-change UI craft; none — unless feedback patterns need a shared design-system spec
+- **Feeling north star this TTP serves:** acknowledged actions, understandable state changes
+- **Anti-goals:** motion for its own sake, success before the action completes, haptic pressure, colour-only communication
+- **Reference path:** `skill/reference/delight.md`

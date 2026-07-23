@@ -56,10 +56,10 @@ Measure the path to the first outcome users can recognise in their own words. Th
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling jobs` — define and shorten the path to the user's first meaningful outcome
+- **Related commands:** `/productfeeling friction`, `/productfeeling map`, `/productfeeling sequence`
+- **When the agent should load this TTP:** "time to value", "first outcome", "activation path", "onboarding length", "early drop-off"
+- **Companion handoff:** DocSlime — document first-outcome definition in strategy docs; Impeccable — onboarding flow reduction
+- **Feeling north star this TTP serves:** recognised value with least unnecessary effort
+- **Anti-goals:** speed over needed context, forced setup before relevance, tours replacing real experience
+- **Reference path:** `skill/reference/jobs.md`

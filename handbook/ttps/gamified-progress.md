@@ -78,10 +78,10 @@ If removing the points, badges, and animations leaves no user value, the mechani
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling delight` — make truthful progress visible without turning the product into pressure mechanics
+- **Related commands:** `/productfeeling intensity`, `/productfeeling anti-patterns`, `/productfeeling peaks-ends`, `/productfeeling friction`
+- **When the agent should load this TTP:** "progress bar", "milestones", "levels", "onboarding steps", "goal journey"
+- **Companion handoff:** Impeccable — progress UI, milestone feedback, and opt-out controls; RedTeam — when streaks, rewards, or social comparison may coerce rather than support
+- **Feeling north star this TTP serves:** competence, autonomy, and honest momentum
+- **Anti-goals:** addiction framing, random rewards, punitive streak loss, shameful leaderboards, empty badge farming
+- **Reference path:** `skill/reference/delight.md`

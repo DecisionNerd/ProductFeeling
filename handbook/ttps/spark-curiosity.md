@@ -56,10 +56,10 @@ A good tease makes the next action clearer. If it only makes users anxious, it i
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling delight` — offer truthful previews that invite optional exploration, not withheld essentials
+- **Related commands:** `/productfeeling friction`, `/productfeeling intensity`, `/productfeeling anti-patterns`
+- **When the agent should load this TTP:** "teaser preview", "unlock more", "curiosity gap", "partial reveal", "optional depth"
+- **Companion handoff:** RedTeam — challenge previews that withhold material information; Impeccable — preview and reveal interaction craft
+- **Feeling north star this TTP serves:** genuine curiosity toward useful discovery
+- **Anti-goals:** hidden essential info, false scarcity, endless teasing, curiosity-only route to value
+- **Reference path:** `skill/reference/delight.md`

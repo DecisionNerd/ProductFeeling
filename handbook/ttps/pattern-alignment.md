@@ -60,10 +60,10 @@ Spend your novelty budget where your product is genuinely better; let everything
 
 ## Agent skill
 
-- **Primary command:** `TODO`
-- **Related commands:** `TODO`
-- **When the agent should load this TTP:** `TODO`
-- **Companion handoff:** `TODO`
-- **Feeling north star this TTP serves:** `TODO`
-- **Anti-goals:** `TODO`
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling trust` — evaluate familiar patterns that build confident action without deceptive conventions
+- **Related commands:** `/productfeeling feel`, `/productfeeling friction`, `/productfeeling states`
+- **When the agent should load this TTP:** "mental model", "platform convention", "familiar pattern", "learnability", "migration from another tool"
+- **Companion handoff:** Impeccable — navigation, controls, and affordance execution
+- **Feeling north star this TTP serves:** confident action through understandable conventions
+- **Anti-goals:** copying competitors blindly, breaking conventions for novelty, conflicting models, deceptive consent patterns
+- **Reference path:** `skill/reference/trust.md`

@@ -78,10 +78,10 @@ When users say what they want, help them become it—and let them rewrite the sc
 
 ## Agent skill
 
-- **Primary command:** `TODO` (e.g. candidate `/productfeeling commitment` or fold into `jobs` / `intensity` — not final)
-- **Related commands:** `TODO` (`feel`, `anti-patterns`, `persona`, `brief`)
-- **When the agent should load this TTP:** `TODO` ("goal pledge", "habit commitment", "user declared intent")
-- **Companion handoff:** `TODO` (Impeccable for pledge UI / recovery states; DocSlime if intent becomes PRODUCT.md requirement)
-- **Feeling north star this TTP serves:** `TODO` (agency, purposeful momentum, trusted follow-through)
-- **Anti-goals:** `TODO` (guilt loops, irreversible traps, forced pledges, shame for slips)
-- **Reference stub path:** `skill/reference/TODO.md`
+- **Primary command:** `/productfeeling trust` — voluntary pledges only work when intent is reflected back without shame or trap mechanics
+- **Related commands:** `/productfeeling jobs`, `/productfeeling feel`, `/productfeeling anti-patterns`, `/productfeeling persona`
+- **When the agent should load this TTP:** "goal pledge", "habit commitment", "user declared intent", "streak recovery", "optional goal setting"
+- **Companion handoff:** Impeccable — pledge UI, edit/pause controls, and slip recovery states; DocSlime — when stated intent becomes a durable product or policy requirement
+- **Feeling north star this TTP serves:** agency, purposeful momentum, trusted follow-through
+- **Anti-goals:** guilt loops, irreversible traps, forced pledges, shame for slips
+- **Reference path:** `skill/reference/trust.md`
