@@ -13,3 +13,8 @@
   --sl-color-accent: var(--pf-accent);
   --sl-color-accent-low: #ccfbf1;
 }
+
+/* Keep sidebar wheel/trackpad scroll from chaining into the page */
+#starlight__sidebar {
+  overscroll-behavior: contain;
+}

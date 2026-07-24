@@ -5,11 +5,13 @@ A small, repeatable flourish that makes a clear product interaction feel recogni
 
 ## What it is
 
-A distinctive interaction, animation, sound, or copy pattern attached to a familiar, low-stakes moment. It adds character without changing what the user needs to do.
+A small quirk is a distinctive, repeatable flourish—a particular animation when something saves, a specific sound on completion, a turn of phrase that shows up in the same spot every time—attached to a moment that's already clear and low-stakes. It isn't there to explain what happened; the interaction already does that. It's there to make the moment recognisably yours, the way a person's laugh or a phrase they always use becomes part of how you know them. This is easy to confuse with **Micro Interactions**, which exist to confirm cause and effect—did the tap register, did the save complete—and have to be there for the interface to make sense. A small quirk is the opposite: entirely optional decoration on top of feedback that would already work perfectly well without it, which is exactly why it has to be added last, not first.
 
 ## Why it works
 
-Small, consistent feedback can make an interface feel responsive and memorable. A quirk earns recognition when it reinforces a useful action; it should never become an obstacle to completing one.
+This is where **Emotional Design**'s reflective layer gets built in miniature: a small quirk becomes part of the story a user tells about the product, the specific detail they mention when describing it to someone else, precisely because it's distinctive rather than generic. It works because it's attached to feedback that's already doing its job—the underlying save, completion, or discovery is already clear, so the flourish has nothing to prove and can spend its whole budget on personality. **Aesthetic–Usability Effect** explains the payoff: a considered, specific detail reads as evidence of care, and that goodwill quietly extends to how forgivingly the user judges everything else nearby.
+
+The failure this prevents is a product that works fine but is instantly forgettable—functionally correct, emotionally interchangeable with every competitor doing the same job the same way. But Aesthetic–Usability Effect cuts both ways: charm can mask a flaw as easily as it can reward a strength, so a delightful animation layered over a task that's actually confusing just buys the confusion a longer runway before anyone complains. Put the quirk in a high-stakes flow—checkout, deletion, account recovery—and the same mechanism works against you: a moment that needed to feel serious and legible now feels like it's being trivialised, which is its own kind of broken trust.
 
 ## When to use it
 

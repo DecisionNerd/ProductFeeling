@@ -5,11 +5,15 @@ When the product uses AI, show how sure it is—so people know when to trust the
 
 ## What it is
 
-Honest communication of AI capability and uncertainty: plain-language confidence signals, hedged phrasing that matches real system performance, visible sources or reasoning where they help, and easy paths to review, correct, or reject an output before it takes effect.
+Calibrated Confidence is the discipline of making an AI system's interface tell the truth about what it actually knows. It shows up as hedged language that tracks real accuracy rather than a house style of false certainty, visible sources or reasoning where they help someone judge a claim, and a review or confirmation step before an output is allowed to act on the user's behalf. It answers the question every probabilistic feature raises the moment it ships: how much should the person looking at this screen believe it?
+
+This is a different job from Fail Safe, which protects against irreversible mistakes in deterministic systems—a delete button, a payment, a send. Calibrated Confidence is specifically about epistemic honesty on a system that can produce a fluent, wrong answer with exactly the same confident tone as a correct one. A support-triage assistant that says “likely a billing issue, but I’m not certain—here’s what I based that on” is practising this; one that states the same guess in a flat, authoritative voice is not, even when the model underneath is identical.
 
 ## Why it works
 
-Probabilistic systems are sometimes wrong, and users know it. The goal is *calibrated* trust—not maximum trust: over-trust produces silent errors users absorb as their own mistakes; under-trust makes the feature dead weight. Matching the interface’s stated confidence to actual performance, and keeping the human in charge of consequential actions, is what makes AI feel like a competent collaborator instead of a confident liar.
+The underlying mechanism is [Calibrated Trust](../concepts/11-calibrated-trust.md): trust in a system should match its actual reliability, not exceed or undershoot it. Over-trust is invisible while it's happening—a wrong answer stated with confidence gets absorbed as the user's own mistake rather than the system's, because nothing on screen signalled doubt. Under-trust is the quieter failure: a genuinely useful feature gets ignored because the interface never earned the right to be believed. Calibrated Confidence is the lever that moves an interface toward informed reliance and away from both silent failure modes.
+
+Skip it and you get precision theatre: percentages and assured phrasing the model's actual performance cannot support, which works fine until the one moment it's confidently wrong in a context that matters—and users calibrate on that worst error, not the average accuracy that preceded it. Overdo it and you get the opposite failure: hedge every sentence until "I'm not sure" becomes background noise the user has learned to ignore, which is functionally the same as never having said it. The craft is matching the hedge to the actual eval, not to a house style of caution or bravado.
 
 ## When to use it
 

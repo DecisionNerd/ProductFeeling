@@ -5,6 +5,20 @@ Deepen how people use the product—more meaningful interaction, not more time t
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
 
+## What it is
+
+Engagement is depth of *useful* interaction within a session—how much real progress, exploration, or meaningful action happens once someone is already in the product—not raw time spent or clicks generated. This distinction is the whole strategy: a session that ends in fifteen efficient minutes with a task completed is a better engagement outcome than an hour of aimless clicking, even though only one of those looks better on a naive "time in app" dashboard.
+
+Engagement is easy to confuse with the metrics that are easiest to inflate, which is exactly why this strategy exists as its own discipline rather than a side effect of Retention or Habit Formation. It asks a narrower question than either: given that someone is here right now, are they finding and using the capabilities that matter to them, or are they stuck, bored, wandering, or being nudged into busywork that looks like activity but produces nothing they value.
+
+## Why it works
+
+Depth of engagement predicts long-term value better than session length because it measures whether the product's actual capabilities are being discovered and used—the thing a person is ultimately paying attention (or money) for. A product can have long average sessions and low feature adoption at the same time, which usually means people are searching, not benefiting; conversely, short high-completion sessions are frequently a sign of a product that respects the user's time enough to let them finish and leave.
+
+The mechanism runs through [Progressive Disclosure](../ttps/progressive-disclosure.md) and [Discovery](../ttps/discovery.md): people can only engage deeply with capability they can find, and revealing the next useful layer at the right moment is what turns a single-purpose visit into a broader relationship with the product. This is also where engagement work is most vulnerable to becoming manipulative—optional novelty and gamified progress are legitimate tools for making exploration pleasant, but the moment they are the *reason* someone keeps interacting rather than a decoration around real value, engagement has quietly become compulsion, which is [Habit Formation](11-habit-formation.md)'s territory to police, not this strategy's to exploit.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Micro Interactions](../ttps/micro-interactions.md): Small responses that make an action feel acknowledged, understandable, and complete
 - [Gamified Progress](../ttps/gamified-progress.md): Make meaningful progress visible, achievable, and fully in the user’s control
 - [Variable Reward](../ttps/variable-reward.md): Add optional novelty around reliable value, without making users chase uncertainty

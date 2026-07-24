@@ -5,11 +5,15 @@ Drop users into the exact moment, feature, or context that matters.
 
 ## What it is
 
-A link (or notification payload) that opens a specific screen, object, or flow inside the product—bypassing generic home navigation. Includes same-session deep links, cross-channel links (email → app, web → app), and deferred deep links that preserve destination across an install.
+A deep link is a promise made in a message—an email, a push notification, a shared URL—about exactly where the tap will land: not the app's home screen, but the specific invite, lesson, order, or document the copy named. It covers same-session links, cross-channel links (an email that opens the app to the right object), and deferred deep links that have to survive an app-store install and still remember what the user clicked before they had the app at all. Distinguish it from generic navigation: a deep link is not just "a link into the app"—it's a link that names a destination and is judged entirely on whether it delivers that specific destination.
+
+A calendar invite that opens straight to the event, with the right people already visible, is a deep link keeping its promise. The same invite that opens the app's generic dashboard and leaves the user to hunt for the event is a deep link that has technically fired and functionally failed.
 
 ## Why it works
 
-It keeps the promise of the tap. When the message says “your invite” or “continue lesson 3,” landing on that context reduces search cost and protects attention. Broken promises (generic home, wrong account, dead content) feel like bait—and erode Trust Building faster than a slow load.
+The mechanism is [Friction](../concepts/04-friction.md) reduction at the point of highest intent: the user has already decided to act—that's why they tapped—so any distance between the tap and the named destination is pure search cost with no corresponding benefit, exactly the mechanical-friction Friction's taxonomy singles out as cheapest to remove and most punishing to leave in place. A deep link that works removes an entire navigation flow's worth of friction in one hop.
+
+But a deep link is also a claim, in [Calibrated Trust](../concepts/11-calibrated-trust.md)'s sense: the message asserted a specific destination, and the tap is the user cross-examining that assertion. Landing anywhere else—a generic home, a login wall with no memory of what was promised, a dead link with no explanation—reads as a broken promise rather than a technical hiccup, and it erodes trust faster than an honest slow load would, because the failure is legible as a lie rather than as a delay. Skip careful handling of logged-out or expired states and every edge case becomes one of these small, cumulative betrayals; the fix costs little relative to the trust it protects.
 
 ## When to use it
 

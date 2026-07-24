@@ -5,6 +5,20 @@ Earn a premium reputation—and pricing power—through craft signals users can 
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
 
+## What it is
+
+Premium positioning is earning a reputation—and the pricing power that comes with it—through craft signals a person can actually feel while using the product, rather than through claims made in marketing copy that the product itself does nothing to substantiate. "Premium" here is not a price tier; it is a quality of experience: consistent spacing and motion, restraint where restraint communicates confidence, waits that are honestly explained rather than artificially inflated, and small flourishes that appear only where they are earned by an already-solid interaction.
+
+This strategy is easy to mistake for [Experience Refinement](08-experience-refinement.md), and the two overlap heavily in technique, but the goal is different: refinement asks "does this feel considered," while premium positioning asks "does this justify what we charge, or what we want to charge." A product can be thoroughly refined and still be positioned as accessible and unpretentious; premium positioning is the deliberate choice to let craft carry pricing weight.
+
+## Why it works
+
+The [aesthetic–usability effect](../concepts/08-aesthetic-usability-effect.md) is again the mechanism: people infer quality and reliability from visual and interaction polish, often before they have any functional basis for that judgement, and that inferred quality directly shapes what price feels fair. This is a real perceptual effect, not a trick—but it is also dangerous when it outruns substance, because craft that promises more than the product delivers converts the first disappointment into a much sharper sense of betrayal than a plainer product would have caused.
+
+The durable version of this strategy pairs restraint with honesty: a purposeful pause before a consequential action can *increase* perceived value the same way a maître d' checking a reservation twice signals a well-run restaurant, but only if the pause reflects something real rather than manufactured delay designed to seem more expensive than it is. [JTBD Copywriting](../ttps/jtbd-copywriting.md) and [Pattern Alignment](../ttps/pattern-alignment.md) do quieter, equally important work here: pricing power holds up best when the value a premium tier promises is stated in the customer's own language and delivered through interactions that behave exactly the way a careful, competent product should.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Perceived Effort Delay](../ttps/perceived-effort-delay.md): When work takes time, show the real work; when it does not, respect the user’s time.
 - [Small Quirk](../ttps/small-quirk.md): A small, repeatable flourish that makes a clear product interaction feel recognisably yours.
 - [Micro Interactions](../ttps/micro-interactions.md): Small responses that make an action feel acknowledged, understandable, and complete.

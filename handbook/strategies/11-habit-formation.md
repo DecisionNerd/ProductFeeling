@@ -5,6 +5,20 @@ Help users form reliable return rituals around value they already recognise—wi
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) (especially [How Customers Work Today](../discovery/03-how-customers-work-today.md) for cadence). Science and compulsion boundary: [Habit Formation (concept)](../concepts/10-habit-formation.md). Also [User Agency](../concepts/12-user-agency.md), [Investment and Continuity](../concepts/13-investment-and-continuity.md). Related strategy: [Retention](03-retention.md).
 
+## What it is
+
+Habit formation is the design of context-cued rituals: a stable cue, a doable action, and a meaningful outcome, repeated together in a real-life context until the context itself starts to trigger the behaviour with little conscious deliberation. In product terms, it is the difference between a user who returns because a notification begged them to and a user who returns because a recurring situation in their life—Monday morning planning, a receipt in hand, a free ten minutes—has become mentally linked to opening the product as the natural response.
+
+This is the strategy this handbook treats with the most explicit ethical boundary, because the same mechanics that build a healthy ritual can be tuned to build compulsion instead, and the difference is not always visible from the outside. A daily-use tool that genuinely helps someone and a slot machine dressed as an app can share nearly identical notification schedules and streak mechanics; what separates them is whether the user, asked honestly, would say the habit serves them.
+
+## Why it works
+
+The mechanism is Fogg's behaviour model: a target behaviour occurs when motivation, ability, and a prompt converge at the same moment, and of the three, *ability*—making the desired action smaller and easier—is usually the highest-leverage lever, more reliable than trying to manufacture motivation or engineer a better-timed prompt. This is why the strongest habit-formation work in this handbook looks less like clever notifications and more like reducing the number of steps between "I have this recurring need" and "the product already has what I need ready."
+
+The ethical line runs through [User Agency](../concepts/12-user-agency.md) and [Investment and Continuity](../concepts/13-investment-and-continuity.md): a durable habit should tolerate an interruption—someone who misses a day should be able to return without shame, lost progress, or a punitive "reset to zero"—because rituals that only survive through fear of loss are dependency, not habit. Variable reward, streaks, and gamified progress are legitimate *decoration* around a reliably useful loop; the moment they become the reason someone returns instead of the value itself, the strategy has crossed into the compulsion loops this handbook explicitly refuses to prescribe.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Commitment](../ttps/commitment.md): Let users declare their intent, then design the product around it.
 - [Gamified Progress](../ttps/gamified-progress.md): Make meaningful progress visible, achievable, and fully in the user’s control.
 - [System Widget](../ttps/system-widget.md): Put one timely, glanceable piece of user-chosen value where people already look.

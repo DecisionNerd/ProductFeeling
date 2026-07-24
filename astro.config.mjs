@@ -16,6 +16,9 @@ export default defineConfig({
       description:
         'Emotion-aware product design for AI agents — grounded clarity; companions to Impeccable and DocSlime.',
       customCss: ['./src/styles/theme.css'],
+      components: {
+        Sidebar: './src/components/Sidebar.astro',
+      },
       social: [
         {
           icon: 'github',

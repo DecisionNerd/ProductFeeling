@@ -78,11 +78,11 @@ Return:
 
 ## What it is
 
-...
+[1–2 substantive paragraphs — not a single dictionary-style sentence. Define the pattern precisely, distinguish it from a TTP it is commonly confused with, and ground it in a concrete product moment.]
 
 ## Why it works
 
-...
+[1–2 substantive paragraphs — the mechanism (cite the underlying concept rather than re-deriving it), a failure mode this prevents, and what happens when it is skipped or overdone.]
 
 ## When to use it
 
@@ -132,6 +132,16 @@ Return:
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md). Related concepts: …
 
+## What it is
+
+[2–4 substantive paragraphs — what this strategy actually means, the underlying product thinking, how it differs from adjacent strategies, what failure looks like. Not a bullet list. A reader who skipped every TTP link should still understand the strategy.]
+
+## Why it works
+
+[2–3 substantive paragraphs — the mechanism, evidence, or reasoning that makes this strategy effective; tie explicitly into 1–3 handbook concepts rather than re-explaining them.]
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [TTP Name](../ttps/slug.md): [short blurb matching the TTP’s tagline]
 - ...
 
@@ -164,20 +174,28 @@ Return:
 - **Reference path:** `skill/reference/sequence.md` (or the primary command's reference)
 ```
 
-**If Discovery** (Customer Discovery page), use the hybrid skeleton:
+**If Discovery** (Customer Discovery page), use the hybrid skeleton. Worksheets (Do / Don't / Make It Yours / metrics) are secondary; **teaching prose is mandatory**. Do not collapse the page into a skill card of bullets.
 
 ```markdown
 # [Title]
 
-[One-line tagline.]
+[One-line tagline — then teach.]
 
 ## What it is
 
-...
+[Substantial paragraphs — definitions, distinctions, diagrams if they clarify. Not a bullet list alone.]
 
 ## Why it works
 
-...
+[Substantial paragraphs — mechanisms, failure modes, links into concepts/TTPs.]
+
+## Going deeper
+
+[Numbered teaching points with explanation — how to practice this in discovery.]
+
+## For builders and agents
+
+[How this shows up in product, telemetry, docs, and agent workflows.]
 
 ## When to use it
 
@@ -233,6 +251,7 @@ Return:
 
 - Do not rewrite other sections.
 - Do not invent case studies or statistics you cannot support; if uncertain, soften language (“often”, “typically”) or omit the number.
-- Do not expand into a full essay; keep the handbook card length — denser and clearer, not much longer.
+- For **strategies/TTPs**: worksheets (Do/Don't/Make It Yours/metrics) stay; add real prose in "What it is"/"Why it works" so the page reads as a handbook chapter, not a skill's user manual. A strategy page must be understandable — and worth reading — without following any TTP link. Denser and clearer, not a full essay.
+- For **Discovery**: restore and keep knowledge-imparting prose (What it is / Why it works / Going deeper / For builders and agents). Worksheets must not replace teaching. Length may exceed a TTP card when the topic needs it.
 - Do not prescribe dark patterns. If the draft edges that way, rewrite toward agency-preserving alternatives and note it in Findings.
 - Voice: practical, founder-friendly, emotionally precise. Not corporate fluff. Not academic jargon without payoff.

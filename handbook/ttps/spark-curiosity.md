@@ -5,11 +5,15 @@ Offer a truthful glimpse of a useful outcome, then let users choose whether to e
 
 ## What it is
 
-A partial preview of information, capability, or progress that creates a genuine question. The user can understand what is being hinted at, why it matters, and how to resolve it.
+Spark Curiosity is a partial, truthful reveal—information, a result, or a piece of unlocked capability—that opens a specific, answerable question in the user's mind rather than a vague sense that something is being withheld. The user can see the shape of what's being hinted at (a redacted diff, a blurred photo about to resurface, a locked chapter titled but not described) and can judge for themselves whether following through is worth the effort. That's the line that separates it from Discovery, its closest neighbour in this handbook: Discovery proactively surfaces next steps before a user has a precise goal, replacing blank-canvas paralysis with scent; Spark Curiosity instead opens one deliberate gap around something the user has already shown interest in, and lets them choose whether to close it.
+
+A useful test case: a dashboard that shows "something notable changed in your funnel this week" next to a small marked point on a chart, before the user clicks through to see the number. The teaser names the domain, hints at the stakes, and resolves quickly and honestly the moment the user acts—nothing about the reveal disappoints or reframes the tease as bait.
 
 ## Why it works
 
-People often want to close meaningful knowledge gaps. Curiosity works when the missing information serves a user goal and the reveal delivers real value—not when the product withholds something merely to create pressure.
+People are drawn to close a perceived gap between what they know and what they want to know—an aversive, motivating state that resolves the moment the missing piece arrives. That pull is genuinely useful in product design: it can turn a passive scroll into a deliberate click, and a finished task into an invitation to go one layer deeper. But the same structural device—withhold, hint, promise a reveal—is also the raw material of clickbait and manipulative "curiosity gap" marketing, which is why User Agency's persuasion-versus-manipulation test applies here directly: does the reveal deliver real, proportionate value, and could the user have walked away without losing anything essential?
+
+Skip this TTP and genuinely useful information sits unnoticed because nothing signalled it was worth a look; overdo it—teasing repeatedly, delaying the reveal, or leaving the gap unresolved—and curiosity curdles into the anxious, used feeling of being baited, which is precisely the failure mode its Don't list exists to prevent.
 
 ## When to use it
 

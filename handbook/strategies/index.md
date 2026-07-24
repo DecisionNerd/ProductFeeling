@@ -1,6 +1,8 @@
 # Product Strategies
 
-Twelve strategies that combine Tools, Techniques, and Practices (TTPs) toward a product goal.
+A strategy is a product goal with a body of thinking behind it—not a bundle of tactics. Onboarding is not "the TTPs used in the first session"; it is a specific claim about how first sessions work and what they owe a new user, which then happens to be executed through a recognisable set of Tools, Techniques, and Practices (TTPs). Read a strategy's **What it is** and **Why it works** sections even if you already know its TTPs by heart—they are where the reasoning lives, and the reasoning is what tells you when to break the pattern.
+
+The twelve strategies below cover the full arc from a stranger's first visit to a paying, habitual advocate. Most products need only two or three at a time; trying to run all twelve at once is usually a sign the team has not yet decided what stage the product is actually in.
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — who this is for, what state they arrive in, how they work, talk, search, and buy. Shared vocabulary: [Concepts](../concepts/index.md).
 

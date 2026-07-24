@@ -5,6 +5,20 @@ Help people complete a clear, valuable action by removing friction and supportin
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
 
+## What it is
+
+Conversion optimisation is the general discipline of helping people complete a specific, valuable action—checkout, signup, an application, a booking—by removing genuine friction and supporting a confident decision, as distinct from [Monetisation](06-monetisation.md), which is specifically about the money-changing-hands moment, and [Onboarding](01-onboarding.md), which is specifically about a new user's first session. Any funnel with a defined completion event and a population that drops off along the way is conversion optimisation's territory.
+
+The discipline has an unusually short distance to its own corruption: the same funnel-analytics toolkit used to find genuine confusion (an unclear price, a broken form, an unnecessary field) is just as easily used to find the point of maximum leverage for pressure—a countdown timer, a pre-checked upsell, a confirmshaming exit link. This handbook treats those as different activities entirely. Legitimate conversion work removes obstacles between an already-motivated person and their goal; illegitimate conversion work manufactures obstacles or false urgency to extract a decision the person would not otherwise make.
+
+## Why it works
+
+Conversion rates respond to clarity and trust far more reliably, and far more durably, than they respond to pressure. A confusing step, an unexpected cost revealed late, or an unclear next action all produce the same failure mode—hesitation that curdles into abandonment—and each is fixable with the same tool: making the true cost, time, and outcome of the action legible before the person commits to it. This is why step-level drop-off analysis is more useful than aggregate conversion rate alone: it names the exact screen where confidence broke, rather than leaving the team to guess.
+
+Pressure tactics can lift short-term conversion numbers while quietly destroying the metric that actually matters: post-conversion quality. A checkout that spikes completions through urgency or hidden costs will also spike refunds, chargebacks, and immediate cancellations, because the person converted before they were actually convinced. [User Agency](../concepts/12-user-agency.md) is the principle that keeps this strategy honest: a genuine limited offer with a real deadline and a respectful alternative is a legitimate tool; a fabricated one is deferred churn wearing a growth chart.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [The Paywall](../ttps/the-paywall.md): Present a clear, fair upgrade decision when users understand the value on offer
 - [Limited Offer](../ttps/limited-offer.md): Present a genuine, time-bound offer when it creates a fair choice, not pressure
 - [Intentional Friction](../ttps/intentional-friction.md): Add a small, purposeful pause when moving quickly could create harm, regret, or an avoidable mistake

@@ -5,6 +5,20 @@ Earn confidence by being predictable, transparent about what happens next, and p
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) (especially [Talk, Search, and Buy](../discovery/04-how-customers-talk-search-buy.md) for evaluation risk). Core concept: [Calibrated Trust](../concepts/11-calibrated-trust.md). Also [User Agency](../concepts/12-user-agency.md), [Friction](../concepts/04-friction.md), [Peak–End Rule](../concepts/07-peak-end-rule.md).
 
+## What it is
+
+Trust building is the deliberate work of making a product predictable enough, transparent enough about what happens next, and protective enough when a mistake would actually hurt, that people are willing to do the high-stakes things a product asks of them: grant a sensitive permission, enter payment details, delete something, or rely on an answer they cannot independently verify. It is distinct from general polish—a product can look extremely refined and still feel untrustworthy, usually because it asks for access before explaining why, hides what a destructive action will actually do, or goes silent during a wait that matters.
+
+The target is not maximum trust; it is [calibrated trust](../concepts/11-calibrated-trust.md)—trust that matches the system's actual reliability. Over-trust is as much a design failure as under-trust: a user who blindly relies on an AI-generated answer without knowing when to double-check it is a trust *miscalibration*, not a trust success, and it tends to produce a much worse betrayal the day the system is wrong.
+
+## Why it works
+
+Trust is built slowly, through many small moments of the product doing what it said it would, and it can be destroyed instantly by a single moment of surprise. This asymmetry is why trust-building strategy focuses so heavily on the moments where a betrayal would be most costly: the permission prompt, the irreversible action, the payment flow, the long wait with no feedback. [Fail Safe](../ttps/fail-safe.md) and [Intentional Friction](../ttps/intentional-friction.md) exist because a small, purposeful pause before an irreversible mistake costs almost nothing in the common case and prevents the exact incidents that would otherwise define a person's entire relationship with the product—the [peak–end rule](../concepts/07-peak-end-rule.md) means one bad, panicked moment can outweigh months of smooth use in someone's memory.
+
+The other half of the mechanism is disclosure timing. Asking for access, money, or trust *before* the value that justifies the ask is visible produces exactly the defensiveness that erodes conversion and confidence alike; just-in-time requests, made at the moment their purpose is obvious, consistently outperform up-front batches. [Friction](../concepts/04-friction.md) placed deliberately—an extra confirmation on a destructive action, a moment of "here's what will happen"—is not the opposite of a smooth experience; it is often what makes a person feel safe enough to move quickly through everything else.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Fail Safe](../ttps/fail-safe.md): Protect people from costly mistakes while keeping ordinary work moving
 - [Pattern Alignment](../ttps/pattern-alignment.md): Use familiar mental models where they help people act with confidence
 - [Permission Serve](../ttps/permission-serve.md): Ask for access only when people can understand, choose, and benefit from it

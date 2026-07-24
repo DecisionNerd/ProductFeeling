@@ -5,11 +5,15 @@ When work takes time, show the real work; when it does not, respect the user’s
 
 ## What it is
 
-Perceived effort delay is the careful presentation of a genuine processing period: showing relevant stages, preserving context, and avoiding a distracting flash when an asynchronous state resolves almost instantly. It must never add artificial waiting or pretend that analysis, personalisation, or care occurred when it did not.
+Perceived effort delay is what you show while something genuinely slow is happening, provided the slowness is real: a sequence of named stages—"scanning document," "cross-referencing prior claims," "preparing summary"—that map onto actual work the system is doing, shown roughly in the order it happens. It's easy to mistake for `Loading Feedback`, and the two do overlap, but the wait-triad distinction matters: loading feedback covers the honest fact that work is pending, however simple; perceived effort delay is specifically for work substantial enough to have distinguishable stages, and its entire job is to narrate those stages truthfully rather than invent them. The moment a stage is shown that isn't actually happening, this stops being perceived effort delay and becomes something this handbook refuses outright: theatre.
+
+An AI feature that takes four seconds to produce a recommendation and shows "reading your data → comparing options → checking for conflicts" is using this pattern correctly, provided those are real steps executed in that order. The same four-second wait dressed up with an invented "thinking" animation, designed purely to make an instant lookup feel like deep analysis, is the exact failure this card exists to prevent—and it's worth naming precisely because it's one of the most common shortcuts teams reach for when a fast, accurate result still feels "too quick to be trusted."
 
 ## Why it works
 
-A result feels more credible when people can understand its inputs, limits, and process. Honest status helps users judge whether to wait or review the result. The trust comes from transparency and useful output—not from making a fast system look slow.
+`Calibrated Trust` treats every UI claim as testimony the user is quietly cross-examining, and a staged process description is exactly that kind of claim. Showing the real steps—what was checked, what was weighed, what limits apply—gives the user something to actually evaluate the result against, instead of asking them to take "this is good" on faith. That's the mechanism: transparency about process doesn't just feel more trustworthy, it gives people real information to decide whether to accept, edit, or reject what they're looking at.
+
+Skip this and results feel arbitrary even when they're good, because there's nothing for the user to check their own judgement against. Fabricate it, and you're doing something worse than skipping it: manufacturing the appearance of care that wasn't taken, which is the confident lie `Calibrated Trust` warns costs more than it earns—trust breaks the moment a user works out that the "analysing" animation ran for a fixed three seconds regardless of what they submitted. The failure compounds for consequential outputs—health, money, safety—where theatre doesn't just risk annoyance, it borrows an authority the system hasn't actually demonstrated.
 
 ## When to use it
 

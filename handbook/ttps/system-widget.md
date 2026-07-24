@@ -5,11 +5,15 @@ Put one timely, glanceable piece of user-chosen value where people already look.
 
 ## What it is
 
-A home-screen, lock-screen, desktop, or system-level surface that shows a concise, current part of the product without requiring the app to open.
+A System Widget is an ambient, glanceable surface—home screen, lock screen, desktop, or another system-level slot—that shows one current, useful piece of the product without requiring the app to open. It answers a single recurring question (what's my status, what's next, how much progress) in the time it takes to glance at a phone, and nothing more. That's what distinguishes it from a notification: a notification interrupts, arriving on the product's schedule and demanding a decision; a widget sits quietly in a place the user was already going to look, for their own reasons, and simply has an answer waiting when they get there.
+
+Consider a delivery app's live ETA sitting on the lock screen, or a fitness app's completion ring on the home screen: neither requires opening the app, and both exist purely to answer the one question the user is likely to have at that moment—without asking for anything in return.
 
 ## Why it works
 
-A useful widget reduces the distance between a question and an answer. When it reflects a user’s own priorities, it can make the product feel present without demanding attention.
+Habit Formation draws a sharp line between cues the user owns—their own context, routines, and glances—and cues the product owns, like a push-notification schedule; the first earns a place in someone's life, the second rents attention that compounds into resentment over time. A widget is the clearest example of the first kind: it anchors to a screen the user already visits on their own terms (unlocking their phone, glancing at the desktop) rather than inventing a reason to interrupt them, which is also why it collapses the ordinary Friction of opening an app, navigating, and waiting for a screen to render into something closer to zero.
+
+The failure mode this TTP heads off is the temptation to treat that earned, high-trust real estate as inventory: turning the glance into an advertising slot, padding it with a dense mini-dashboard, or using badges and alerts to manufacture urgency the user never asked for. Any of those choices spends down the very trust that made the widget worth building in the first place, and once a widget starts lying or nagging, users remove it rather than tolerate it.
 
 ## When to use it
 

@@ -5,11 +5,15 @@ Make leaving—cancelling, pausing, exporting, deleting—as respectful as joini
 
 ## What it is
 
-The designed off-ramp: cancellation that takes about as much effort as signup, a genuine pause option, data export people can actually use, and account deletion that does what it says. It treats departure as a lifecycle stage to design, not a leak to plug.
+The designed off-ramp: cancellation that takes about as much effort as signup, a genuine pause option, data export people can actually use, and account deletion that does what it says. It treats departure as a lifecycle stage to design, not a leak to plug—the exit-flow counterpart to onboarding, deserving the same deliberate attention rather than whatever the settings menu happens to bury.
+
+Graceful Exit is easy to confuse with Graceful Recovery, but the two sit on opposite sides of a line: Recovery is what a product does when something breaks and the user did not choose to leave; Exit is what a product does when the user chooses to leave and nothing is broken at all. Treating a cancellation flow as a recovery problem—something to be talked down from, objection-handled, offered a discount to reverse—mistakes a legitimate decision for a failure to be fixed, which is exactly how roach-motel patterns get built by well-meaning teams.
 
 ## Why it works
 
-Endings dominate memory. A user who leaves easily, with their data and dignity, tells a different story than one who fought through a cancellation maze—and is far more likely to return or recommend. Hard-to-cancel patterns (“roach motel”) are among the most litigated dark patterns; regulators on both sides of the Atlantic now treat obstruction as unfair practice, not clever retention.
+The [Peak–End Rule](../concepts/07-peak-end-rule.md) is blunt about endings: people do not average their experience of a product, they remember its peaks and its last impression, and a cancellation flow is both the final impression and, if handled badly, a strong negative peak in its own right. A user who leaves easily, with their data and dignity, walks away with a story about a product that respected them; a user who fought through a maze of guilt screens and hidden links walks away with a story about a product that tried to trap them—and that story is what reaches the next ten people who ask for a recommendation.
+
+The concrete failure mode this TTP prevents is the "roach motel": easy to get into, hard to get out of. It survives in products because it looks like it works in the short term—churn drops, a few reversals get counted as saves—while the real cost lands later as public reviews, chargebacks, and regulatory attention, since obstruction-to-cancel is now treated in multiple jurisdictions as an unfair practice rather than clever retention. Skipping this TTP does not just cost the departing user; it teaches every user watching that leaving might not actually be possible when they need it to be, which quietly taxes the trust of people who have no current intention of cancelling anything.
 
 ## When to use it
 

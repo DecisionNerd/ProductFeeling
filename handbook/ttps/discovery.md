@@ -5,11 +5,15 @@ Guide users to value before they know where to look.
 
 ## What it is
 
-Surfacing helpful paths, content, or capabilities before the user has a precise query—anticipating curiosity and replacing blank-canvas paralysis with a few strong next steps. Distinct from Progressive Disclosure (complexity on demand): Discovery is invitation and scent, not hiding advanced controls.
+Discovery is what a product offers a user who doesn't yet know what to ask for: a small number of strong, contextual suggestions that replace a blank canvas or an empty search box with a few credible next steps. It is not Progressive Disclosure, even though both manage complexity—Progressive Disclosure hides advanced controls until a user who already knows their goal is ready for them; Discovery surfaces possibility for someone who doesn't yet have a goal at all. One is about sequencing what a capable user sees; the other is about orienting a user who is, in that moment, a little lost.
+
+A streaming app's "because you watched…" row, when it actually reflects what you watched, is Discovery doing its job: it replaces "I don't know what's on this thing" with three plausible answers. The same row filled with unrelated promoted content is the same UI pattern doing something else entirely—inventory display wearing Discovery's clothes.
 
 ## Why it works
 
-People follow **information scent**—cues that a path will lead to their goal. Good discovery lowers cognitive load, shows what is possible, and turns hesitation into exploration. Bad discovery is noise: irrelevant suggestions that train users to ignore you.
+The mechanism sits close to [Mental Models](../concepts/05-mental-models.md): a blank screen forces the user to guess at your product's affordances from nothing, exactly the kind of unsignified capability that produces fear rather than confidence. A good suggestion is a signifier for a possibility the user couldn't otherwise see—it turns "what can this thing even do" into a concrete, low-risk next tap, which is also the fastest way to reduce the cognitive [friction](../concepts/04-friction.md) that stays invisible in analytics: nobody's drop-off event fires when a user simply doesn't know what to try.
+
+The failure mode on the strict side is silence: an empty state or search box with nothing to reach for, which reads as "figure it out yourself" and quietly raises abandonment that never shows up as an explicit complaint. The failure mode on the excessive side is noise—cards, carousels, and "you might like" tiles stacked until every suggestion has the same weight and none of them read as credible, which trains users to stop scanning suggestions at all. Discovery only works while each suggestion still smells like a real path to something the user is trying to accomplish, per [Jobs-to-be-Done](../concepts/09-jobs-to-be-done.md); the moment it starts smelling like inventory, it stops functioning as discovery.
 
 ## When to use it
 

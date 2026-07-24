@@ -5,11 +5,13 @@ Give users a credible starting point they can understand, change, or skip.
 
 ## What it is
 
-Setup defaults are preselected settings, templates, example content, or starter flows that reduce blank-page anxiety and help a user begin a meaningful task. They provide momentum without deciding the product’s important choices on the user’s behalf.
+Setup defaults are the preselected settings, templates, sample content, or starter configurations a product offers so a new user isn't staring at an empty page deciding where to even begin. A CRM that opens with three example deals already in the pipeline, a design tool that starts a new file at a sensible canvas size, an app that pre-selects the most common notification schedule—all defaults, all doing the same job: turning "what should I do first" into "here's a reasonable starting point, change what you don't like." It's closely related to **Momentum Bias** but sits one level below it: setup defaults decide what the starting content or configuration actually is, while Momentum Bias is the broader sense of head-start and visible progress built from defaults, checklists, and partially completed work together.
 
 ## Why it works
 
-A useful default lowers the effort required to begin and makes the intended workflow concrete. It supports **Time to Value** when it reflects a likely need, remains easy to edit, and does not obscure consequences.
+**Friction** names exactly what a default removes: not effort in the abstract, but a decision, and decisions are the most expensive kind of friction because a new user has the least context to make them well. Facing a blank workspace with no starting point forces someone to decide before they understand enough to decide confidently, which is precisely the moment self-doubt and abandonment are most likely. A credible default replaces that decision with a visible, editable answer—not a smaller decision hidden from view, but a real starting point the user can inspect, keep, or change—which lets them move straight to evaluating the product instead of configuring it.
+
+The line between a helpful default and a sludgy one is the same test **User Agency** applies everywhere: would you still ship this default if it cost you conversions, or does it quietly serve the business at the user's expense—a pre-checked marketing opt-in, a sharing setting nobody would choose on purpose. Skip defaults altogether and you get the failure this TTP exists to prevent: decision fatigue on an empty page, at exactly the moment someone has the least standing to decide well. Skew a default toward what's convenient for you rather than likely for them, and you've turned a kindness into a manipulation wearing the same interface.
 
 ## When to use it
 

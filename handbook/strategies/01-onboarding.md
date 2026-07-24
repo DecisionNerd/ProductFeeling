@@ -5,6 +5,20 @@ Get new users to first meaningful value with the least unnecessary ceremony.
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
 
+## What it is
+
+Onboarding is everything between a person's first arrival and the moment they experience the product's actual value for themselves—not a tour, not a checklist, and not a synonym for signup. A signup form collects credentials; onboarding earns understanding. The distinction matters because most products confuse the two: they optimise the number of accounts created and call the job done, while the person who created the account still has no idea what to do next or why they should come back.
+
+Good onboarding is deliberately short on ceremony and long on orientation. It answers three questions as fast as honestly possible: *what is this for*, *what do I do first*, and *did that work*. Everything else—preference collection, feature tours, permission requests, account completeness nagging—is optional weight that a well-designed onboarding defers until it is earned by demonstrated value, or skips entirely. The goal is not to explain the whole product; it is to get one real job done once, so the person has evidence the product works before being asked for anything else.
+
+## Why it works
+
+People do not persist through confusion on faith. Early sessions are disproportionately fragile: a user who has not yet felt value has no sunk cost, no habit, and no loyalty to draw on—only the immediate experience in front of them, which either builds confidence or ends the session for good. This is why onboarding sits upstream of every other strategy in this handbook: [Retention](03-retention.md), [Habit Formation](11-habit-formation.md), and [Monetisation](06-monetisation.md) all assume a user who has already crossed this threshold, and none of them can compensate for a first session that failed to deliver it.
+
+The mechanism is closely tied to [Time to Value](../ttps/time-to-value.md) and [Jobs-to-be-Done](../concepts/09-jobs-to-be-done.md): people "hire" a product for a specific piece of progress, and onboarding is the interview where the product proves it can do the job. Every step that delays that proof—an account wall before value, a permission batch before trust, a tutorial before a real task—is friction spent on the product's convenience rather than the user's. Evidence from usability research is consistent here: guided tours and front-loaded tutorials often fail to improve task success and are frequently skipped or resented, while contextual, pull-based help delivered at the moment of need outperforms push-based onboarding almost everywhere it has been tested.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Empty States](../ttps/empty-states.md): Turn “nothing here” into a clear, useful next step
 - [Setup Defaults](../ttps/setup-defaults.md): Give users a credible starting point they can understand, change, or skip
 - [Progressive Disclosure](../ttps/progressive-disclosure.md): Reveal the next useful layer of complexity when the user needs it, while keeping deeper capability easy to find

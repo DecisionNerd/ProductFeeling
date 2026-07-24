@@ -5,11 +5,13 @@ Let people experience a truthful slice of product value before asking them to co
 
 ## What it is
 
-A sandbox is a safe, limited environment where someone can try a core workflow without creating an account or completing full setup. It may use example data, temporary work, or constrained capabilities to make the product’s value understandable through use.
+A sandbox is a bounded, honest space where someone can run a real workflow—not watch a demo of one—before creating an account or handing over sensitive information. It might use seeded example data, a temporary workspace that disappears at the session's end, or a deliberately narrowed slice of the product's real capability, but the workflow itself has to be genuine: the user should be able to do the actual thing the product is for, not click through a simulation of doing it. This is distinct from **Time to Value**, which shortens the path to a first outcome inside the real product, account and all; a sandbox removes the account requirement entirely, trading some completeness for zero commitment, which matters most when the ask to sign up—or to connect a bank account, a calendar, a codebase—is itself the barrier.
 
 ## Why it works
 
-Trying a meaningful workflow can reduce uncertainty more effectively than a feature tour. A sandbox shortens the distance to first evidence of value when it is honest about what is simulated, what persists, and what requires an account.
+**Jobs-to-be-Done** explains why this beats a feature tour: people are held back from trying something new less by missing features than by anxiety—what if this doesn't actually work for my situation, what if I hand over access and regret it. A sandbox answers that anxiety with evidence instead of assurance, letting someone run their own version of the job before they've risked anything, which Jobs-to-be-Done names directly as more effective than adding capability. The alternative—asking for an account or a sensitive permission before any proof exists—puts the burden of trust entirely on the user's imagination, at the exact moment they have the least reason to extend it.
+
+What makes the sandbox trustworthy rather than a bait-and-switch is the same test **Calibrated Trust** applies everywhere: every claim the interface makes has to be backed by what's actually true, so labelling what's sample data, what's temporary, and what disappears on sign-up is not a nice-to-have, it's the whole mechanism. Skip the sandbox and you're left asking people to commit on faith, which quietly filters out everyone who isn't already convinced. Fake it—present generated results as real customer activity, or make the trial narrower than the real product without saying so—and you get a worse version of the same failure: a confident first impression that the real product then contradicts, which is exactly the kind of broken promise trust doesn't recover from quickly.
 
 ## When to use it
 

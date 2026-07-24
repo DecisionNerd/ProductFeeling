@@ -5,6 +5,20 @@ Turn free or trial use into paid use by making the upgrade feel fair, clear, and
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) (especially [Talk, Search, and Buy](../discovery/04-how-customers-talk-search-buy.md)). Concepts: [User Agency](../concepts/12-user-agency.md), [Jobs-to-be-Done](../concepts/09-jobs-to-be-done.md), [Calibrated Trust](../concepts/11-calibrated-trust.md), [Investment and Continuity](../concepts/13-investment-and-continuity.md).
 
+## What it is
+
+Monetisation is the moment a person who has already felt real value decides that paying for more of it is a fair trade—not the moment a limit locks them out, and not a countdown timer designed to manufacture panic. The ordering matters more than almost anything else in this strategy: value has to be felt *before* the ask, or the paywall reads as a bait-and-switch regardless of how the pricing page is worded. A free tier that is generous enough to prove the product works, followed by a clear and specific upgrade moment tied to a limit the user actually understands, is the shape monetisation takes when it is working.
+
+This strategy is distinct from [Conversion Optimisation](07-conversion-optimisation.md), which is about funnel completion in general; monetisation specifically concerns the transfer of money, which carries its own emotional weight—loss aversion, doubt about whether the product will keep being worth it, and, in business contexts, the need to justify the spend to someone else. Every tactic here has to survive that heightened scrutiny, which is why manufactured urgency and bait-and-switch limits do more damage to a monetisation strategy than almost any other UX mistake.
+
+## Why it works
+
+People pay for outcomes they already trust, not for outcomes they are promised. [Jobs-to-be-Done](../concepts/09-jobs-to-be-done.md) frames the paywall as a second hiring decision: the user already hired the free tier to make some progress, and the upgrade decision is whether the next increment of progress is worth the price—which means the paywall's job is to make that next increment legible, not to make staying free feel painful. [Calibrated Trust](../concepts/11-calibrated-trust.md) is the other half: a pricing page, cancellation flow, and refund policy that are honest about what the user is buying build the confidence that makes the transaction feel safe, while dark patterns around cancellation or hidden costs poison every future upgrade decision, not just the current one.
+
+[Investment and Continuity](../concepts/13-investment-and-continuity.md) explains why some of the strongest, most durable upgrade motivations are not urgency at all—they are the accumulated value of what a person has already built inside the product, which the upgrade protects or extends. This is a fundamentally different (and more sustainable) lever than a limited-time discount, because it does not decay the moment the countdown ends.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [The Paywall](../ttps/the-paywall.md): Present a clear, fair upgrade decision when users understand the value on offer
 - [Intentional Friction](../ttps/intentional-friction.md): Add a small, purposeful pause when moving quickly could create harm, regret, or an avoidable mistake
 - [Limited Offer](../ttps/limited-offer.md): Present a genuine, time-bound offer when it creates a fair choice, not pressure

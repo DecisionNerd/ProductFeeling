@@ -5,6 +5,20 @@ Help satisfied users invite and share so growth compounds from real value—neve
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) (especially [Talk, Search, and Buy](../discovery/04-how-customers-talk-search-buy.md)). Core concept: [Social Transmission](../concepts/14-social-transmission.md). Also [User Agency](../concepts/12-user-agency.md), [Retention](03-retention.md).
 
+## What it is
+
+Growth and viral design is about building product moments where satisfied users bringing in other people is a *natural consequence* of the value they already got—not a marketing campaign bolted onto the product, and not a mechanism for turning every user into an unpaid sales channel. The test for whether a growth loop belongs in the product or belongs in the ad budget is simple: would a person invite someone to this on their own, unprompted, because it genuinely helps both of them? If the honest answer is no, the "growth feature" is extraction wearing a product costume.
+
+This strategy covers two related but distinct behaviours: **referral**, where someone actively recommends the product to a specific person because they think it will help them, and **shareability**, where someone shows off an outcome they created because they are proud of it and the artefact happens to carry the product's name. Both depend on the same precondition—real, felt value that the person wants associated with their own reputation—which is why growth work fails when it is attempted before [Activation](02-activation.md) has actually happened.
+
+## Why it works
+
+Word of mouth converts and retains better than almost any paid channel because it arrives pre-qualified: the person doing the inviting already filtered for relevance, and the person receiving the invite trusts the source more than they trust an advertisement. [Social Transmission](../concepts/14-social-transmission.md) explains the mechanics—shareable artefacts, genuine referrals, and contact bridges that connect people who already know each other—while [User Agency](../concepts/12-user-agency.md) is the boundary that keeps those mechanics honest: consent at every hop, never a harvested address book or a pre-value invite wall.
+
+The compounding math (often summarised as a viral coefficient, or K-factor) is real but frequently overrated in isolation: a modest K paired with strong retention outperforms a flashy K paired with weak retention, because a leaky loop just cycles the same churn through a bigger top-of-funnel. This is why growth strategy is inseparable from [Retention](03-retention.md)—a referral loop invites people into a product that then has to actually keep them, or the loop is manufacturing acquisition cost it never recovers.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Referral](../ttps/referral.md): Help satisfied users invite people who will genuinely benefit, with a clear and respectful path for everyone
 - [Shareability](../ttps/shareability.md): Help users share a meaningful outcome when they want to tell its story
 - [Contact Bridge](../ttps/contact-bridge.md): Connect users to people they already know—without turning their address book into a growth hack

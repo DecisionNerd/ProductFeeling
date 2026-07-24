@@ -5,11 +5,15 @@ Ask for access only when people can understand, choose, and benefit from it.
 
 ## What it is
 
-Permission Serve is the practice of requesting system access—such as notifications, camera, location, microphone, contacts, or photos—at the moment a user chooses a feature that needs it. A short in-product explanation should state what access enables, what will happen with the data, and what still works if they decline.
+Permission Serve is the timing discipline for asking a user to grant system access—camera, microphone, location, notifications, contacts—so the request arrives attached to a choice the user just made, rather than to a launch screen or an app-store checklist. It has two moving parts: a plain-language explanation shown before the operating system's native prompt, stating what the access is for and what still works without it, and a decline path that doesn't quietly break the rest of the product as punishment. It's a general pattern for any system permission; when the specific access being requested is a user's contact list, for the purpose of finding people they already know, that's the narrower case covered by `Contact Bridge`, which adds its own rules about selection and spam. Permission Serve is the timing and framing layer underneath both.
+
+Asking for microphone access the instant someone taps "record a voice note"—after they've already signalled intent—reads as a natural extension of the thing they just chose to do. Asking for the same permission on first launch, bundled with location and notifications in a stack of dialogs before the user has done anything, reads as the product demanding trust it hasn't earned yet, and it usually gets a reflexive "deny" that's hard to walk back later.
 
 ## Why it works
 
-A permission prompt is more understandable when it follows a user’s clear intention. Context can help people make an informed choice and protect trust over time. The aim is not to maximise opt-ins; it is to ensure that the people who grant access understand and want the benefit.
+A permission prompt asked in context carries information the user can actually use: they know what they just tried to do, so they can judge whether the access being requested matches it. `Calibrated Trust` frames trust as something that accrues through kept, legible promises—a request that clearly explains itself and keeps the product useful on decline is a small deposit; one that arrives unexplained, or leaves half the app broken after a "no," is registered the same way a broken promise is. `User Agency`'s test for any choice is whether it's genuinely informed and revocable, and permission timing is one of the few places that test is decided almost entirely by a single design choice: when you ask.
+
+Ask badly and the predictable failure is a reflexive deny that's expensive to undo—most people never return to system settings to re-grant something they've already refused, so a permission burned on a badly timed ask is often gone for the life of the install. Batch every permission at launch, or make a feature unusable rather than merely diminished without one, and you get the same result at scale: a wall of denials before the product has said anything worth trusting, plus the harder cost of teaching the user that every future prompt from you is probably self-serving rather than helpful.
 
 ## When to use it
 

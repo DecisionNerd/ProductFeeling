@@ -1,14 +1,46 @@
 # Synthesis
 
-Turn discovery evidence into durable artifacts the team—and agents—can load before locking a feeling north star.
+Turn discovery evidence into durable artifacts the team—and agents—can load before locking a feeling north star. Synthesis is the gate: listening without writing changes nothing; writing without evidence invents customers.
 
 ## What it is
 
-**Synthesis** is the gate between listening and designing: cluster episodes, promote or kill proto-personas, write the ICP, need states, workflow, and VoC into project docs, and leave ephemeral notes behind. Until synthesis lands in DocSlime-shaped `docs/`, strategies and TTPs are guessing. This is not a second product narrative in `.productfeeling/`—reviews and sessions stay local; **truth** lives in `docs/`.
+**Synthesis** clusters episodes, promotes or kills proto-personas, and writes Ideal Customer Profile (ICP), need states, workflow, and voice of the customer (VoC) into project docs—then leaves ephemeral notes behind. Until that pack lands in a DocSlime-shaped `docs/` tree, strategies and Tools, Techniques, or Practices (TTPs) are guessing with confidence.
+
+This is not a second product narrative in `.productfeeling/`. Reviews and raw sessions stay local; **truth** lives in `docs/strategy/`, `docs/experience/`, and when appropriate `docs/PRODUCT.md` / `DESIGN.md`. A slide deck outside the repo is not a source of truth for agents.
+
+```mermaid
+flowchart LR
+  Sessions[Session notes] --> Cluster[Cluster episodes]
+  Cluster --> Decide{Evidence?}
+  Decide -->|yes| Docs[docs/ synthesis pack]
+  Decide -->|no| Kill[Kill or keep proto]
+  Docs --> North[Feeling north star]
+  Docs --> Agents[Agent loadable context]
+```
 
 ## Why it works
 
-Scattered interview notes do not change onboarding copy or paywall trust. Named files with owners, evidence links, and a last-validated date do. Agents running `/productfeeling persona` or `jobs` need the same SoT humans use. Synthesis also prevents “we talked to users” theatre: if nothing durable was written, discovery did not finish.
+Scattered interview notes do not change onboarding copy or paywall trust. Named files with owners, evidence links, and a last-validated date do. Humans forget; agents invent. Both failure modes shrink when “who is this for, what do they fear, what is the current alternative?” is answerable from the repo without a chat reconstruction.
+
+Synthesis also prevents “we talked to users” theatre. If a discovery week ends with no durable file changed, discovery did not finish—regardless of how many coffees were booked. Hypothesis-driven work (Blank) ends in a decision: promote the claim, revise it, or kill it. Compliments and future-tense enthusiasm do not graduate.
+
+## Going deeper
+
+How to synthesise without turning transcripts into a second novel:
+
+1. **Cluster before you write.** Group episodes by need state, segment, and job—not by interviewee name. Patterns that survive three independent stories become candidates for personas and north-star ownership; one-offs stay footnotes.
+2. **Promote with citations; proto everything else.** A claim in `docs/` should point at interviews or behavioural sources and carry a **last validated** date. Assumptions keep an explicit **proto-** label—or get deleted. Designing on unlabeled guesses is how fiction becomes roadmap.
+3. **Separate ephemeral from durable.** Session notes, audio, and scratch capture cards may live in `.productfeeling/sessions/`. ICP, personas, journey, workflow, and language graduate to `docs/`. Do not dump full transcripts into the product narrative.
+4. **Write the minimum pack that agents can load.** Typically: ICP + buyer/user split in strategy; need states and workflow/journey in experience; language and voice cues in PRODUCT/DESIGN. Enough that `/productfeeling persona` and `jobs` do not invent Maya.
+5. **Gate the north star.** Lock [Feeling North Star](../concepts/01-feeling-north-star.md) only when an owner persona and their fear/competence stakes are evidenced—not when a workshop produced a vibe word. Optionally stress-test ICP assumptions with RedTeam before strategy lock.
+
+## For builders and agents
+
+Synthesis is an integration point for the skill. Run `/productfeeling sequence` (Customer discovery) ending in `handoff`, or `/productfeeling init` then `/productfeeling handoff` when refreshing a thin docs tree. Prefer DocSlime fill/kiss when scaffolds still contain prompts; do not duplicate truth into skill-local files when `docs/` exists.
+
+For agents summarising discovery: refuse to invent segments; quote or cite; label uncertainty. For humans: put owners on files so freshness is someone’s job. Instrument the meta-metric—days since ICP last validated—and treat stale personas as a product risk equal to stale code dependencies.
+
+Impeccable craft comes **after** synthesis. Polishing surfaces for an unwritten customer is expensive fiction.
 
 ## When to use it
 

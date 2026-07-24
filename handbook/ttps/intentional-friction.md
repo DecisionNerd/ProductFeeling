@@ -5,15 +5,15 @@ Add a small, purposeful pause when moving quickly could create harm, regret, or 
 
 ## What it is
 
-Intentional Friction is a deliberate extra moment in a flow: a confirmation before permanent deletion, a preview before publishing, a cooling-off period, or a required review of consequential details.
+Intentional Friction is a deliberate extra moment inserted into a flow at the one point where slowing down actually protects the person moving through it: a confirmation before permanent deletion, a preview before publishing to an audience, a cooling-off period before an expensive commitment, a required review of the details that matter. It is the narrowest tool in this handbook's friction toolkit—a single, purposeful pause—rather than a general licence to make things slower.
 
-Its purpose is not to make users work harder. Its purpose is to help them make an informed, reversible decision when speed is risky.
+It sits at one end of the spectrum this handbook maps in [Friction](../concepts/04-friction.md): most friction should be removed because it sits on the user's path to value and serves nobody, but a small remainder should be added on purpose because removing it would let a good decision be made too fast to be a good decision at all. [Fail Safe](fail-safe.md) is the broader design discipline this pattern belongs to—safer defaults, undo, preserved input—and Intentional Friction is specifically the *confirmation* tool within it, reserved for the subset of actions that are genuinely hard to reverse rather than deployed reflexively on anything that feels important.
 
 ## Why it works
 
-Small friction costs can strongly shape behaviour. Usually that is a reason to remove them. But where an action is irreversible, expensive, unsafe, or difficult to undo, a clear pause can prevent slips and give users time to notice consequences.
+Even small costs reliably change what people do next, which is usually the argument for stripping friction out of a flow—but the same sensitivity that makes friction dangerous on the path to value makes it useful at a genuine point of risk. A deliberate pause interrupts the momentum that produces slips: the click made on autopilot, the send made before rereading, the delete made without registering what would be lost. [Friction](../concepts/04-friction.md) frames this as the allocation question that runs through the whole handbook—remove friction from the user's path to value, add it only where speed would hurt the user, never where slowness merely profits the business.
 
-The best friction reduces future effort. It makes a decision safer now so the user does not need to repair it later.
+The concrete failure mode this TTP prevents is the irreversible mistake made in a moment of inattention: the deleted project, the message sent to the wrong audience, the subscription upgraded by muscle memory. What goes wrong when it is overdone is just as damaging to the same goal—confirmation dialogues added to routine actions until people click through them without reading a word, at which point the safeguard has stopped protecting anyone and started training exactly the blind-click behaviour it was meant to prevent. And when this pattern is aimed at cancellation, refunds, or consent rather than at genuine risk, it stops being protective friction and becomes the sludge that [Friction](../concepts/04-friction.md) explicitly warns against—friction that profits the company at the user's expense, dressed up in the same UI as the pattern that protects them.
 
 ## When to use it
 

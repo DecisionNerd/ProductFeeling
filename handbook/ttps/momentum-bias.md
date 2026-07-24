@@ -5,11 +5,15 @@ Give people a genuine head start without taking the decision away from them.
 
 ## What it is
 
-Momentum bias uses visible progress, useful defaults, and editable starting points to reduce the blank-page problem. A partially prepared workspace, a suggested first task, or an honest checklist can help a user move from intention to meaningful action.
+Momentum bias is the deliberate use of a head start to get someone past the hardest part of any task: the first move. That head start can be a pre-filled draft they can edit or delete, a workspace with sensible starter content already in it, a suggested first step, or an honest checklist that shows real progress already made. It overlaps with, but is distinct from, `Setup Defaults`: a default is a single sensible choice offered once, while momentum bias is the broader pattern of using any visible, editable progress—defaults included—to shrink the psychological distance between "I haven't started" and "I'm already partway there." It is also distinct from `Gamified Progress`, which tracks a user's own accumulating effort over the life of a goal; momentum bias is specifically about the opening move, before the user has done anything at all.
+
+A new user staring at an empty project, an empty inbox, or a blank canvas faces a decision cost that has nothing to do with skill—there is simply no obvious first move. A product that hands them a populated example, a first draft built from their stated goal, or a short checklist where one or two steps are already, truthfully, ticked off turns that blank page into an editable starting point instead of a test.
 
 ## Why it works
 
-Starting is often harder than continuing. A clear first step and evidence of real progress lower activation energy, while progress towards a chosen goal can sustain effort. This works only when the progress is truthful and the user remains able to change course.
+Starting is disproportionately hard because ability, not motivation, is usually the actual blocker at that moment—the same insight `Friction` builds its removal-first rule on. A head start attacks ability directly: there is less to do, less to decide, and less uncertainty about whether a first attempt will look right. The goal-gradient effect—people speed up as a goal feels closer, not just as it feels more valuable—means that even a small, honest amount of visible progress changes effort, not just mood, which is why a checklist with two of six boxes already filled can move someone to finish the other four faster than an empty six-box list ever would.
+
+The mechanism only works if the progress is real and the person keeps control of it. The moment a head start becomes something owed—a progress bar padded with steps nobody asked for, a draft the user can't meaningfully change, a streak that punishes the one day they didn't show up—the same pull that motivated them starts to feel like pressure instead of encouragement, and `User Agency` is the test that catches it: told exactly how the progress bar was built, would this person still call it fair? Skip momentum bias entirely and the failure is quieter but just as real: every new user is left to solve the blank-page problem alone, with no complaint filed, just a silent drop-off before the first real step.
 
 ## When to use it
 

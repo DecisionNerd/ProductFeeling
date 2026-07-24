@@ -5,11 +5,13 @@ Help users share a meaningful outcome when they want to tell its story.
 
 ## What it is
 
-Shareability designs a voluntary, user-owned way to export or post an achievement, creation, result, or insight. The shared item should communicate the user’s accomplishment or taste first; the product’s role is to make that expression easy and accurate.
+Shareability is the deliberate design of a moment where a user can export or post something they made or achieved—a finished design, a completed goal, a generated insight—in a form that tells their story rather than the product's. The share card, the export link, the "download my results" button: all exist to let the user's accomplishment travel with enough context that a stranger understands it, while the product's branding stays quiet in the corner rather than taking over the frame. Unlike **Referral**, there is no invitation loop and no reward attached—nobody has to join anything for the share to work, and the artefact is valuable on its own even if the recipient never opens the product. The test for whether it is genuinely shareability: would the user still want to post this if the brand mark were removed?
 
 ## Why it works
 
-People often share work that helps them celebrate progress, connect with a community, or explain something useful. A well-designed shareable artefact carries context and gives users control over what leaves the product. Unlike **Referral**, it does not require an invitation loop or reward.
+**Peak–End Rule** is the reason timing matters so much here: a completed outcome is a candidate positive peak, one of the few moments in a session strong enough to be remembered afterwards, and a share prompt offered right then extends that peak outward instead of letting it evaporate once the tab closes. It also does reflective work in **Emotional Design**'s sense—the level concerned with the story a person tells about themselves for using a product—because showing someone else what you made is how a private feeling of accomplishment becomes a public, remembered fact about yourself. That is a stronger driver of goodwill than almost anything a share button can add mechanically.
+
+Skip this and a genuine peak goes uncelebrated—the user made something they were proud of, and the product gave them no way to carry that feeling anywhere, which is a missed opportunity rather than a harm. Overdo it, and the mechanism curdles into the failure **Social Transmission** warns about: manufactured comparison, streak pressure, or a share prompt timed to interrupt work rather than follow a real result, which turns an invitation into a performance obligation. The tell is the same one that separates a share from a billboard—if the prompt appears before value exists, or the branding crowds out the user's own achievement, it is serving the product's growth numbers, not the user's pride.
 
 ## When to use it
 

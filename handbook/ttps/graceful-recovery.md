@@ -5,13 +5,15 @@ When the product fails, own it, explain it, and repair the user’s progress—s
 
 ## What it is
 
-The designed response *after* something breaks: honest error messages, preserved work, undo, retry that works, and—for larger incidents—status updates and follow-up that close the loop. Fail Safe prevents the mistake; Graceful Recovery is what happens once the mistake or outage is real.
+The designed response *after* something breaks: honest error messages, preserved work, undo, retry that works, and—for larger incidents—status updates and follow-up that close the loop. This is the card for when the bad thing has already happened, which is what separates it from its closest neighbour, [Fail Safe](fail-safe.md): Fail Safe is the seatbelt that stops the mistake from happening at all—safer defaults, undo, confirmation before something irreversible—while Graceful Recovery is the paramedic that shows up once the crash has already occurred. A product needs both, but they are not interchangeable: turning every error state into another confirmation dialog is a category error, and so is treating a genuine outage as something a better warning message could have prevented.
+
+In practice this means treating error states as a designed surface rather than whatever the framework renders by default—the specific error state described in [Surfaces, Flows, and States](../concepts/03-surfaces-flows-states.md)—and treating an incident as having a beginning, middle, and end that someone is responsible for narrating, not just a log line that eventually resolves itself.
 
 ## Why it works
 
-Failures are emotional peaks; the [Peak–End Rule](../concepts/07-peak-end-rule.md) means users remember them out of proportion. A recovery that names what happened, protects their effort, and offers a working next step converts a trust-destroying moment into evidence the product is dependable—see [Calibrated Trust](../concepts/11-calibrated-trust.md) and the error state in [Surfaces, Flows, and States](../concepts/03-surfaces-flows-states.md). Vague “something went wrong,” lost input, and dead ends do the opposite.
+Failures are emotional peaks, and the [Peak–End Rule](../concepts/07-peak-end-rule.md) is unambiguous that people remember peaks and endings out of proportion to their actual duration—a single bad error in an otherwise smooth session can become the entire story the user tells about the product afterwards. A recovery that names what happened plainly, protects the user's effort, and hands them a working next step turns that moment from a trust withdrawal into a trust deposit: it is direct evidence, delivered at the exact moment doubt is highest, that the product is dependable under pressure. This is the mechanism behind [Calibrated Trust](../concepts/11-calibrated-trust.md)'s repair stage—a well-handled failure can leave a user's trust higher than before, because they have now seen how the product behaves when things go wrong.
 
-Prevention before the break is [Fail Safe](fail-safe.md)—do not collapse the two cards.
+The failure mode this TTP exists to prevent is compounding: a vague "something went wrong," input the user has to retype, or a dead end with no path forward turns one bug into two losses—the original failure, plus the work and time spent recovering from it, plus the doubt that the product's other claims can be trusted either. Skipped entirely, recovery design leaves every failure to land at full emotional force with nothing absorbing the blow; overdone, in the form of apology without repair, it teaches users that contrition is cheap and does nothing to restore what they actually lost.
 
 ## When to use it
 

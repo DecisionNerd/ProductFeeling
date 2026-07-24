@@ -2,7 +2,7 @@
 
 You cannot design a feeling for someone you have not met. Every strategy and Tool, Technique, or Practice (TTP) in this handbook assumes you know *whose* experience you are designing—who the customer is, what state of need they arrive in, and how they already work, talk, search, and buy. The [Feeling North Star](../concepts/01-feeling-north-star.md) has an owner; this section is how you find that owner *before* you lock the feeling.
 
-**Customer discovery** (Steve Blank) means testing hypotheses about the customer's problem *outside the building*—listening in real context—before committing to a solution, a funnel, or a north star. This is not a discovery textbook; it is the minimum emotional product design cannot skip.
+**Customer discovery** (Steve Blank) means testing hypotheses about the customer's problem *outside the building*—listening in real context—before committing to a solution, a funnel, or a north star. Each page below teaches the idea in full (definitions, mechanisms, practice), then offers worksheets and an agent path. The worksheets are tools; they are not a substitute for the knowledge. This is not a discovery textbook, but it is the minimum emotional product design cannot skip.
 
 ```mermaid
 flowchart TD

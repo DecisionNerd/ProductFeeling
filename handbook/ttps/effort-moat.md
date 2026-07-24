@@ -5,13 +5,15 @@ Honour what people have built, so their progress remains useful and recognisable
 
 ## What it is
 
-Effort Moat makes a user’s time, choices, creations, and personal setup visible and valuable. Saved work, tailored defaults, histories, collections, and progress views help the product feel like *their* place rather than a generic tool.
+Effort Moat is the honouring half of a two-part idea: once a user has put something into the product—saved work, a tailored setup, a history, a collection—Effort Moat is what makes that contribution visible, reusable, and worth having made. Its companion, [Investment](investment.md), is the asking half: eliciting the contribution in the first place. The two are easy to blur because they sit on either side of the same relationship, but a change that only asks for more setup without ever paying it back is Investment without its other half, and it reads to the user as busywork rather than progress.
+
+A code editor that remembers your custom keybindings, your open tabs, and your recent files across sessions is running Effort Moat correctly—the effort of configuring it once keeps paying rent every time you open it. A form that asks you to re-enter preferences you already gave it is failing at the same job.
 
 ## Why it works
 
-People value progress they can see and reuse. The IKEA / endowment dynamic, and the line between continuity and hostage data, are defined in [Investment and Continuity](../concepts/13-investment-and-continuity.md).
+The underlying mechanism is the IKEA effect described in [Investment and Continuity](../concepts/13-investment-and-continuity.md): people value things more, and more durably, when they built them themselves and the result actually works. That valuation is what makes a product feel like "my workspace" instead of "a tool"—but per that concept, the feeling is earned only when effort visibly returns as utility. Reflect the saved work, restore it on return, and the attachment is real; let it disappear or lock it away, and the same effort that should have built loyalty produces resentment instead, because the user did the work and got nothing durable back for it.
 
-This card is the *honouring* half: reflect saved work, restore context on return, and make portability easy. Eliciting the contribution itself is [Investment](investment.md)—do not re-ask for busywork that only raises switching costs.
+Skip this and you get switching anxiety without switching prevention: users worry about losing what they built—a real cost named in [Jobs-to-be-Done](../concepts/09-jobs-to-be-done.md)—but the product hasn't actually made staying worthwhile, only made leaving inconvenient, which is a weaker and more resentful bond than an earned one. Overdo it in the wrong direction and Effort Moat curdles into hostage data: streaks that punish absence, exports that don't work, "your data" that turns out to require you to keep paying to see it. The test this card keeps returning to is whether leaving means giving up something genuinely useful, not whether leaving has been made deliberately hard.
 
 ## When to use it
 

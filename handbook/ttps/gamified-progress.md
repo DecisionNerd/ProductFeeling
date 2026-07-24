@@ -5,13 +5,15 @@ Make meaningful progress visible, achievable, and fully in the user’s control.
 
 ## What it is
 
-Gamified Progress uses clear goals, milestones, feedback, and optional challenges to help users see movement towards an outcome they care about. It borrows useful game mechanics — progress bars, levels, missions, and earned recognition — without turning the product into a game for its own sake.
+Gamified Progress borrows the legible mechanics of games — progress bars, levels, missions, checklists, earned badges — and applies them to real work the user is already trying to do. Someone learning a language sees a skill tree fill in; someone setting up a workspace sees a setup checklist empty out. The mechanic is decoration on top of a task that would still be worth doing without it: the points are a mirror held up to real progress, not the reason the progress exists.
+
+That distinction is what separates it from Variable Reward, its closest neighbour in this handbook. Variable Reward adds unpredictable novelty at the edge of an otherwise dependable experience — a fresh suggestion, a surprising discovery — precisely because unpredictability is the point. Gamified Progress is the opposite instinct: it wants the user to see, with complete honesty, exactly how much work is done and exactly how much remains. Swap deterministic milestones for a chance-based drip of rewards and you have quietly crossed from progress tracking into a slot machine wearing a progress bar's clothes.
 
 ## Why it works
 
-Visible progress can support a sense of competence: people can see what they have achieved, what remains, and how to improve. Small, meaningful steps can also make a complex task feel more approachable.
+People are more willing to start and finish a task when they can see it as a sequence of achievable steps rather than one large, undifferentiated effort — breaking a goal into visible milestones lowers the perceived size of what is left. That visibility also feeds a sense of competence: users can point to what they have already done, which is reassuring in exactly the moments — a long setup flow, a multi-week course — where people are most likely to quit from a vague feeling that they are getting nowhere.
 
-Sustained motivation depends on autonomy as well as progress. Rewards work best when they recognise real effort or learning, not when they pressure people into returning, spending, or competing against their interests.
+The mechanism only holds if the autonomy stays intact. [Habit Formation](../concepts/10-habit-formation.md) is explicit that a single missed day barely dents a real habit curve, which is why streaks that zero out on one miss are fighting the science rather than using it — they convert a competence signal into a guilt signal. The failure mode this TTP exists to prevent is a progress display that quietly becomes a leash: once badges are awarded for empty activity, or a broken streak reads as failure, the feeling shifts from "I am making progress" to "I am being tracked," and the very visibility that motivated people starts to make them feel watched instead.
 
 ## When to use it
 

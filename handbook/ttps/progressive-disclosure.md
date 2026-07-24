@@ -5,11 +5,13 @@ Reveal the next useful layer of complexity when the user needs it, while keeping
 
 ## What it is
 
-Progressive disclosure presents the essential choices for the current task first, then makes advanced options, explanations, and controls available on demand. It simplifies the first view without removing the product’s depth.
+Progressive disclosure is a layering decision: put the choices that matter for the task at hand in the first view, and push everything else—advanced settings, rare options, deeper explanations—one deliberate step away, reachable but not visible by default. A photo editor that opens on crop and brightness, with colour curves and noise reduction one tap under “more”, is doing this correctly: the first screen answers the common case, and the second layer still holds the product’s full depth for the person who needs it. It’s easy to confuse with **Discovery**, which is invitation rather than deferral—Discovery proactively surfaces a next step the user didn’t know to look for, while progressive disclosure hides a control the user would recognise immediately if they saw it, until they go looking for it.
 
 ## Why it works
 
-People can focus more easily when an interface prioritises the choices that matter now. Deferring secondary detail can reduce errors and uncertainty, provided users can still recognise where to find what is hidden.
+The mechanism is the one **Mental Models and Affordances** describes: a new user’s working theory of your product is small, and handing them the full control surface before that theory exists doesn’t feel like power, it feels like risk—too many unfamiliar options with no sense of which ones are safe to touch. Layering the interface lets the model grow one accurate piece at a time, so competence builds instead of collapsing into hesitation. This kind of overload rarely shows up cleanly in analytics as a drop-off event; **Friction** calls it cognitive friction, and it tends to surface as hovering, re-reading, and abandoned attempts rather than an error anyone can point to.
+
+Skip the layering and you get choice overload on the first screen: a ten-second task now competes with twenty options the user doesn’t need yet, and the people who don’t already know your product simply stall. Overdo it, and the failure moves to the other side—advanced controls, or the true cost of an action, get buried behind a label nobody would think to click, which is no longer simplification but concealment. The craft is keeping the deferred layer genuinely reachable: a well-marked door, not a locked one, so depth stays available the moment someone actually needs it.
 
 ## When to use it
 

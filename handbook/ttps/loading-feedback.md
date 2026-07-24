@@ -5,11 +5,15 @@ Make unavoidable waits legible, calm, and proportionate.
 
 ## What it is
 
-Loading feedback shows that work is underway, what is happening, and—where possible—what the user can do next. It can be a skeleton state, determinate progress, concise status copy, or a task-relevant `Micro Interactions` cue.
+Loading feedback is the honest narration of work that has started but not finished: a skeleton that holds the page's shape, a percentage that means what it says, or a line of plain-language status that names what the system is actually doing. It belongs to a small family of TTPs that all answer "did my action register?", but each covers a different moment. `Micro Interactions` confirm that a state has already changed—a toggle flipped, a like landed; loading feedback is for the stretch before that is true, when the outcome is still pending and the user needs to know the system is working rather than stuck. `Perceived Effort Delay` sits one layer further in, narrating the stages of a genuinely slow process; loading feedback is the simpler, more general case that applies to almost any wait, however brief.
+
+A blank screen after a tap and a screen that says "Uploading 3 files, this usually takes a few seconds" describe the same underlying event two different ways—one leaves the user to guess, the other tells them what's true. The craft is matching the feedback to the wait: a two-hundred-millisecond fetch needs nothing more than a placeholder; a ninety-second export needs a status the user can actually read, trust, and act on.
 
 ## Why it works
 
-A blank or frozen surface leaves people unsure whether their action registered. Clear feedback reduces that uncertainty, helps users decide whether to wait, and makes the product feel dependable. It does not make a slow operation fast; it makes the wait honest and easier to navigate.
+An interface with no wait feedback is asking the user to trust that nothing is wrong purely on faith, at the exact moment the evidence for that is weakest—the screen looks exactly like it does when something has actually failed. `Friction` treats this as temporal friction, and its finding is specific: perceived duration is not the same as measured duration, and an explained wait reliably feels shorter than an unexplained one of the same length. Feedback doesn't make the operation faster; it changes what the waiting means to the person doing it, from suspicion to information.
+
+Skip it, and the failure mode is predictable: people assume the tap didn't register, tap again, and either duplicate the action or quietly conclude the product is broken—the same test `Calibrated Trust` applies to any UI claim that isn't backed by real system state, just run in reverse, where the *absence* of a claim reads as a false one. Overdo it, and you tip into the pattern this card explicitly refuses: manufacturing suspense, padding a fast response to look more considered, or leaving a spinner running past the point it should have told the user something failed. Both directions spend the same currency—trust in what the interface tells you—by either saying too little or asking for too much credit.
 
 ## When to use it
 

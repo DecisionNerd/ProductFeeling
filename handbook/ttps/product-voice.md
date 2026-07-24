@@ -5,11 +5,15 @@ One recognisable voice, with a tone that adapts to the user’s moment—celebra
 
 ## What it is
 
-A deliberate personality for everything the product says: a stable voice (who the product is) plus situational tone (how it speaks right now). It spans buttons, empty states, errors, emails, and release notes—so the product feels like one considerate character rather than a committee.
+Product voice is the decision to give everything a product says one recognisable personality, built from two layers: a stable *voice*, which is who the product is and barely changes, and a situational *tone*, which is how that same character speaks in a given moment. The label on a button, the copy in an empty state, a payment failure, and a release note should all sound like they came from the same considerate person—not because every message uses identical words, but because a reader could recognise the author across all of them. This is different from JTBD Copywriting, which decides *what* a message should say by starting from the user's job and outcome; Product Voice takes that content and decides how it sounds once the words are chosen.
+
+It's also different from Small Quirk, which is a single repeatable flourish attached to one low-stakes moment, like a saving animation. Voice is the language running underneath every surface a product uses; a quirk is a decoration that sits on top of it and could be removed without the product losing its identity. Picture a playful onboarding tooltip and a subscription-cancellation email: if they read like two different companies wrote them—one breezy, one legalistic—the product has fragmented copywriting, not a voice, however charming either message is in isolation.
 
 ## Why it works
 
-Tone measurably shapes brand perception and willingness to recommend: users read friendliness, trustworthiness, and competence straight out of word choice. Voice is also emotional context-matching—enthusiasm at a Success Moment lands, but the same enthusiasm inside an error or a bill feels tone-deaf. A consistent voice compounds into recognition; JTBD Copywriting decides *what* to say, Product Voice decides *how it sounds*.
+Voice operates at the reflective level of Emotional Design: not the split-second visceral read or the moment-to-moment feel of using the product, but the character a user remembers and describes to other people afterwards. A product that sounds like the same considerate person everywhere accumulates recognition the way a person's manner of speaking does—users start predicting how it will react before it reacts, which is itself a form of trust. Tone also does real emotional work in the moment: the right register at a Success Moment amplifies the win, while the same enthusiasm inside an error or a bill reads as a company that hasn't noticed what's actually happening to the user.
+
+Skip this work and copy fragments by default, because every team, feature, and now every AI agent writing microcopy will default to its own register unless a shared voice constrains it—the result is a product that feels assembled from parts, which quietly erodes the sense that anyone is home. Overdo it and voice becomes a liability instead of an asset: a joke in an error state, or warmth wrapped around an unfair price change, reads as a company using charm to manage a user's feelings rather than address their problem—exactly the move the reflective layer punishes hardest, because it's remembered as evasion, not care.
 
 ## When to use it
 

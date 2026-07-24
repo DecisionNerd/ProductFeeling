@@ -5,11 +5,15 @@ Mark meaningful progress with feedback that feels earned, then let users decide 
 
 ## What it is
 
-A brief acknowledgement after a user completes a meaningful action, reaches a milestone, or overcomes effort. It can combine clear confirmation, warm copy, and a restrained flourish.
+A Success Moment is a deliberately marked acknowledgement, reserved for the point where a user has genuinely completed something—a task with real stakes, a milestone that took sustained effort, or a recovery from a difficult flow. It differs from Micro Interactions, which confirm ordinary actions continuously and quietly ("saved", "sent", "copied") so the system never leaves the user guessing; a Success Moment is punctuated and occasional, and using it on every tap flattens exactly the contrast that makes it register as meaningful. It's also distinct from the visible meter in Gamified Progress: if progress is the ongoing map of a journey, a Success Moment is the flag planted at a real waypoint on that map, not the map itself.
+
+Picture someone submitting their first invoice through a finance tool, or finishing a language course's hardest unit after several failed attempts: a brief, warm confirmation that names what they actually did ("You've sent your first invoice—nice work") lands very differently from a generic checkmark, because it recognises the specific effort rather than the mere fact that a button was pressed.
 
 ## Why it works
 
-Timely feedback confirms that effort had an effect. Meaningful positive moments can shape how people remember a journey, especially when they recognise real progress rather than generic participation.
+The Peak–End Rule shows that people judge an entire experience by its most intense moments and its ending, largely ignoring how long anything took to get there—which means a handful of well-placed Success Moments can shape how an entire relationship with a product is remembered, out of proportion to the seconds they occupy. In Emotional Design's terms, the moment operates on two levels at once: behaviourally, it confirms that effort had an effect; reflectively, it becomes part of the story the user tells themselves, and others, about being capable, and about the product for recognising it.
+
+The failure mode this TTP guards against is a milestone passing unmarked—real progress dissolving into the general blur of software use because nothing paused to notice it, wasting a nearly free chance to plant a positive peak. The opposite failure is just as damaging: celebrating trivial taps or incomplete work cheapens the signal until users stop trusting it, and a Success Moment that exists to justify an unrelated ask—a referral prompt, a permission request—stops feeling earned and starts feeling exploited.
 
 ## When to use it
 

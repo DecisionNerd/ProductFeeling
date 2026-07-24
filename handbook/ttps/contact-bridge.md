@@ -5,11 +5,15 @@ Connect users to people they already know—without turning their address book i
 
 ## What it is
 
-A permissioned bridge from the user’s existing network (contacts, calendar guests, org directory) into the product: find friends already here, suggest who to invite, or autofill people they intend to include. The point is recognisable connection with less search friction—not bulk harvesting of everyone they have ever messaged.
+Contact Bridge is a permissioned bridge from a user's existing network—phone contacts, calendar guests, an org directory—into the product, used to find people already there, suggest who to invite, or autofill names the user already intends to include. It's one of three tools [Social Transmission](../concepts/14-social-transmission.md) distinguishes and that this handbook refuses to collapse into each other: Shareability lets a user broadcast an artefact or result; Referral invites a specific person the user names; Contact Bridge reads a list the user already has and turns it into recognisable matches. The difference matters because contacts access is a much higher-trust ask than either of the other two—you're not asking to post something, you're asking to see who someone knows.
+
+Done well, it looks like a messaging app that says "3 people from your contacts are already here" and lets you message them—nothing more. Done badly, it's the same permission dialog used to silently harvest an entire address book and text everyone in it an invite the user never wrote, which is the friend-spam pattern this card exists to prevent.
 
 ## Why it works
 
-People join and stay where familiar faces are. Matching known names to accounts creates instant belonging and social proof when connection is part of the job-to-be-done. Done well, it replaces empty “find friends” screens with a short list of people who matter. It only works when the ask is timely, the benefit is concrete, and consent is real—otherwise it reads as surveillance and erodes Trust Building.
+The mechanism is straightforward: people join and stay where they recognise someone. A short list of familiar names replaces the cold, empty "find friends" screen with actual social proof, and—per Social Transmission—the reflective feeling of belonging is what makes people transmit value onward in the first place. But the mechanism only fires when the match feels earned rather than surveilled; the same technical capability that produces "oh, Sam's here too" can just as easily produce "how does this app know I know Sam", and the emotional read flips from delight to unease in the same instant.
+
+That's why timing and consent do most of the work. Ask before the user understands the benefit, or bundle the permission into a vague "improve your experience" purpose string, and Contact Bridge reads as surveillance rather than connection—eroding the [Calibrated Trust](../concepts/11-calibrated-trust.md) the rest of the product is trying to build, on one of the highest-stakes data types a phone holds. Overdo it—auto-inviting the whole book, pre-ticking "invite all"—and you've stopped bridging contacts and started renting them out, the specific failure [User Agency](../concepts/12-user-agency.md) calls an asymmetry: entering was one tap, and the people on the other end never got a choice at all.
 
 ## When to use it
 

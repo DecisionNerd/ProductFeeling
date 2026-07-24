@@ -5,11 +5,15 @@ Let users declare their intent, then design the product around it.
 
 ## What it is
 
-A voluntary micro-pledge: a goal, pace, schedule, or outcome the user chooses. You are not forcing the behaviour. You capture their signal, then turn it into structure—reminders, defaults, feedback, and progress that reflect what they said they wanted.
+Commitment is a voluntary micro-pledge: a goal, pace, schedule, or outcome that the user states in their own words, which the product then uses as structure—reminders, defaults, progress views, and feedback that all point back to what they said they wanted. The product isn't deciding the goal; it's building around a goal the user already chose, which is why the pledge has to be genuinely elective and genuinely revisable, not a checkbox dressed up as a preference.
+
+It is easy to confuse with Intentional Friction, because both slow a user down before value flows—but the two aim at opposite outcomes. Intentional Friction interrupts to protect against a mistake the user hasn't made yet; Commitment interrupts, briefly, to let the user articulate an intention they already have, so the product has something concrete to act on later. A language app asking "how many minutes a day, realistically?" before the first lesson is Commitment; a screen forcing someone to retype "DELETE" before removing an account is Intentional Friction. Both add a step. Only one is asking a question the user wants answered.
 
 ## Why it works
 
-People tend to act consistently with stands they have already taken, especially when the commitment is active and voluntary (Cialdini’s commitment & consistency). A small, self-chosen pledge reduces ambiguity (“what am I trying to do here?”) and gives the product something concrete to support. Follow-through rises when the pledge is easy to make, easy to revise, and reflected back without shame—not when it is public humiliation or a locked trap.
+The mechanism is Cialdini's commitment-and-consistency principle: people tend to act in line with stands they've taken, especially when the stand was made freely. A stated goal also does something more mundane and just as important—it resolves ambiguity. "What am I actually trying to do here?" is a question every open-ended product forces the user to answer implicitly, over and over; a pledge answers it once, out loud, and gives the product a fixed point to build reminders, defaults, and progress views around instead of guessing.
+
+Skip it and personalisation has nothing to personalise toward, so nudges default to generic engagement bait instead of the user's own stated intent—the failure mode [Habit Formation](../concepts/10-habit-formation.md) calls a product-owned cue instead of a user-owned one. Overdo it and commitment curdles into its dark twin: a pledge that can't be edited, a streak that punishes a missed day, a goal the product guilts the user for changing. The moment a pledge feels irreversible or surveilled, it stops working as commitment and starts working as a trap, which is the exact line [User Agency](../concepts/12-user-agency.md) asks every TTP to hold.
 
 ## When to use it
 

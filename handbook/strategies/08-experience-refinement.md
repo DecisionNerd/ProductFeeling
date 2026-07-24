@@ -5,6 +5,20 @@ Make competent products feel considered—feedback, waits, character, and finish
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md). Core concepts: [Emotional Design](../concepts/06-emotional-design.md), [Aesthetic–Usability Effect](../concepts/08-aesthetic-usability-effect.md), [Peak–End Rule](../concepts/07-peak-end-rule.md), [Surfaces, Flows, and States](../concepts/03-surfaces-flows-states.md), [Mental Models](../concepts/05-mental-models.md).
 
+## What it is
+
+Experience refinement is the work of making a product that already does its job *feel* like it does its job—closing the gap between functional correctness and the felt sense of quality that comes from feedback, waits, character, and finishes that were clearly designed on purpose rather than left to whatever the framework rendered by default. This is not the same as Onboarding or Activation, which are about getting someone to value for the first time; refinement is what happens to a flow a user has already succeeded at, making the tenth time through it feel as considered as the flow's designer intended the first time to feel.
+
+The scope of this strategy is every [surface, flow, and state](../concepts/03-surfaces-flows-states.md) a product has, with particular attention to the states teams forget: loading, error, empty, and partial. A product can have a beautiful "happy path" ideal state and still feel cheap, because most of a user's actual time in a non-trivial product is spent in the other four states, and those are exactly the ones most often left undesigned.
+
+## Why it works
+
+The [aesthetic–usability effect](../concepts/08-aesthetic-usability-effect.md) is the empirical backbone of this strategy: people rate more attractive, more considered interfaces as more usable, and they forgive small rough edges in a product that otherwise feels cared for. This is not an excuse to decorate over broken tasks—refinement that raises perceived quality without raising task success is theatre—but it does mean that consistent, intentional feedback compounds into trust in a way that is disproportionate to the engineering effort it costs.
+
+The [peak–end rule](../concepts/07-peak-end-rule.md) explains why refinement should be targeted rather than uniform: people do not remember an experience as an average of every moment, they remember its most intense point and how it ended. This means a single unrefined wait, error, or completion moment can dominate someone's overall impression of an otherwise well-built product, while polishing a low-stakes screen nobody lingers on returns very little. Refinement work is most valuable exactly where [Micro Interactions](../ttps/micro-interactions.md), [Loading Feedback](../ttps/loading-feedback.md), and [Success Moments](../ttps/success-moments.md) intersect with a flow's actual peaks and endings—not spread evenly across the product like a coat of varnish.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Micro Interactions](../ttps/micro-interactions.md): Small responses that make an action feel acknowledged, understandable, and complete
 - [Small Quirk](../ttps/small-quirk.md): A small, repeatable flourish that makes a clear product interaction feel recognisably yours
 - [Loading Feedback](../ttps/loading-feedback.md): Make unavoidable waits legible, calm, and proportionate

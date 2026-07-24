@@ -5,11 +5,15 @@ Small responses that make an action feel acknowledged, understandable, and compl
 
 ## What it is
 
-Micro interactions are brief visual, motion, sound, or haptic responses to a user action: a saved state, a pressed control, a drag target, or an error correction. They clarify cause and effect; they are not decoration for its own sake.
+Micro interactions are the smallest unit of feedback in an interface: a heart that fills in when you tap it, a row that settles into place after a drag, a field that flashes and re-labels itself after a bad entry. Each one answers a single question—what just changed?—in under a second, using motion, sound, haptics, or a state change too small to need words. They sit downstream of `Loading Feedback`, not alongside it: loading feedback covers the stretch where an outcome is still pending, and a micro interaction is the punctuation mark that fires once the outcome is actually known. Confusing the two produces one of the most common failures in this space—playing a success animation before the save has actually succeeded, which turns a moment meant to reassure into a claim the interface later has to walk back.
+
+The pattern is deliberately small in scope, even when the moment it marks is meaningful. A confirmation toast on a genuine success moment, a haptic buzz on a state change worth noticing, an inline shake to redirect attention to a form error—these clarify cause and effect at the scale of a single action, noticed without stopping the user's flow. The moment the response starts drawing attention to itself rather than to what changed, it has stopped being a micro interaction and started being decoration, which is exactly where restraint tends to break down.
 
 ## Why it works
 
-People need to know that the interface received their input and what changed as a result. Timely feedback reduces repeat taps and uncertainty, while a consistent response can make a product feel considered and trustworthy. Use `Loading Feedback` when the work is still pending; use a micro interaction when a state has actually changed.
+Every micro interaction is a sentence in the story a user is silently writing about how your product works—their `Mental Models and Affordances`. That story gets built from feedback whether or not you supply any: silence doesn't read as neutral, it reads as absence, and the user fills the gap with a guess ("maybe it didn't take", "maybe I have to hold it longer"). A well-placed micro interaction answers before the guess forms, which is why the effect compounds—dozens of small correct answers, repeated across a session, add up to the reflexive sense that a product is considered and dependable, one of the clearest signals of the behavioural layer in `Emotional Design`.
+
+Skip the feedback and the visible symptom is retries: a second tap on a button that already worked, a duplicate submission, a support message that says "I don't think this saved." Overdo it—celebration on every trivial action, haptics that fire whether or not anything actually changed, motion strong enough to notice on the fiftieth use as much as the first—and the signal drowns in its own noise, or starts to feel like the interface performing enthusiasm at the user rather than informing them. The line this card's Don't list draws around haptic or animation pressure is the same line `User Agency` draws everywhere else: feedback should inform a choice already made, never nudge the next one.
 
 ## When to use it
 

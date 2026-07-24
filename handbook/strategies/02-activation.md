@@ -5,6 +5,20 @@ Get users to the first proof of value—the action that predicts they will retur
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
 
+## What it is
+
+Activation is the moment a new user experiences the product's core value for the first time—not the moment they finish onboarding, and not the moment they sign up. It is defined by a specific action (or short sequence of actions) that reliably predicts a person will come back, chosen because it correlates with retention in *your* product, not because it is easy to instrument. "Created an account" is rarely an activation event; "sent the first message that got a reply," "saw the first chart with real data," or "shipped the first automated task" usually are.
+
+This distinction—activation as an evidence-backed milestone rather than a funnel-completion checkbox—is what separates real activation work from onboarding decoration. [Onboarding](01-onboarding.md) is the path; activation is the destination the path should be measured against. A team can have a beautiful, fast onboarding flow that still fails to activate anyone, because the flow was optimised for completion rather than for producing the specific "aha" that makes someone believe the product is worth their continued attention.
+
+## Why it works
+
+Activation works because it forces a team to be honest about what "the product working" actually means for a real person, instead of assuming that finishing setup is the same thing as experiencing value. Defining the activation event—and validating it against Day 7 or Day 30 retention—turns a vague goal ("get people engaged") into a falsifiable one ("does completing this action predict return, and if not, what does?"). Teams that skip this step tend to optimise vanity milestones: tutorial completion, profile fullness, or signup conversion, none of which tell you whether anyone actually benefited.
+
+The underlying mechanism is the same one [Jobs-to-be-Done](../concepts/09-jobs-to-be-done.md) describes: a person hired the product to make a specific piece of progress, and activation is the first evidence that the hire was a good decision. Get there fast and the person's [feeling north star](../concepts/01-feeling-north-star.md) shifts from doubt to competence; take too long, or bury the payoff under setup, and the emotional residue is the opposite—effort spent for nothing, which is a stronger predictor of churn than almost any UI flaw.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Time to Value](../ttps/time-to-value.md): Help people reach their first meaningful outcome with the least unnecessary effort
 - [Success Moments](../ttps/success-moments.md): Mark meaningful progress with feedback that feels earned, then let users decide what comes next
 - [Setup Defaults](../ttps/setup-defaults.md): Give users a credible starting point they can understand, change, or skip

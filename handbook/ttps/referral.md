@@ -5,11 +5,13 @@ Help satisfied users invite people who will genuinely benefit, with a clear and 
 
 ## What it is
 
-Referral is a product-supported invitation loop: an existing user recommends the product to someone in their network, often because collaboration, access, or a relevant reward creates value for both people. It is distinct from **Shareability**, which centres on sharing an achievement or output.
+Referral is a product-supported invitation loop: someone who already gets value from the product asks a specific person in their life to join, usually because the invite itself creates value for both sides—a shared workspace, a collaborative document, a genuine discount that also benefits the person invited. The clearest version looks less like marketing and more like introducing a colleague to a tool that's already working: "you should see this doc" rather than "get $10 for every friend you refer." It is distinct from **Shareability**, which is the export of a result someone made alone; referral is inherently two-sided, because it only works when the recipient—not just the sender—gets something they would actually choose.
 
 ## Why it works
 
-A recommendation can carry context that paid acquisition cannot: why the product helped and who else might benefit. Referral works when the sender can make a credible recommendation and the recipient receives a clear, honest offer—not when users are pushed to mine their contacts.
+**Social Transmission** names the emotional fuel here precisely: people pass a product along because of pride and belonging, the reflective sense of looking good for having recommended something real. That only holds if the sender can make a credible, specific recommendation—vague or transactional asks ("earn credit for every invite") don't carry the same weight, because they read as the product asking a favour rather than the user sharing a genuine find. A referral loop that respects this converts slowly at first, because it waits for real advocacy to exist before asking for it, and that patience is exactly what makes the eventual invite trustworthy to the person receiving it.
+
+The failure mode **User Agency** exists to catch is contact harvesting dressed up as referral: preselecting an address book, sending invitations without review, or gating a core feature behind "invite three friends" all convert a recommendation into an extraction, and the person on the receiving end can usually tell. Skip referral altogether and word-of-mouth still happens, just without a product-native path to capture or credit it. Push it too hard—rewards with hidden thresholds, invites the sender never actually reviewed—and the loop stops being social proof and becomes what Social Transmission calls friend spam, which damages the sender's relationships more than it grows the product.
 
 ## When to use it
 

@@ -5,6 +5,20 @@ Earn return visits by making lasting value easy to resume—so people come back 
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
 
+## What it is
+
+Retention is whether people who already found value keep coming back to get more of it. It sits downstream of [Activation](02-activation.md)—you cannot retain someone who never experienced the product working—and it is measured in cohorts and curves, not single snapshots: what share of a signup cohort is still active on day 1, 7, and 30, and does that curve flatten into a durable core or slide toward zero. A flattening curve means the product has found a group of people for whom it is genuinely useful; a curve that never flattens means either the wrong people are arriving, the value is one-time, or something about return visits is broken.
+
+Retention is not the same job as engagement or habit formation, even though they share tools. [Engagement](04-engagement.md) is about how deeply someone uses the product *within* a session; [Habit Formation](11-habit-formation.md) is about whether return becomes automatic and context-cued. Retention sits between them: it asks whether the product still fits the person's life well enough that they choose to resume it, deliberately, when the need recurs.
+
+## Why it works
+
+People return to things that keep working for them—not to things that remind them the most often. The mechanism is resumption, not reminder: a returning user needs to find their progress, context, and prior work exactly as they left it, with the friction of re-entry as close to zero as the value allows. This is why [Effort Moat](../ttps/effort-moat.md), [Value Replay](../ttps/value-replay.md), and [Personalisation](../ttps/personalisation.md) do more for retention than most notification strategies: they honour what the person already invested, rather than asking them to reconstruct it.
+
+Retention curves are also the cleanest way to detect a product-market mismatch, because a curve does not lie the way a survey can. If even highly activated users churn steadily, the issue is rarely a UI polish problem—it is more often that the product's natural usage interval was misjudged (forcing a daily frame on a weekly tool inflates apparent churn) or that the value simply does not recur for this segment. Treating retention as a design problem to be nudged, rather than a signal to be diagnosed, is how teams end up bolting streaks and notifications onto a product nobody actually needs again.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Gamified Progress](../ttps/gamified-progress.md): Make meaningful progress visible, achievable, and fully in the user’s control.
 - [System Widget](../ttps/system-widget.md): Put one timely, glanceable piece of user-chosen value where people already look.
 - [Value Replay](../ttps/value-replay.md): Bring a user’s meaningful progress back into view, only where and when they have chosen to receive it.

@@ -1,0 +1,100 @@
+---
+/**
+ * Keep the sidebar still when navigating.
+ *
+ * Starlight closes non-ancestor groups and restores scroll, which collapses
+ * content above the click and makes the active link leap to the top. We:
+ * 1. Snapshot which <details> are open before a link navigation
+ * 2. Pin scrollTop (and freeze it across click-focus)
+ * 3. Neutralize Starlight’s own scroll restore
+ */
+import Default from '@astrojs/starlight/components/Sidebar.astro';
+---
+
+<Default />
+
+<script is:inline aria-hidden="true">
+	(() => {
+		if (!matchMedia('(min-width: 50em)').matches) return;
+
+		const sidebar = document.getElementById('starlight__sidebar');
+		if (!sidebar) return;
+
+		const PIN_KEY = 'pf-sidebar-scroll';
+		const SL_KEY = 'sl-sidebar-state';
+
+		const persistOpenGroups = () => {
+			try {
+				const root = document.querySelector('sl-sidebar-state-persist');
+				const hash = root?.dataset.hash;
+				if (!hash) return;
+				const open = [...sidebar.querySelectorAll('sl-sidebar-restore')].map((el) => {
+					const details = el.closest('details');
+					return details ? details.open : null;
+				});
+				sessionStorage.setItem(
+					SL_KEY,
+					JSON.stringify({ hash, open, scroll: 0 })
+				);
+			} catch {
+				/* ignore */
+			}
+		};
+
+		/** Cancel Starlight scroll restore for this load; we own scroll. */
+		delete window._starlightScrollRestore;
+
+		const pinned = sessionStorage.getItem(PIN_KEY);
+		if (pinned != null) sidebar.scrollTop = Number(pinned) || 0;
+
+		const pinScroll = () => {
+			sessionStorage.setItem(PIN_KEY, String(sidebar.scrollTop));
+			persistOpenGroups();
+		};
+
+		sidebar.addEventListener('scroll', pinScroll, { passive: true });
+
+		sidebar.addEventListener(
+			'mousedown',
+			(event) => {
+				const t = event.target;
+				if (!(t instanceof Element)) return;
+
+				if (t.closest('a')) {
+					persistOpenGroups();
+					const y = sidebar.scrollTop;
+					sessionStorage.setItem(PIN_KEY, String(y));
+					const lock = () => {
+						sidebar.scrollTop = y;
+					};
+					lock();
+					requestAnimationFrame(lock);
+					requestAnimationFrame(() => requestAnimationFrame(lock));
+					setTimeout(lock, 0);
+					return;
+				}
+
+				if (t.closest('summary')) {
+					const y = sidebar.scrollTop;
+					const lock = () => {
+						sidebar.scrollTop = y;
+					};
+					lock();
+					requestAnimationFrame(lock);
+					requestAnimationFrame(() => requestAnimationFrame(lock));
+					setTimeout(() => {
+						lock();
+						persistOpenGroups();
+						pinScroll();
+					}, 0);
+				}
+			},
+			true
+		);
+
+		addEventListener('visibilitychange', () => {
+			if (document.visibilityState === 'hidden') pinScroll();
+		});
+		addEventListener('pagehide', pinScroll);
+	})();
+</script>

@@ -5,13 +5,15 @@ Protect people from costly mistakes while keeping ordinary work moving.
 
 ## What it is
 
-Fail Safe designs risky actions so users can prevent or reverse mistakes before they become incidents. It combines safer defaults, clear consequences, preserved work, undo where possible, and proportionate confirmation where an action is genuinely irreversible.
+Fail Safe is prevention: it designs a risky action so that a mistake either can't happen or can be undone before it costs anything—safer defaults that make the destructive path harder to reach by accident, clear statements of consequence before the point of no return, preserved input if something goes wrong, and confirmation reserved for the moments that are genuinely irreversible. It sits on the opposite side of the timeline from [Graceful Recovery](graceful-recovery.md), which is what a product does after failure has already happened—an outage, a failed request, a lost connection. Fail Safe is about the tap before the mistake; Graceful Recovery is about the error after it. Confusing the two produces a common bug: reaching for a confirmation dialog (Fail Safe's tool) to handle a system outage (Graceful Recovery's job), which just adds a click to an already-bad moment without fixing anything.
+
+Undo on a deleted email, a "you're about to charge this card $400" summary before checkout, and a draft that survives a crashed tab are all Fail Safe. A generic "Something went wrong, try again" toast after a failed API call is not Fail Safe at all—it's Graceful Recovery's territory, and reaching for a confirmation dialog there won't help.
 
 ## Why it works
 
-People explore more confidently when they know an accidental tap will not destroy their work or create a costly commitment. This card is *prevention*: safer defaults, clear consequences, undo, and proportionate confirmation at real risk—see [Friction](../concepts/04-friction.md) (protective friction) and [Calibrated Trust](../concepts/11-calibrated-trust.md).
+The mechanism is protective friction, the deliberate half of [Friction](../concepts/04-friction.md)'s allocation rule: most friction should be removed from a user's path to value, but friction placed on purpose at a point of real risk protects people from a mistake they can't take back, and lets them explore the rest of the product with real confidence instead of low-grade anxiety about what might break. That confidence is the actual product: a user who trusts that an accidental tap won't destroy their work moves faster and tries more, not less—the opposite of what over-cautious teams assume protective friction costs them.
 
-When failure has already happened, use [Graceful Recovery](graceful-recovery.md) ([Peak–End Rule](../concepts/07-peak-end-rule.md), error states in [Surfaces, Flows, and States](../concepts/03-surfaces-flows-states.md)). Do not turn every action into a confirmation dialog—that trains people to click through.
+The failure mode this prevents is a mental-model mismatch at the worst possible moment—a user who believed "archive" meant recoverable discovering it meant deleted, which reads as betrayal rather than an edge case, because the product broke a promise the user didn't know was only in their own head, and it does lasting damage to [Calibrated Trust](../concepts/11-calibrated-trust.md). But Fail Safe fails the other way just as easily: confirm every action, including the reversible and low-stakes ones, and people stop reading the dialogs and start clicking through on autopilot—so the one confirmation that actually mattered gets dismissed with the same reflex as the nine that didn't.
 
 ## When to use it
 

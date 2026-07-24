@@ -5,15 +5,15 @@ Jobs-to-be-Done (JTBD) copy: write from the progress the user is trying to make,
 
 ## What it is
 
-JTBD Copywriting frames interface language around a user’s circumstance, desired progress, and next action. Instead of “Enable auto-categorisation”, it might say “Keep your expenses organised automatically”.
+JTBD Copywriting frames interface language around a user's circumstance, desired progress, and next action, rather than the feature the engineering team built. Instead of "Enable auto-categorisation", it says "Keep your expenses organised automatically"—the same capability, described from the side of the screen the user is actually standing on. It does not mean inventing an emotional outcome the product cannot deliver; it means making the real outcome, the real trade-off, and the real next action legible in the words the user would use for them, drawn from [Jobs-to-be-Done](../concepts/09-jobs-to-be-done.md)'s three-part shape of circumstance, progress, and outcome.
 
-It does not mean inventing an emotional outcome. It means making the real outcome, trade-off, and action clear.
+It is worth distinguishing from Product Voice, its neighbour on the copy shelf: Product Voice decides *how* the product sounds—its personality, its tone at a win versus a failure—while JTBD Copywriting decides *what* the product actually says. A button can be perfectly on-voice and still fail this TTP if it describes a feature instead of naming the progress it enables; the two are meant to operate together, not substitute for each other.
 
 ## Why it works
 
-People hire products to make progress in a particular situation. Copy that names that progress helps users recognise relevance, decide with confidence, and understand what happens next.
+People hire products to make progress in a specific situation, and copy that names that progress directly lets users recognise relevance and act with confidence without first translating feature-speak into their own terms—a translation step that costs real cognitive effort at exactly the moments, onboarding and paywalls among them, where patience is thinnest. This is also where [Mental Models and Affordances](../concepts/05-mental-models.md) meets copy: a label that matches what the user is trying to do reinforces their working theory of the product, while a label built from internal feature names forces them to guess, and a wrong guess is where "this app is confusing" comes from even when nothing is technically broken.
 
-Good product copy lowers cognitive effort. It turns feature language into a clear promise the interface can actually keep.
+The concrete failure mode this TTP prevents is copy that is accurate but useless—correct about what the system does, silent about what it means for the person reading it. What goes wrong when this is overdone or faked is a different failure: promising an outcome the product cannot reliably deliver, or reaching for urgency and vague aspiration instead of a real, specific promise, borrows credibility it has not earned and spends down the same trust that [Feeling North Star](../concepts/01-feeling-north-star.md) asks every surface to protect.
 
 ## When to use it
 

@@ -1,6 +1,8 @@
 # Tools, Techniques, and Practices
 
-Modular Tools, Techniques, and Practices (TTPs) you can combine under a strategy—or audit one at a time.
+A Tool, Technique, or Practice (TTP) is the handbook's smallest unit of design knowledge: one recurring product situation, the emotional mechanism at stake, and the pattern that tends to resolve it well. TTPs are modular by design—each one below is written to be understood, applied, and audited on its own, without first reading a strategy—but they are not a menu of unrelated tricks. Most of them share a small set of underlying mechanisms (documented in [Concepts](../concepts/index.md)): what it costs someone to act, what makes a moment memorable, what earns trust, what turns action into ritual. Learning the TTPs is really learning to recognise those mechanisms in the wild.
+
+The thirty-seven cards below are grouped into twelve [strategies](../strategies/index.md) by the product goal they most often serve, but almost every TTP is useful outside its "home" strategy—[Loading Feedback](loading-feedback.md) matters in Onboarding as much as it does in Trust Building. Browse this index when you know the pattern you need; browse a strategy page when you know the goal but not yet which pattern fits it.
 
 - [Calibrated Confidence](calibrated-confidence.md): When the product uses AI, show how sure it is—so people know when to trust the output and when to check it.
 - [Commitment](commitment.md): Let users declare their intent, then design the product around it.

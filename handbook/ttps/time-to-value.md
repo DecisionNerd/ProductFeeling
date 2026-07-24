@@ -5,11 +5,15 @@ Help people reach their first meaningful outcome with the least unnecessary effo
 
 ## What it is
 
-The elapsed time and effort between a user’s first meaningful touchpoint and experiencing a benefit they came for. It includes waiting, setup, decisions, and uncertainty—not just screen count.
+Time to Value is the real elapsed effort—not just screen count—between a user's first meaningful touchpoint and the moment they experience the specific benefit they came for: every wait, setup step, decision, and moment of uncertainty counts, whether or not it shows up in a click-through funnel. It's the operational form of Friction's core rule applied to exactly one stretch of a product: the path to first value, where removing friction is almost always worth more than adding motivation. It differs from Sandbox Experience, which offers a deliberately reduced-risk preview before commitment (a demo, a sample, a trial mode); Time to Value is about the real path a user takes once they've already decided to try the actual product for their actual job.
+
+Picture two project-management tools: one requires configuring a workspace, inviting a team, and connecting integrations before a single task can be created; the other lets a new user create and complete one real task within two minutes. Both may eventually offer the same depth—but only one has proven anything by the point most people decide whether to stay.
 
 ## Why it works
 
-New users are evaluating whether the product can help them. A focused path to a real outcome builds confidence; premature complexity, irrelevant setup, and empty states make the promise harder to judge.
+Jobs-to-be-Done frames new users as auditioning the product against the progress they hired it to make, and every step that doesn't visibly serve that job reads as evidence the product might not understand its own use case—patience for that evidence is not open-ended. Getting to a real outcome quickly also matters because of where it lands: the Peak–End Rule treats first value as a candidate positive peak, and pulling it earlier both prevents drop-off during evaluation and gives the whole relationship a stronger opening note to be remembered by.
+
+The failure mode this TTP exists to prevent is users leaving during evaluation, before the product ever gets a chance to prove itself. But speed alone isn't the goal: optimising the path down to nothing while stripping out context users genuinely need to act with confidence just produces a fast trip to confusion, and substituting a polished tour for a real result is the same mistake wearing a friendlier face—both leave the user no better able to judge whether the product actually works for them.
 
 ## When to use it
 

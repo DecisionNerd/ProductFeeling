@@ -5,11 +5,15 @@ Present a clear, fair upgrade decision when users understand the value on offer.
 
 ## What it is
 
-A pricing moment that explains what is available now, what paid access adds, what it costs, and what changes after the user chooses. It is part of the product experience, not a trap door.
+The Paywall is the standing decision point where a user who already understands what a product does chooses whether to pay for continued or expanded access—distinct from Limited Offer, which layers a genuine, time-bound discount or extension on top of an otherwise fair paywall and must never be mistaken for the paywall itself. A paywall's economics should be just as legible with any countdown removed: what's available now, what paid access adds, what it costs, and what changes after the choice is made. Done well, it reads less like a locked door and more like a menu the user was always going to reach once they understood the product.
+
+Consider a notes app that keeps capture completely free but places cross-device sync behind a plan, shown only once someone has felt the specific pain of a note trapped on the wrong device—the ask arrives exactly when its value is self-evident, not before.
 
 ## Why it works
 
-People can make confident upgrade decisions when they have experienced relevant value and can compare options without pressure. Clarity protects trust whether they subscribe, stay free, or leave.
+Jobs-to-be-Done explains why timing does most of the work here: people can only price a capability sensibly once they've felt the progress it enables, so a paywall shown before that progress is experienced asks users to value something abstract, which produces either under-conversion or a resentful "yes" that churns later. A paywall is also a promise—price, terms, what happens next—and Calibrated Trust treats every such claim as testimony the user is quietly cross-examining; a paywall that hides auto-renewal or buries cancellation is exactly the kind of confident, broken promise that collapses trust fastest and is hardest to earn back.
+
+Skip a deliberate paywall moment and monetisation either never gets asked for cleanly, leaving revenue on the table, or gets smuggled in through pressure tactics instead—guilt, false urgency, obstructive comparisons—which is the failure mode User Agency's symmetry test exists to catch: if declining takes visibly more effort than accepting, the moment has stopped being a fair choice.
 
 ## When to use it
 

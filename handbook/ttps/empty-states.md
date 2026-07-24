@@ -5,13 +5,15 @@ Turn “nothing here” into a clear, useful next step.
 
 ## What it is
 
-An empty state appears when a screen, panel, search, or collection has no content to show. It explains what is happening, what belongs here, and — when appropriate — the smallest useful action a person can take next.
+An empty state is what a surface shows when there's nothing to display yet—not nothing wrong, just nothing there: a fresh project with no files, a search with no matches, an inbox that's genuinely empty. It's one of the five states [Surfaces, Flows, and States](../concepts/03-surfaces-flows-states.md) defines for every surface, and it's easy to confuse with Loading, the state next door: both can look like a blank screen, but Loading means the system is working and will resolve on its own, while Empty means the system has already resolved and there's genuinely nothing there yet—which means the two need opposite treatment. Show a spinner on a genuinely empty state and you're lying about work that isn't happening; show a static "nothing here" message during a slow fetch and you're telling the user to give up on data that's still coming.
+
+A new user's dashboard on day one, a filtered list that matches nothing, and a cleared notification tray are all empty states, but they call for different words: "get started" belongs to the first, "try different filters" to the second, "you're all caught up" to the third. Answering them all with "No items found" is technically true and practically useless.
 
 ## Why it works
 
-An unexplained blank area makes people wonder whether the system is loading, broken, or simply empty. A well-designed empty state improves visibility of system status, teaches what the space is for, and gives people a direct path into a key task.
+The mechanism is [Mental Models](../concepts/05-mental-models.md): a blank area with no explanation forces the user to guess what it means, and the guesses people reach for under uncertainty—broken, loading forever, I did something wrong—are all worse than the truth. A well-designed empty state closes that gap immediately: it names the absence, confirms the system is working as intended, and, where there's a next step, states the smallest one. That's enough to convert a moment of doubt into a moment of orientation, which matters most on first use, before the user has any other evidence the product works.
 
-Not every empty state should push action. “No results” may need better filters; an empty inbox may be reassurance; a loading state needs honest progress information.
+Skip empty-state design and the default isn't neutral—it's whatever the framework renders when an array is empty, which is usually a jarring blank rectangle that reads as broken even when nothing has failed. That's the specific failure [Surfaces, Flows, and States](../concepts/03-surfaces-flows-states.md) calls out: every surface has an empty state whether anyone designed it or not; the only choice is whether it was designed on purpose. Overdo it and the opposite failure appears—filling a quiet, successful empty state (an inbox at zero, a completed checklist) with promotional prompts, which punishes the user for the exact moment they should feel calm and finished.
 
 ## When to use it
 

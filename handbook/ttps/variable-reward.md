@@ -5,11 +5,15 @@ Add optional novelty around reliable value, without making users chase uncertain
 
 ## What it is
 
-A small, non-essential variation in a familiar experience: a fresh prompt, discovery suggestion, visual detail, or creative option. The core task and expected outcome remain dependable.
+Variable Reward is a small, optional layer of unpredictability wrapped around an otherwise dependable experience: a fresh prompt, discovery suggestion, visual flourish, or creative option that differs each time—while the core task and its outcome remain exactly as reliable as ever. Its closest and most easily confused neighbour is Gamified Progress, and the two run in opposite directions on purpose: Gamified Progress wants the user to see, with complete honesty, precisely how much is done and how much remains, while Variable Reward's entire value depends on the reveal not being predictable. The moment chance starts deciding something the user actually needs—whether they get paid, whether their work is safe, whether a task even completes—the pattern has left this TTP's boundary and become gambling mechanics wearing a product's clothes.
+
+A "discover" shuffle that mixes genuine surprises into an otherwise on-demand, fully accessible catalogue is Variable Reward; a loot box that gates functional or cosmetic value behind a randomised pull is the same mechanic pointed at something essential, which is exactly what this card exists to rule out.
 
 ## Why it works
 
-Novelty can make repeated experiences feel less monotonous. It is most supportive when it complements autonomy and competence—users retain control, understand the system, and receive value even when the variation is not their favourite.
+Habit Formation is explicit that reward closes a habit loop, but reliability is the loop itself—novelty can decorate a dependable core, but the moment novelty replaces reliability, "a slot-machine core is compulsion, not habit." Unpredictable reinforcement is a genuinely powerful psychological pull, precisely because partial and variable rewards are harder to walk away from than steady ones—which is exactly why this handbook keeps it fenced to the optional edge of an experience rather than the load-bearing centre of it.
+
+The failure mode this TTP prevents is a feature meant to "add a bit of delight" quietly drifting into a compulsive-checking loop, because the same variability that makes a moment feel fresh is what makes gambling mechanics sticky. User Agency's reflective-endorsement test is the practical check: would the user, on reflection, be glad the surprise pulled them in, or did the uncertainty itself do the pulling? Skip variable reward entirely, on the other hand, and repeat experiences—content feeds, discovery surfaces, recommendation edges—can go flat and predictable in a way that reduces their own appeal, since nothing about them ever changes.
 
 ## When to use it
 

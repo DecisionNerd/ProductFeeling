@@ -5,11 +5,15 @@ Bring a user’s meaningful progress back into view, only where and when they ha
 
 ## What it is
 
-A consented cross-channel summary of progress, outcomes, or unfinished work that a user can act on. It can appear in email, notifications, a System Widget, or another chosen surface.
+Value Replay is a consented, cross-channel resurfacing of a user's own progress, results, or unfinished work—delivered to a place they've chosen (an inbox, a notification, a System Widget) so they can decide for themselves whether returning is worth it right now. It's the outward-reaching half of a pair completed by Effort Moat: Effort Moat preserves and reflects a user's investment when they come back on their own; Value Replay is the case where the product proactively reaches out instead of waiting to be revisited. What makes it genuine rather than generic is specificity: "you're two lessons from finishing Unit 4" is a replay of real progress; "we miss you" is a template wearing progress's clothes.
+
+A language app emailing a learner exactly how close they are to finishing a unit they already started is Value Replay; the same app sending a vague "come back and keep learning!" nudge to everyone who hasn't opened the app in a week is not—even though both arrive in an inbox.
 
 ## Why it works
 
-Progress is easier to resume when it is visible and specific. A useful reminder can restore context and continuity, helping people decide whether returning serves their own goal.
+Investment and Continuity frames replay as continuity made visible: the effort a user has already put in needs to be reflected back to them, or it might as well not have happened, and that visibility is what turns accumulated effort into felt attachment rather than a private ledger nobody sees. The mechanism that keeps this from tipping into manipulation is the same cue-ownership distinction Habit Formation draws between earned and rented attention: a replay is legitimate specifically because the user chose its channel and cadence, which is what separates a resumed story from an interruption.
+
+The failure mode this TTP prevents is real progress quietly evaporating from memory, so effort a user already spent goes unclaimed. The failure mode it must never become is the same structure pointed the other way: streak-loss guilt, manufactured FOMO, or a message arriving somewhere the user never agreed to receive it—at which point a replay stops being a service the user asked for and starts feeling like being watched.
 
 ## When to use it
 

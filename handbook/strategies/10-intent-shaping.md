@@ -5,6 +5,20 @@ Invite people to declare what they want—then adapt the product to that choice,
 
 **Prerequisite:** [Customer Discovery](../discovery/index.md) — know who this is for and what state they arrive in. Related concepts: [Feeling North Star](../concepts/01-feeling-north-star.md), [Tools, Techniques, and Practices](../concepts/02-tools-techniques-practices.md).
 
+## What it is
+
+Intent shaping is the practice of inviting a person to declare what they actually want—a goal, a preference, a starting configuration—and then visibly adapting the product around that declaration, with skip, edit, and exit always available and always working. It is the opposite of silent inference: rather than guessing what a user wants from behavioural signals alone and quietly personalising around that guess, intent shaping asks, listens, and then shows its work.
+
+This matters because declared intent and inferred intent produce very different feelings even when they produce the same outcome. A product that asks "what are you trying to do?" and then configures itself accordingly feels responsive and collaborative; a product that silently infers the same configuration from click patterns and never explains why feels surveilled, even when the guess is correct. The strategy's entire value proposition rests on that difference remaining visible to the user.
+
+## Why it works
+
+People commit more fully to paths they chose than to paths chosen for them—a well-documented finding often summarised as the [commitment and consistency principle](../ttps/commitment.md): a small, voluntary declaration ("I'm here to do X") makes the person more likely to follow through on X, because backing out would mean contradicting a choice they made freely. This only works when the commitment is genuinely low-stakes and freely reversible; a forced declaration, or one framed to be difficult to walk back later, converts a trust-building technique into a foot-in-the-door manipulation, which is exactly the failure mode this strategy exists to prevent.
+
+The follow-through half of the mechanism depends on [Progressive Disclosure](../ttps/progressive-disclosure.md) and [Setup Defaults](../ttps/setup-defaults.md): a declared intent is worthless if the product does not visibly change in response to it. [Setup Defaults](../ttps/setup-defaults.md) give people a credible, inspectable starting point built from what they said, which does double duty—it demonstrates the product listened, and it gives the person something concrete to correct rather than a blank page to fill in from nothing, which is consistently easier for people to act on.
+
+## Core Tools, Techniques, and Practices (TTPs)
+
 - [Investment](../ttps/investment.md): Help users build something that becomes more useful because they shaped it
 - [Personalisation](../ttps/personalisation.md): Make the product fit the user’s stated needs—without making assumptions they cannot inspect or change
 - [Setup Defaults](../ttps/setup-defaults.md): Give users a credible starting point they can understand, change, or skip

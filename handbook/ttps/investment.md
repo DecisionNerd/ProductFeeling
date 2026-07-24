@@ -5,15 +5,15 @@ Help users build something that becomes more useful because they shaped it.
 
 ## What it is
 
-Investment is a meaningful contribution of time, choices, or creation: setting preferences, saving work, organising a library, teaching a workflow, or adding data that improves a future experience.
+Investment is a meaningful contribution of time, choices, or creation that a user makes into a product: setting preferences, saving real work, organising a library, teaching a workflow, adding data that visibly improves what happens next. It is the *asking* half of a pair described in [Investment and Continuity](../concepts/13-investment-and-continuity.md); the *honouring* half—what the product does with the contribution afterwards—is a separate TTP, [Effort Moat](effort-moat.md). Confusing the two produces a common mistake: a product that keeps asking users to set things up and organise their content, while never quite proving that any of that effort made the next visit noticeably better.
 
-It is not a retention trap. The product must return visible value for the effort: a better next session, a useful record, stronger defaults, or progress the user can keep.
+It is also easy to mistake for a retention trap, and the difference is the entire point of the card. A retention trap manufactures busywork so that leaving feels costly—the effort exists to raise switching costs, full stop. Investment only earns its name when the product returns visible value for the contribution: a better next session, a genuinely useful record, stronger defaults, progress the user can actually keep and take with them. If removing the ask would leave the user no worse off, it was never investment.
 
 ## Why it works
 
-People often value things they have helped create—especially when they can complete the work and see its result. In product design, that turns a generic tool into *my workspace*. The shared science and the ethical boundary (utility and portability, never sunk-cost traps) live in [Investment and Continuity](../concepts/13-investment-and-continuity.md).
+People tend to value things more once they have put real effort into shaping them—the completed, self-made result feels like *theirs* in a way a default configuration never does, which is what turns a generic tool into "my workspace." [Investment and Continuity](../concepts/13-investment-and-continuity.md) is explicit that this is the same psychological terrain as the endowment effect, and that the ethical line running through it is utility and portability on one side, sunk-cost pressure on the other.
 
-This card is the *elicitation* half: ask for the smallest contribution that improves the next session, then prove the payoff. Honouring and continuing what users already built is [Effort Moat](effort-moat.md).
+The concrete failure mode this TTP prevents is the generic-feeling product: one that never asks anything of the user and, as a result, never becomes distinctly theirs—every session looks like every other user's session, so there is nothing personal to return to. The failure mode on the other side is what happens when this pattern is overdone or timed wrong: asking for contribution before any value has been shown produces busywork that feels like a toll rather than an investment, and describing existing effort as a "sunk cost" to pressure a purchase converts a legitimate psychological tendency into exactly the kind of manipulation [User Agency](../concepts/12-user-agency.md) exists to catch.
 
 ## When to use it
 

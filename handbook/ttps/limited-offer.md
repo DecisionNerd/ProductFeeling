@@ -5,15 +5,15 @@ Present a genuine, time-bound offer when it creates a fair choice, not pressure.
 
 ## What it is
 
-A Limited Offer is a clearly defined price, credit, trial extension, or bundle available for a real and disclosed period. It can help a user who understands the value but needs a practical reason to decide now.
+A Limited Offer is a clearly defined price, credit, trial extension, or bundle available for a real and disclosed period—not a general licence to add urgency to a pricing screen. It sits on top of [The Paywall](the-paywall.md), never instead of it: the paywall's job is to make the standing decision (what does paid access cost, and what does it add) legible on its own merits; a Limited Offer is a genuine, time-bound *delta* layered on that already-fair decision, useful for a user who already understands the value and only needs a practical reason to decide this week rather than next month.
 
-The limit must be true. The eligibility, end date, renewal terms, and price after expiry must be understandable before the user accepts.
+The word doing the real work in this card is "genuine." The eligibility, the end date, the renewal terms, and the price after expiry all have to be true and understandable before the user accepts—if any of them would not survive being screenshotted and shown to a stranger, the offer has already crossed from a fair deal into the territory this handbook refuses.
 
 ## Why it works
 
-A genuine deadline can help people prioritise a decision when the offer has a real operational or commercial boundary. It works best after the product has already demonstrated relevant value.
+A real deadline gives people a legitimate reason to prioritise a decision they were already inclined to make, which is a genuinely useful service when the boundary is operational or commercial and not invented for the occasion—it works because it resolves procrastination on a decision the user has already substantively made, not because it manufactures a decision they hadn't. [User Agency](../concepts/12-user-agency.md) frames the test precisely: would this pressure survive the user learning, a week later, exactly how the deadline was constructed?
 
-Urgency is not a substitute for value. When a timer resets, scarcity is invented, or the decline path is obscured, the pattern damages trust and may be deceptive.
+The concrete failure mode this pattern exists to serve is genuine indecision on real value—someone who has used the trial, likes the product, and is drifting rather than deciding. What goes wrong when it is faked is well documented and specific: a countdown that resets on refresh, scarcity that was invented rather than real, or a decline path that is harder to find than the accept button are recognised dark patterns that regulators now treat as deceptive rather than merely aggressive, and users who feel timed into a purchase tend to reconcile the story eventually—as a refund request, a chargeback, or a review warning the next person not to trust the timer. [Calibrated Trust](../concepts/11-calibrated-trust.md) is unforgiving about this: users calibrate on your worst confident lie, not your average honesty, and a fake deadline is exactly that kind of lie.
 
 ## When to use it
 
