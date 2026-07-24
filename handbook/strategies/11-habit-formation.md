@@ -75,7 +75,7 @@ Find the cue, the friction, and whether reinforcement feels helpful or coercive.
 
 ## Agent skill
 
-- **Primary command / sequence:** `/productfeeling sequence` — `intensity → map → friction → states → review` (dashboard / daily-tool playbook)
+- **Primary command / sequence:** `/productfeeling sequence` — `intensity → map → friction → states → review` (habit-formation playbook; aliases: daily tool, return loop, ritual)
 - **Core TTPs to load:** Commitment, Gamified Progress, System Widget, Variable Reward, Value Replay, Investment, Personalisation
 - **Supporting TTPs:** Success Moments, Micro Interactions, Effort Moat, Deep-link
 - **When the agent should use this strategy:** "daily ritual", "habit loop", "return cadence", "streak design", "notification fatigue", "core action rate"

@@ -2,6 +2,10 @@
 
 Emotional journey / valence map across a flow.
 
+## Handbook
+
+For current-workflow discovery: `handbook/discovery/03-how-customers-work-today.md`. Graduate via `06-synthesis.md` into `docs/experience/`.
+
 ## Steps
 
 1. List steps in order (include waits, emails, and system delays).
@@ -14,4 +18,4 @@ Emotional journey / valence map across a flow.
 
 Table of steps with valence, notes, and intervention. Include a one-line arc summary ("anxious → guided → relieved").
 
-Persist to `.productfeeling/reviews/<slug>-map.md` when available.
+Persist reviews to `.productfeeling/reviews/<slug>-map.md` when available. Durable workflow / journey truth → `docs/experience/` via `handoff` (DocSlime).

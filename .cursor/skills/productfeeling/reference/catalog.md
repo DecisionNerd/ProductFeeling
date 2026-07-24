@@ -23,7 +23,7 @@ Techniques available via `/productfeeling <command>`.
 | metaphors | Sensory/metaphorical anchors for Impeccable |
 | brief | Produce a handoff-ready emotion brief |
 | handoff | Route work to Impeccable and/or DocSlime |
-| sequence | Playbooks for onboarding, checkout, dashboard, etc. |
+| sequence | Handbook strategy playbooks (onboarding → premium) plus Customer discovery and other cross-cutting chains |
 | next | Do the next best-practice improvement and keep going, without re-asking |
 | random | Roll a random technique to break tunnel vision |
 | library | Full index: every command + handbook depth + companions (the "what can I do?" command) |

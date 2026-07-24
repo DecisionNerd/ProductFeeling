@@ -65,7 +65,7 @@ You MUST do these steps before proceeding:
 | `metaphors [target]` | Technique | Brand emotion metaphors that drive craft | [reference/metaphors.md](reference/metaphors.md) |
 | `brief [target]` | Craft | Write an emotion brief for Impeccable | [reference/brief.md](reference/brief.md) |
 | `handoff [target]` | Craft | Hand off to Impeccable and/or DocSlime | [reference/handoff.md](reference/handoff.md) |
-| `sequence [target]` | Craft | Tool-chain playbooks by surface type | [reference/sequence.md](reference/sequence.md) |
+| `sequence [target]` | Craft | Handbook strategy playbooks (and cross-cutting chains) | [reference/sequence.md](reference/sequence.md) |
 | `next [target]` | Meta | Do the next best-practice improvement and keep going, no re-asking | [reference/next.md](reference/next.md) |
 | `random [target]` | Meta | Roll a random technique to break tunnel vision | [reference/random.md](reference/random.md) |
 | `library` | Meta | Full "everything I could do here" index (commands + handbook + companions) | [reference/library.md](reference/library.md) |

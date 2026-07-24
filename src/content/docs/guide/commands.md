@@ -28,7 +28,7 @@ Invoke as `/productfeeling <command> [target]`.
 | `metaphors` | Craft metaphors | `/productfeeling metaphors` |
 | `brief` | Emotion brief | `/productfeeling brief dashboard` |
 | `handoff` | Companion route | `/productfeeling handoff` |
-| `sequence` | Playbooks | `/productfeeling sequence onboarding` |
+| `sequence` | Handbook strategy playbooks | `/productfeeling sequence onboarding` |
 | `next` | Auto-improve, no re-asking | `/productfeeling next` |
 | `random` | Roll a technique | `/productfeeling random` |
 | `library` | Everything you could do | `/productfeeling library` |

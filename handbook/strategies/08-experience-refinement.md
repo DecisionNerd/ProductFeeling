@@ -75,11 +75,11 @@ Find where the product feels clunky, inconsistent, or unintentionally loud.
 
 ## Agent skill
 
-- **Primary command / sequence:** `/productfeeling audit` — then `states → delight → tone → critique` when polish must follow diagnosis
+- **Primary command / sequence:** `/productfeeling sequence` — `audit → states → delight → tone → critique` (experience-refinement playbook; aliases: polish, craft pass)
 - **Core TTPs to load:** Micro Interactions, Small Quirk, Loading Feedback, Success Moments, Perceived Effort Delay
 - **Supporting TTPs:** Pattern Alignment, JTBD Copywriting, Variable Reward, Progressive Disclosure, Product Voice
 - **When the agent should use this strategy:** "feels cheap", "polish pass", "microinteraction audit", "loading states", "delight without clutter", "wait feels broken"
 - **Companion handoff:** Impeccable — primary execution partner for motion, feedback, loading, and finish craft (`polish` / `shape` with intensity constraints from the brief); DocSlime — when refinement standards or quality bars belong in `docs/DESIGN.md` or `docs/experience/`
 - **Feeling north star this strategy serves:** calm competence with earned character and legible waits
 - **Anti-goals:** fake delays, animation that blocks the job, novelty loops that demand chase, delight that masks failed tasks
-- **Reference path:** `skill/reference/audit.md`
+- **Reference path:** `skill/reference/sequence.md`

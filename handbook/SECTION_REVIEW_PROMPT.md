@@ -58,7 +58,8 @@ For this section only:
 4. **Agent skill (required — map to existing commands)**
    - Add or rewrite a final subsection `## Agent skill` using the skeleton below.
    - Map to **existing** `/productfeeling` commands only (`init`, `feel`, `audit`, `critique`, `review`, `map`, `jobs`, `tone`, `peaks-ends`, `friction`, `delight`, `trust`, `states`, `persona`, `intensity`, `anti-patterns`, `metaphors`, `brief`, `handoff`, `sequence`, `next`, `random`, `library`). Do **not** invent new commands.
-   - **Reference path** must point at an existing file under `skill/reference/` (primary command).
+   - For **strategies**, the Primary command / sequence chain is source of truth for `skill/reference/sequence.md` — after changing a strategy’s Agent skill chain, update that playbook in `sequence.md` to match.
+   - **Reference path** must point at an existing file under `skill/reference/` (primary command; strategies usually `sequence.md`).
    - Companions: Impeccable (craft), DocSlime (durable docs), RedTeam (decision stress-test) — name which apply and when.
 
 ### Output format
@@ -161,6 +162,69 @@ Return:
 - **Feeling north star this strategy serves:** short phrase grounded in the strategy
 - **Anti-goals:** what this must never encourage
 - **Reference path:** `skill/reference/sequence.md` (or the primary command's reference)
+```
+
+**If Discovery** (Customer Discovery page), use the hybrid skeleton:
+
+```markdown
+# [Title]
+
+[One-line tagline.]
+
+## What it is
+
+...
+
+## Why it works
+
+...
+
+## When to use it
+
+- ...
+
+## Do
+
+- ...
+
+## Don't
+
+- ...
+
+## Founder Tip
+
+...
+
+## Make It Yours
+
+...
+
+## Insights & Metrics
+
+...
+
+## Behind the Data
+
+...
+
+## Related concepts
+
+- Prefer concepts plus strategies/TTPs that *consume* this discovery output.
+
+## Further reading
+
+- [Title](URL) — ...
+
+## Agent skill
+
+- **Primary command:** `/productfeeling <command>` — short why (existing commands only; no external discovery skill)
+- **Related commands:** related `/productfeeling …` commands
+- **When the agent should load this page:** 3–6 short trigger phrases in quotes
+- **Companion handoff:** DocSlime for durable `docs/` writes (name paths); Impeccable only after synthesis/north star; RedTeam optional for assumption challenge — never an external discovery skill
+- **Feeling north star this practice serves:** short phrase
+- **Anti-goals:** what this must never encourage
+- **Reference path:** `skill/reference/<command>.md`
+- **Durable DocSlime targets:** `docs/strategy/…` and/or `docs/experience/…` (and PRODUCT/DESIGN when appropriate)
 ```
 
 3. **Diff notes** (bullet list): TTP blurbs you aligned, metrics fixed, resources added, anything left for a human editor.

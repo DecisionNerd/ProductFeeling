@@ -150,5 +150,6 @@ vite.config.ts.timestamp-*
 
 # Starlight documentation build artifacts and staged docs
 .astro/
+.docs-staging/
 src/content/docs/developers/
 src/content/docs/handbook/

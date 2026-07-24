@@ -14,7 +14,19 @@ const DOCS = path.join(ROOT, 'docs');
 const HANDBOOK_DIR = path.join(ROOT, 'handbook');
 const OUT_DEVELOPERS = path.join(ROOT, 'src', 'content', 'docs', 'developers');
 const OUT_HANDBOOK = path.join(ROOT, 'src', 'content', 'docs', 'handbook');
+/** Staging must live *outside* `src/content/docs/` — Astro's docsLoader treats sibling dirs as content. */
+const STAGING_ROOT = path.join(ROOT, '.docs-staging');
 const BASE_PATH = '/ProductFeeling/';
+
+function atomicReplaceDir(finalPath, stagingPath) {
+  const previous = path.join(STAGING_ROOT, `${path.basename(finalPath)}.previous-${process.pid}`);
+  fs.rmSync(previous, { recursive: true, force: true });
+  if (fs.existsSync(finalPath)) {
+    fs.renameSync(finalPath, previous);
+  }
+  fs.renameSync(stagingPath, finalPath);
+  fs.rmSync(previous, { recursive: true, force: true });
+}
 
 // ---------------------------------------------------------------------------
 // Developer docs (docs/ tree → developers/)
@@ -87,8 +99,11 @@ const DEVELOPER_ROOT_ORDER = {
 };
 
 function prepareDevelopers() {
-  fs.rmSync(OUT_DEVELOPERS, { recursive: true, force: true });
-  fs.mkdirSync(OUT_DEVELOPERS, { recursive: true });
+  // Stage then swap — same race as handbook if we rmSync while Astro is watching.
+  fs.mkdirSync(STAGING_ROOT, { recursive: true });
+  const stagingRoot = path.join(STAGING_ROOT, `developers-${process.pid}`);
+  fs.rmSync(stagingRoot, { recursive: true, force: true });
+  fs.mkdirSync(stagingRoot, { recursive: true });
 
   const files = walkMarkdown(DOCS);
   const dirOrders = new Map();
@@ -116,15 +131,17 @@ function prepareDevelopers() {
     const outRel = developerOutRel(sourceRel);
     const meta = {
       title: h1 ? h1[1].trim() : path.posix.basename(outRel, '.md'),
-      description: firstParagraph(body),
+      description: firstParagraph(body).replace(/\*\*?|__/g, '').replace(/\s+/g, ' ').trim().slice(0, 160),
       order,
     };
     const rewritten = rewriteDeveloperLinks(body, dir).trim();
-    const outPath = path.join(OUT_DEVELOPERS, outRel);
+    const outPath = path.join(stagingRoot, outRel);
     fs.mkdirSync(path.dirname(outPath), { recursive: true });
     fs.writeFileSync(outPath, frontmatter(meta) + rewritten + '\n');
     console.log(`✓ developers/${outRel}`);
   }
+
+  atomicReplaceDir(OUT_DEVELOPERS, stagingRoot);
 }
 
 // ---------------------------------------------------------------------------
@@ -177,7 +194,7 @@ function rewriteHandbookLinks(body, sourceRelDir) {
   });
 }
 
-function handbookPage(sourceRel, { order, title, description } = {}) {
+function handbookPage(sourceRel, { order, title, description } = {}, outRoot = OUT_HANDBOOK) {
   const raw = fs.readFileSync(path.join(HANDBOOK_DIR, sourceRel), 'utf8');
   const h1 = raw.match(/^#\s+(.+)$/m);
   const body = raw.replace(/^#\s+.+\n+/, '');
@@ -187,11 +204,18 @@ function handbookPage(sourceRel, { order, title, description } = {}) {
     : `${pageSlug(path.posix.basename(sourceRel))}.md`;
   const meta = {
     title: title ?? (h1 ? h1[1].trim() : pageSlug(sourceRel)),
-    description: description ?? firstParagraph(body),
+    // Plain one-liner for Starlight; strip markdown emphasis from the first paragraph.
+    description: (
+      description ?? firstParagraph(body)
+    )
+      .replace(/\*\*?|__/g, '')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, 160),
     order,
   };
   const rewritten = rewriteHandbookLinks(body, dir).trim();
-  const outPath = path.join(OUT_HANDBOOK, outRel);
+  const outPath = path.join(outRoot, outRel);
   fs.mkdirSync(path.dirname(outPath), { recursive: true });
   fs.writeFileSync(outPath, frontmatter(meta) + rewritten + '\n');
   console.log(`✓ handbook/${outRel}`);
@@ -212,25 +236,36 @@ function prepareHandbook() {
     return;
   }
 
-  fs.rmSync(OUT_HANDBOOK, { recursive: true, force: true });
-  fs.mkdirSync(OUT_HANDBOOK, { recursive: true });
+  // Stage outside content/, then swap atomically. Staging *inside* content/docs made
+  // Astro load `handbook.staging-*` as pages; wiping OUT_HANDBOOK mid-dev also raced
+  // the sidebar (slug "handbook/continue-learning" does not exist).
+  fs.mkdirSync(STAGING_ROOT, { recursive: true });
+  const stagingRoot = path.join(STAGING_ROOT, `handbook-${process.pid}`);
+  fs.rmSync(stagingRoot, { recursive: true, force: true });
+  fs.mkdirSync(stagingRoot, { recursive: true });
 
-  handbookPage('index.md', {
-    order: 0,
-    title: 'The Product Feelings Handbook',
-    description: 'A modular guide to designing how your product feels — concepts, product strategies, and TTPs.',
-  });
-  handbookPage('why-it-works.md', { order: 1 });
+  handbookPage(
+    'index.md',
+    {
+      order: 0,
+      title: 'The Product Feelings Handbook',
+      description: 'A modular guide to designing how your product feels — concepts, product strategies, and TTPs.',
+    },
+    stagingRoot,
+  );
+  handbookPage('why-it-works.md', { order: 1 }, stagingRoot);
 
   for (const subdir of ['concepts', 'discovery', 'strategies', 'ttps']) {
     let order = 0;
     for (const rel of sectionFiles(subdir)) {
       const isIndex = path.posix.basename(rel) === 'index.md';
-      handbookPage(rel, { order: isIndex ? 0 : ++order });
+      handbookPage(rel, { order: isIndex ? 0 : ++order }, stagingRoot);
     }
   }
 
-  handbookPage('continue-learning.md', { order: 100 });
+  handbookPage('continue-learning.md', { order: 100 }, stagingRoot);
+
+  atomicReplaceDir(OUT_HANDBOOK, stagingRoot);
 }
 
 prepareDevelopers();

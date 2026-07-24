@@ -6,11 +6,11 @@ The full "everything I could do here" index: every command, plus the handbook de
 
 1. **Commands** — present every command from [catalog.md](catalog.md), grouped: Setup / Evaluate / Technique / Craft / Meta (`next`, `random`, `library`, `pin`).
 2. **Handbook depth** — list the handbook areas the user can pull for depth, and say they load selectively (never all at once):
+   - **Customer Discovery** (first when owner is unclear) — `handbook/discovery/`: ICP/personas, need states, workflow, talk/search/buy, interview method, synthesis. Playbook: `/productfeeling sequence` Customer discovery.
    - **Concepts (deep dives)** — the science and vocabulary.
-   - **Customer Discovery** — whose experience you're designing.
    - **Product Strategies** — onboarding, activation, retention, etc.
    - **Tools, Techniques, and Practices (TTPs)** — the modular plays.
-3. **Companions** — Impeccable (craft) and DocSlime (durable docs), with the handoff cue for each.
+3. **Companions** — Impeccable (craft), DocSlime (durable `docs/` — including discovery synthesis), RedTeam (assumption challenge). No external discovery skill.
 4. **Context-aware shortlist** — based on what the user is working on (from `docs/` or chat), recommend the 3–5 highest-value entries with a one-line why each.
 5. **Persistence map** — remind where outputs go: reviews → `.productfeeling/reviews/`; durable narrative → `docs/`.
 

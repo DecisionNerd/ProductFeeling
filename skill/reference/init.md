@@ -26,21 +26,21 @@ When working on **ProductFeeling itself**, treat `docs/strategy/` as a primary w
 ## Step 3: Interview (one question at a time)
 
 Minimum coverage:
-1. **Product** — what is this, who is it for?
-2. **Primary feeling** — one emotional north star
+1. **Product** — what is this, who is it for? (ICP / buyer vs user — see handbook discovery)
+2. **Primary feeling** — one emotional north star (only after discovery is grounded enough; else capture as hypothesis)
 3. **Never feel** — emotional anti-goals
-4. **Before / during / after** — emotional jobs
+4. **Before / during / after** — emotional jobs and need-state triggers
 5. **Moments that matter** — first open, success, failure, wait, return
 6. **Trust & anxiety** — what builds trust; what spikes fear
 7. **Register** — brand page vs product UI (for Impeccable handoff)
 8. **Where it lives** — confirm docs paths (strategy/experience) vs legacy FEELING.md
-9. **Open questions**
+9. **Open questions** — including proto-persona / unvalidated discovery gaps
 
-Skip answered material; confirm inferences.
+Skip answered material; confirm inferences. If ICP/personas/need states are missing, prefer `/productfeeling sequence` **Customer discovery** (handbook `discovery/`) before locking the north star. Interview method: past behaviour, not pitches (`handbook/discovery/05-interview-method.md`).
 
 ## Step 4: Write context
 
-1. Update or create the agreed `docs/` files (strategy/experience/PRODUCT/DESIGN as appropriate). Keep each file focused.
+1. Update or create the agreed `docs/` files (strategy/experience/PRODUCT/DESIGN as appropriate). Keep each file focused. Discovery synthesis map: ICP/personas → `docs/strategy/`; need states/workflow/journeys → `docs/experience/`; voice/language → PRODUCT/DESIGN. Do not leave validated discovery only in chat or `.productfeeling/`.
 2. Ensure `.productfeeling/` exists with `reviews/`, `sessions/`, `briefs/`, and `config.json`.
 3. If the user insisted on legacy FEELING.md, use `.productfeeling/FEELING.template.md` structure; prefer project root or `.productfeeling/FEELING.md` only then.
 

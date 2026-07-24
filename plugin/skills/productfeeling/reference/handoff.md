@@ -14,15 +14,26 @@ Route ProductFeeling outputs to companion skills.
 Suggest the user invoke Impeccable with a concrete command (`craft`, `shape`, `polish`, etc.) and point at the brief.
 
 ### DocSlime
-[DocSlime](https://www.docslime.dev/) (`npx skills add DecisionNerd/DocSlime`) is a CLI plus skill pack for an opinionated, durable `docs/` tree. Hand off when the feeling north star should live in durable docs. Prefer:
-- `docs/strategy/` for positioning, users, competitive, roadmap bets
-- `docs/experience/` for journeys, opportunities, behavior
-- `docs/PRODUCT.md` / `DESIGN.md` / ADRs for compact product rules and decisions
+[DocSlime](https://www.docslime.dev/) (`npx skills add DecisionNerd/DocSlime`) is a CLI plus skill pack for an opinionated, durable `docs/` tree. Hand off when the feeling north star **or discovery synthesis** should live in durable docs. Prefer:
+- `docs/strategy/` for positioning, **ICP / buyer / user personas**, competitive, buy-journey notes, roadmap bets
+- `docs/experience/` for **need states, current workflow, journeys**, opportunities, behaviour
+- `docs/PRODUCT.md` / `DESIGN.md` / ADRs for compact product rules, **voice/VoC language**, and decisions
+
+**Customer discovery artifact map** (see `handbook/discovery/06-synthesis.md`):
+| Finding | Durable path |
+|---------|----------------|
+| ICP, personas | `docs/strategy/` |
+| Need states, triggers, workflow | `docs/experience/` |
+| Voice / customer language | `docs/PRODUCT.md` or `DESIGN.md` |
+| Raw interview notes | `.productfeeling/sessions/` until graduated — not a second SoT |
 
 Provide:
 - Exact sections/files to add/update
 - Excerpts from legacy FEELING.md (if any) to fold in — then stop growing FEELING.md
-- What remains ephemeral (`.productfeeling/reviews/`)
+- What remains ephemeral (`.productfeeling/reviews/`, ungroomed sessions)
+- Suggest DocSlime fill/kiss when the tree is still scaffold-thin
+
+No external discovery skill—discovery stays in ProductFeeling handbook + these commands.
 
 ### RedTeam
 [RedTeam](https://curatelabs.github.io/RedTeam/) (`npx --yes github:CurateLabs/RedTeam install`) is an applied-critical-thinking skill — premortems, assumptions checks, devil's advocacy, and decision reviews (not security testing). Hand off when a feeling decision, north star, or strategy should be stress-tested before commitment. Provide:

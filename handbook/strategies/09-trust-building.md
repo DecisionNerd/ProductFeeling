@@ -75,11 +75,11 @@ Find where confidence breaks—and whether the fix is clearer disclosure, better
 
 ## Agent skill
 
-- **Primary command / sequence:** `/productfeeling trust` — then `friction → states → anti-patterns → review` for high-stakes flows
+- **Primary command / sequence:** `/productfeeling sequence` — `trust → friction → states → anti-patterns → review` (trust-building playbook)
 - **Core TTPs to load:** Fail Safe, Pattern Alignment, Permission Serve, Loading Feedback, Intentional Friction
 - **Supporting TTPs:** JTBD Copywriting, Micro Interactions, Success Moments, Progressive Disclosure, Perceived Effort Delay, Graceful Recovery, Calibrated Confidence
 - **When the agent should use this strategy:** "permission request", "destructive action", "privacy copy", "users don't trust", "confirmation fatigue", "high-stakes flow"
 - **Companion handoff:** Impeccable — confirmation dialogs, error/recovery UI, permission prompts, and loading honesty; DocSlime — when privacy promises, data-use disclosure, or safety policies belong in `docs/strategy/` or ADRs; RedTeam — before new permission batches or trust-badge marketing (`/redteam assumptions` on what the user can verify)
 - **Feeling north star this strategy serves:** safety and predictability with informed agency
 - **Anti-goals:** fake loading to inflate value, permission spam, shame after deny, confirm-everything theatre, dark-pattern “trust badges”
-- **Reference path:** `skill/reference/trust.md`
+- **Reference path:** `skill/reference/sequence.md`
